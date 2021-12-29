@@ -9,10 +9,10 @@ function App() {
 }
 
 const messFiles = {
-  0: "./menu/kadamba.pdf",
-  1: "./menu/northmess.pdf",
-  2: "./menu/southmess.pdf",
-  3: "./menu/yuktahar.pdf",
+  0: "/menu/kadamba.pdf",
+  1: "/menu/northmess.pdf",
+  2: "/menu/southmess.pdf",
+  3: "/menu/yuktahar.pdf",
 };
 
 function TabPanel(props) {
@@ -35,7 +35,10 @@ function TabPanel(props) {
               width: "100vw",
             }}
             title="pdfViewer"
-            src={messFiles[index]}
+            src={
+              "https://docs.google.com/gview?embedded=true&url=https://iiit-mess.ml" +
+              messFiles[index]
+            }
           ></iframe>
         </div>
       )}
