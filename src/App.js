@@ -37,7 +37,9 @@ function TabPanel(props) {
             title="pdfViewer"
             src={
               "https://docs.google.com/gview?embedded=true&url=https://iiit-mess.ml" +
-              messFiles[index]
+              messFiles[index] +
+              "&ignore=" +
+              Math.floor(Math.random() * 1000)
             }
           ></iframe>
         </div>
