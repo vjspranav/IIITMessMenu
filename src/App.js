@@ -3,6 +3,8 @@ import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
+import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
+import { makeStyles } from "@mui/styles";
 
 function App() {
   return <BasicTabs />;
@@ -27,21 +29,10 @@ function TabPanel(props) {
       {...other}
     >
       {value === index && (
-        <div style={{ overflow: "hidden" }}>
-          <iframe
-            style={{
-              overflow: "hidden",
-              height: "93.5vh",
-              width: "100vw",
-            }}
-            title="pdfViewer"
-            src={
-              "https://docs.google.com/gview?embedded=true&url=https://iiit-mess.ml" +
-              messFiles[index] +
-              "&ignore=" +
-              Math.floor(Math.random() * 1000)
-            }
-          ></iframe>
+        <div style={{ }}>
+          <Document file={messFiles[index]}>
+            <Page pageNumber={1} />
+          </Document>
         </div>
       )}
     </div>
@@ -61,8 +52,18 @@ function a11yProps(index) {
   };
 }
 
+const useStyles = makeStyles({
+  scrollButtons: {
+    "&.Mui-disabled": {
+      opacity: 0.3
+    }
+  }
+});
+
 function BasicTabs() {
   const [value, setValue] = React.useState(0);
+
+  const classes = useStyles();
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
@@ -74,7 +75,10 @@ function BasicTabs() {
         <Tabs
           value={value}
           onChange={handleChange}
+          classes={classes}
           aria-label="basic tabs example"
+          variant="scrollable"
+          allowScrollButtonsMobile
         >
           <Tab label="Kadamba" {...a11yProps(0)} />
           <Tab label="North Mess" {...a11yProps(1)} />
