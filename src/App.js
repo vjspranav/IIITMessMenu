@@ -7,14 +7,15 @@ import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 import { makeStyles } from "@mui/styles";
 
 function App() {
-  return <BasicTabs />;
+  return <BasicTabs sx={{width: "100vw"}} />;
 }
 
 const messFiles = {
-  0: "/menu/kadamba.pdf",
-  1: "/menu/northmess.pdf",
-  2: "/menu/southmess.pdf",
-  3: "/menu/yuktahar.pdf",
+  0: "/menu/northmess.pdf",
+  1: "/menu/southmess.pdf",
+  2: "/menu/kadamba_nonveg.pdf",
+  3: "/menu/kadamba.pdf",
+  4: "/menu/yuktahar.pdf",
 };
 
 function TabPanel(props) {
@@ -70,8 +71,8 @@ function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: "100%", height: "10vh" }}>
-      <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
+    <Box sx={{ width: "100vw", height: "10vh" }}>
+      <Box sx={{ width: "100vw", borderBottom: 1, borderColor: "divider" }}>
         <Tabs
           value={value}
           onChange={handleChange}
@@ -79,11 +80,13 @@ function BasicTabs() {
           aria-label="basic tabs example"
           variant="scrollable"
           allowScrollButtonsMobile
+          sx={{width: "100vw"}}
         >
-          <Tab label="Kadamba" {...a11yProps(0)} />
-          <Tab label="North Mess" {...a11yProps(1)} />
-          <Tab label="South Mess" {...a11yProps(2)} />
-          <Tab label="Yuktahar" {...a11yProps(3)} />{" "}
+          <Tab label="Non Veg Kadamba" {...a11yProps(0)} />    
+          <Tab label="Kadamba" {...a11yProps(1)} />
+          <Tab label="North Mess" {...a11yProps(2)} />
+          <Tab label="South Mess" {...a11yProps(3)} />
+          <Tab label="Yuktahar" {...a11yProps(4)} />{" "}
         </Tabs>
       </Box>
       <TabPanel value={value} index={0}></TabPanel>
@@ -95,6 +98,9 @@ function BasicTabs() {
       </TabPanel>
       <TabPanel value={value} index={3}>
         Item Four
+      </TabPanel>
+      <TabPanel value={value} index={4}>
+        Item Five
       </TabPanel>
     </Box>
   );
