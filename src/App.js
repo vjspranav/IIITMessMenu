@@ -80,12 +80,12 @@ function BasicTabs() {
           aria-label="basic tabs example"
           variant="scrollable"
           allowScrollButtonsMobile
-          sx={{width: "100vw"}}
+          sx={{width: "100%"}}
         >
-          <Tab label="Non Veg Kadamba" {...a11yProps(0)} />    
-          <Tab label="Kadamba" {...a11yProps(1)} />
-          <Tab label="North Mess" {...a11yProps(2)} />
-          <Tab label="South Mess" {...a11yProps(3)} />
+          <Tab label="North Mess" {...a11yProps(0)} />    
+          <Tab label="South Mess" {...a11yProps(1)} />
+          <Tab label="Non Veg Kadamba" {...a11yProps(2)} />
+          <Tab label="Kadamba" {...a11yProps(3)} />
           <Tab label="Yuktahar" {...a11yProps(4)} />{" "}
         </Tabs>
       </Box>
