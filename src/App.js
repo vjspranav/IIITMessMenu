@@ -129,7 +129,7 @@ function BasicTabs() {
       {/* Add copyright and source at the bottom */}
       <div
         style={{
-          position: "absolute",
+          position: "fixed",
           bottom: "0",
           width: "100%",
           textAlign: "center",
