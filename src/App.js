@@ -70,6 +70,22 @@ function BasicTabs() {
     setValue(newValue);
   };
 
+  const lastUpdated = [
+    "05/11/2022",
+    "05/11/2022",
+    "19/09/2022",
+    "19/09/2022",
+    "19/09/2022",
+  ]
+
+  const wef = [
+    "07/11/2022",
+    "07/11/2022",
+    "12/09/2022",
+    "12/09/2022",
+    "12/09/2022",
+  ]
+
   return (
     <Box sx={{ width: "100vw", height: "10vh" }}>
       <Box sx={{ width: "100vw", borderBottom: 1, borderColor: "divider" }}>
@@ -88,6 +104,14 @@ function BasicTabs() {
           <Tab label="Kadamba" {...a11yProps(3)} />
           <Tab label="Yuktahar" {...a11yProps(4)} />{" "}
         </Tabs>
+        {/* Print Last updated date to right */}
+        <div style={{float: "right", marginRight: "10px", marginTop: "10px"}}>
+          Last Updated: {lastUpdated[value]}
+        </div>
+        {/* Print wef date to right */}
+        <div style={{float: "right", marginRight: "10px", marginTop: "10px"}}>
+          WEF: {wef[value]}
+        </div>
       </Box>
       <TabPanel value={value} index={0}></TabPanel>
       <TabPanel value={value} index={1}>
@@ -102,7 +126,27 @@ function BasicTabs() {
       <TabPanel value={value} index={4}>
         Item Five
       </TabPanel>
-    </Box>
+      {/* Add copyright and source at the bottom */}
+      <div
+        style={{
+          position: "absolute",
+          bottom: "0",
+          width: "100%",
+          textAlign: "center",
+          fontSize: "15px",
+          backgroundColor: "#f5f5f5",
+          borderRadius: "5px",
+          paddingBottom: "5px",
+        }}
+      >
+        <div style={{float: "left", marginLeft: "10px", marginTop: "10px"}}>
+          © 2022, vjspranav
+        </div>
+        <div style={{float: "right", marginRight: "10px", marginTop: "10px"}}>
+          Source: <a href="https://github.com/vjspranav/IIITMessMenu/" target="_blank" rel="noreferrer">Github</a>
+        </div>
+      </div>
+      </Box>
   );
 }
 
