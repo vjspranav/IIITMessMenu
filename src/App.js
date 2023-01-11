@@ -6,7 +6,13 @@ import Box from "@mui/material/Box";
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 import { makeStyles } from "@mui/styles";
 
+import ReactGA from "react-ga";
+
 function App() {
+  const TRACKING_ID = "G-W5MNFXGY8E"
+  ReactGA.initialize(TRACKING_ID);
+  ReactGA.pageview(window.location.pathname + window.location.search);
+
   return <BasicTabs sx={{width: "100vw"}} />;
 }
 
