@@ -17,11 +17,11 @@ function App() {
 }
 
 const messFiles = {
-  0: "/menu/northmess.pdf",
-  1: "/menu/southmess.pdf",
-  2: "/menu/kadamba_nonveg.pdf",
-  3: "/menu/kadamba.pdf",
-  4: "/menu/yuktahar.pdf",
+  0: "menu/northmess.pdf",
+  1: "menu/southmess.pdf",
+  2: "menu/kadamba_nonveg.pdf",
+  3: "menu/kadamba.pdf",
+  4: "menu/yuktahar.pdf",
 };
 
 function TabPanel(props) {
