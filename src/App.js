@@ -9,7 +9,7 @@ import { makeStyles } from "@mui/styles";
 import ReactGA from "react-ga";
 
 function App() {
-  const TRACKING_ID = "G-W5MNFXGY8E"
+  const TRACKING_ID = "G-MDDETF26DX"
   ReactGA.initialize(TRACKING_ID);
   ReactGA.pageview(window.location.pathname + window.location.search);
 
@@ -17,11 +17,11 @@ function App() {
 }
 
 const messFiles = {
-  0: "menu/northmess.pdf",
-  1: "menu/southmess.pdf",
-  2: "menu/kadamba_nonveg.pdf",
-  3: "menu/kadamba.pdf",
-  4: "menu/yuktahar.pdf",
+  0: "/menu/northmess.pdf",
+  1: "/menu/southmess.pdf",
+  2: "/menu/kadamba_nonveg.pdf",
+  3: "/menu/kadamba.pdf",
+  4: "/menu/yuktahar.pdf",
 };
 
 function TabPanel(props) {
@@ -146,7 +146,7 @@ function BasicTabs() {
         }}
       >
         <div style={{float: "left", marginLeft: "10px", marginTop: "10px"}}>
-          © 2022, vjspranav
+          ?? 2022, vjspranav
         </div>
         <div style={{float: "right", marginRight: "10px", marginTop: "10px"}}>
           Source: <a href="https://github.com/vjspranav/IIITMessMenu/" target="_blank" rel="noreferrer">Github</a>
