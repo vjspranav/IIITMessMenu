@@ -6,13 +6,11 @@ import Box from "@mui/material/Box";
 import { Document, Page } from 'react-pdf/dist/esm/entry.webpack'
 import { makeStyles } from "@mui/styles";
 
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 
 function App() {
   const TRACKING_ID = "G-MDDETF26DX"
   ReactGA.initialize(TRACKING_ID);
-  ReactGA.pageview(window.location.pathname + window.location.search);
-
   return <BasicTabs sx={{width: "100vw"}} />;
 }
 
@@ -146,7 +144,7 @@ function BasicTabs() {
         }}
       >
         <div style={{float: "left", marginLeft: "10px", marginTop: "10px"}}>
-          ?? 2022, vjspranav
+          © 2023, vjspranav
         </div>
         <div style={{float: "right", marginRight: "10px", marginTop: "10px"}}>
           Source: <a href="https://github.com/vjspranav/IIITMessMenu/" target="_blank" rel="noreferrer">Github</a>
