@@ -76,18 +76,18 @@ function BasicTabs() {
 
   const lastUpdated = [
     "05/11/2022",
-    "05/11/2022",
-    "19/09/2022",
-    "19/09/2022",
-    "19/09/2022",
+    "01/02/2023",
+    "01/02/2023",
+    "01/02/2023",
+    "01/02/2023"
   ]
 
   const wef = [
     "07/11/2022",
-    "07/11/2022",
-    "12/09/2022",
-    "12/09/2022",
-    "12/09/2022",
+    "01/02/2023",
+    "01/02/2023",
+    "01/02/2023",
+    "01/02/2023"
   ]
 
   return (
@@ -144,7 +144,7 @@ function BasicTabs() {
         }}
       >
         <div style={{float: "left", marginLeft: "10px", marginTop: "10px"}}>
-          © 2023, vjspranav
+          ?? 2023, vjspranav
         </div>
         <div style={{float: "right", marginRight: "10px", marginTop: "10px"}}>
           Source: <a href="https://github.com/vjspranav/IIITMessMenu/" target="_blank" rel="noreferrer">Github</a>
