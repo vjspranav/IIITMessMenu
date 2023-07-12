@@ -1,0 +1,224 @@
+{
+  "Days": {
+    "Monday": {
+      "Breakfast": {
+        "Item 1": "Aloo Palak Paratha/Methi Paratha",
+        "Item 2": "Aloo Bonda",
+        "Accompaniments": "Tomato Chutney",
+        "Mandatory Items": "Bread/Butter/Jam, Tea/Coffee/Milk, Cornflakes",
+        "Fruits": "Pineapple"
+      },
+      "Lunch": {
+        "Special": "Aloo Tikki",
+        "Wet Curry": "Rajma Masala",
+        "Dry Curry": "Karela Fry",
+        "Dal": "Toor Dal",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle, Salad"
+      },
+      "Snacks": {
+        "Item": "Noodles",
+        "Bevarage": "Tea"
+      },
+      "Dinner": {
+        "Special": "Plain Paratha",
+        "Wet Curry": "Gobhi Matar",
+        "Dry Curry": "Bhindi",
+        "Dal": "Dal Makhani",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle"
+      }
+    },
+    "Tuesday": {
+      "Breakfast": {
+        "Item 1": "Aloo Palak Paratha/Methi Paratha",
+        "Item 2": "Aloo Bonda",
+        "Accompaniments": "Tomato Chutney",
+        "Mandatory Items": "Bread/Butter/Jam, Tea/Coffee/Milk, Cornflakes",
+        "Fruits": "Pineapple"
+      },
+      "Lunch": {
+        "Special": "Aloo Tikki",
+        "Wet Curry": "Rajma Masala",
+        "Dry Curry": "Karela Fry",
+        "Dal": "Toor Dal",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle, Salad"
+      },
+      "Snacks": {
+        "Item": "Noodles",
+        "Bevarage": "Tea"
+      },
+      "Dinner": {
+        "Special": "Plain Paratha",
+        "Wet Curry": "Gobhi Matar",
+        "Dry Curry": "Bhindi",
+        "Dal": "Dal Makhani",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle"
+      }
+    },
+    "Wednesday": {
+      "Breakfast": {
+        "Item 1": "Aloo Palak Paratha/Methi Paratha",
+        "Item 2": "Aloo Bonda",
+        "Accompaniments": "Tomato Chutney",
+        "Mandatory Items": "Bread/Butter/Jam, Tea/Coffee/Milk, Cornflakes",
+        "Fruits": "Pineapple"
+      },
+      "Lunch": {
+        "Special": "Aloo Tikki",
+        "Wet Curry": "Rajma Masala",
+        "Dry Curry": "Karela Fry",
+        "Dal": "Toor Dal",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle, Salad"
+      },
+      "Snacks": {
+        "Item": "Noodles",
+        "Bevarage": "Tea"
+      },
+      "Dinner": {
+        "Special": "Plain Paratha",
+        "Wet Curry": "Gobhi Matar",
+        "Dry Curry": "Bhindi",
+        "Dal": "Dal Makhani",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle"
+      }
+    },
+    "Thursday": {
+      "Breakfast": {
+        "Item 1": "Aloo Palak Paratha/Methi Paratha",
+        "Item 2": "Aloo Bonda",
+        "Accompaniments": "Tomato Chutney",
+        "Mandatory Items": "Bread/Butter/Jam, Tea/Coffee/Milk, Cornflakes",
+        "Fruits": "Pineapple"
+      },
+      "Lunch": {
+        "Special": "Aloo Tikki",
+        "Wet Curry": "Rajma Masala",
+        "Dry Curry": "Karela Fry",
+        "Dal": "Toor Dal",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle, Salad"
+      },
+      "Snacks": {
+        "Item": "Noodles",
+        "Bevarage": "Tea"
+      },
+      "Dinner": {
+        "Special": "Plain Paratha",
+        "Wet Curry": "Gobhi Matar",
+        "Dry Curry": "Bhindi",
+        "Dal": "Dal Makhani",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle"
+      }
+    },
+    "Friday": {
+      "Breakfast": {
+        "Item 1": "Aloo Palak Paratha/Methi Paratha",
+        "Item 2": "Aloo Bonda",
+        "Accompaniments": "Tomato Chutney",
+        "Mandatory Items": "Bread/Butter/Jam, Tea/Coffee/Milk, Cornflakes",
+        "Fruits": "Pineapple"
+      },
+      "Lunch": {
+        "Special": "Aloo Tikki",
+        "Wet Curry": "Rajma Masala",
+        "Dry Curry": "Karela Fry",
+        "Dal": "Toor Dal",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle, Salad"
+      },
+      "Snacks": {
+        "Item": "Noodles",
+        "Bevarage": "Tea"
+      },
+      "Dinner": {
+        "Special": "Plain Paratha",
+        "Wet Curry": "Gobhi Matar",
+        "Dry Curry": "Bhindi",
+        "Dal": "Dal Makhani",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle"
+      }
+    },
+    "Saturday": {
+      "Breakfast": {
+        "Item 1": "Aloo Palak Paratha/Methi Paratha",
+        "Item 2": "Aloo Bonda",
+        "Accompaniments": "Tomato Chutney",
+        "Mandatory Items": "Bread/Butter/Jam, Tea/Coffee/Milk, Cornflakes",
+        "Fruits": "Pineapple"
+      },
+      "Lunch": {
+        "Special": "Aloo Tikki",
+        "Wet Curry": "Rajma Masala",
+        "Dry Curry": "Karela Fry",
+        "Dal": "Toor Dal",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle, Salad"
+      },
+      "Snacks": {
+        "Item": "Noodles",
+        "Bevarage": "Tea"
+      },
+      "Dinner": {
+        "Special": "Plain Paratha",
+        "Wet Curry": "Gobhi Matar",
+        "Dry Curry": "Bhindi",
+        "Dal": "Dal Makhani",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle"
+      }
+    },
+    "Sunday": {
+      "Breakfast": {
+        "Item 1": "Aloo Palak Paratha/Methi Paratha",
+        "Item 2": "Aloo Bonda",
+        "Accompaniments": "Tomato Chutney",
+        "Mandatory Items": "Bread/Butter/Jam, Tea/Coffee/Milk, Cornflakes",
+        "Fruits": "Pineapple"
+      },
+      "Lunch": {
+        "Special": "Aloo Tikki",
+        "Wet Curry": "Rajma Masala",
+        "Dry Curry": "Karela Fry",
+        "Dal": "Toor Dal",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle, Salad"
+      },
+      "Snacks": {
+        "Item": "Noodles",
+        "Bevarage": "Tea"
+      },
+      "Dinner": {
+        "Special": "Plain Paratha",
+        "Wet Curry": "Gobhi Matar",
+        "Dry Curry": "Bhindi",
+        "Dal": "Dal Makhani",
+        "Rice": "Steamed Rice",
+        "Flavoured Rice": "",
+        "Accompaniments": "Chapaties, Curd, Pickle"
+      }
+    }
+  },
+  "lastUpdated": "05/11/2022",
+  "wef": "07/11/2022",
+  "additionalInfo": []
+}
