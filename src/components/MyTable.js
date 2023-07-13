@@ -1,59 +1,90 @@
-import { styled } from "@mui/material/styles";
-import Table from "@mui/material/Table";
-import TableBody from "@mui/material/TableBody";
-import TableCell from "@mui/material/TableCell";
-import TableContainer from "@mui/material/TableContainer";
-import TableHead from "@mui/material/TableHead";
-import TableRow from "@mui/material/TableRow";
+import React from 'react';
+import { makeStyles } from '@mui/styles';
+import { Table, TableHead, TableBody, TableRow, TableCell } from '@mui/material';
 
-const StyledTableCell = styled(TableCell)(({ theme }) => ({
-  backgroundColor: theme.palette.background.paper,
-  color: theme.palette.text.primary,
-  border: "1px solid rgba(224, 224, 224, 1)",
-}));
+const useStyles = makeStyles({
+  table: {
+    borderCollapse: 'collapse',
+  },
+  cell: {
+    border: '1px solid black',
+    padding: '8px',
+    textAlign: 'center',
+  },
+  mealType: {
+    fontWeight: 'bold',
+  },
+  noBorder: {
+    borderTop: 'none',
+    borderBottom: 'none',
+  },
+});
 
-const StyledTableContainer = styled(TableContainer)(({ theme }) => ({
-  backgroundColor: theme.palette.background.paper,
-  boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.1)",
-  height: "90%",
-  width: "100vw",
-  overflow: "auto",
-}));
-
-const MyTable = ({ menu }) => {
-  const meals = ["Breakfast", "Lunch", "Snacks", "Dinner"];
+const MealPlanTable = () => {
+  const classes = useStyles();
 
   return (
-    <StyledTableContainer>
-      <Table>
-        <TableHead>
-          <TableRow>
-            <StyledTableCell>Meal</StyledTableCell>
-            {Object.keys(menu.Days).map((day) => (
-              <StyledTableCell>{day}</StyledTableCell>
-            ))}
-          </TableRow>
-        </TableHead>
-        <TableBody>
-          {meals.map((meal) => (
-            <TableRow>
-              <StyledTableCell>{meal}</StyledTableCell>
-              {Object.keys(menu.Days).map((day) => (
-                <StyledTableCell>
-                  {Object.keys(menu.Days[day][meal]).map((item) => (
-                    <>
-                      {menu.Days[day][meal][item]}
-                      {menu.Days[day][meal][item] !== "" && <br />}
-                    </>
-                  ))}
-                </StyledTableCell>
-              ))}
-            </TableRow>
-          ))}
-        </TableBody>
-      </Table>
-    </StyledTableContainer>
+    <Table className={classes.table}>
+      <TableHead>
+        <TableRow>
+          <TableCell>Meal</TableCell>
+          <TableCell>Items</TableCell>
+          <TableCell>Monday</TableCell>
+          <TableCell>Tuesday</TableCell>
+          {/* Add more day columns here */}
+        </TableRow>
+      </TableHead>
+      <TableBody>
+        <TableRow>
+          <TableCell className={`${classes.mealType}`} rowSpan={4}>Breakfast</TableCell>
+          <TableCell>Item 1</TableCell>
+          <TableCell>...</TableCell>
+          <TableCell>...</TableCell>
+          {/* Add more day cells here */}
+        </TableRow>
+        <TableRow>
+          <TableCell>Item 2</TableCell>
+          <TableCell>...</TableCell>
+          <TableCell>...</TableCell>
+          {/* Add more day cells here */}
+        </TableRow>
+        <TableRow>
+          <TableCell>Item 3</TableCell>
+          <TableCell>...</TableCell>
+          <TableCell>...</TableCell>
+          {/* Add more day cells here */}
+        </TableRow>
+        <TableRow className={`${classes.noBorder}`}>
+          <TableCell>Item 4</TableCell>
+          <TableCell>...</TableCell>
+          <TableCell>...</TableCell>
+          {/* Add more day cells here */}
+        </TableRow>
+        {/* Repeat the above structure for Lunch, Snacks, and Dinner rows */}
+        <TableRow>
+          <TableCell className={`${classes.mealType}`} rowSpan={3}>Lunch</TableCell>
+          <TableCell>Item 5</TableCell>
+          <TableCell>...</TableCell>
+          <TableCell>...</TableCell>
+          {/* Add more day cells here */}
+        </TableRow>
+        <TableRow>
+          <TableCell>Item 6</TableCell>
+          <TableCell>...</TableCell>
+          <TableCell>...</TableCell>
+          {/* Add more day cells here */}
+        </TableRow>
+        <TableRow className={`${classes.noBorder}`}>
+          <TableCell>Item 7</TableCell>
+          <TableCell>...</TableCell>
+          <TableCell>...</TableCell>
+          {/* Add more day cells here */}
+        </TableRow>
+        {/* Repeat the above structure for Snacks and Dinner rows */}
+        {/* Add more rows for other meal types if needed */}
+      </TableBody>
+    </Table>
   );
 };
 
-export default MyTable;
+export default MealPlanTable;
