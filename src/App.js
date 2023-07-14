@@ -75,22 +75,6 @@ function BasicTabs() {
     setValue(newValue);
   };
 
-  // const lastUpdated = [
-  //   "05/11/2022",
-  //   "01/02/2023",
-  //   "01/02/2023",
-  //   "01/02/2023",
-  //   "01/02/2023",
-  // ];
-
-  // const wef = [
-  //   "07/11/2022",
-  //   "01/02/2023",
-  //   "01/02/2023",
-  //   "01/02/2023",
-  //   "01/02/2023",
-  // ];
-
   return (
     <Box sx={{ width: "100vw", height: "10vh" }}>
       <Box sx={{ width: "100vw", borderBottom: 1, borderColor: "divider" }}>
@@ -141,8 +125,6 @@ function BasicTabs() {
             ))}
           </ul>
         </div>
-        <div>{"             "}</div>
-        <div>{"             "}</div>
       </div>
       {/* Add copyright and source at the bottom */}
       <div

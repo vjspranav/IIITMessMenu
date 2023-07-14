@@ -1,27 +1,6 @@
 import React from "react";
 import "./table.css";
 
-// import { makeStyles } from '@mui/styles';
-// import { Table, TableHead, TableBody, TableRow, TableCell } from '@mui/material';
-
-// const useStyles = makeStyles({
-//   table: {
-//     borderCollapse: 'collapse',
-//   },
-//   cell: {
-//     border: '1px solid black',
-//     padding: '8px',
-//     textAlign: 'center',
-//   },
-//   mealType: {
-//     fontWeight: 'bold',
-//   },
-//   noBorder: {
-//     borderTop: 'none',
-//     borderBottom: 'none',
-//   },
-// });
-
 const MealPlanTable = ({ menu }) => {
   const days = Object.keys(menu.Days);
   const meals = Object.keys(menu.Days[days[0]]);
