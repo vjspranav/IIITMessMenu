@@ -7,6 +7,9 @@ import { makeStyles } from "@mui/styles";
 
 // import json
 import NorthMess from "./menus/northmess.json";
+import SouthMess from "./menus/southmess.json";
+import Kadamba from "./menus/kadamba.json";
+import Yuktahar from "./menus/yuktahar.json";
 
 import MyTable from "./components/MyTable";
 
@@ -20,10 +23,10 @@ function App() {
 
 const messFiles = [
   NorthMess, // North Mess
-  NorthMess, // North Mess
-  NorthMess, // North Mess
-  NorthMess, // North Mess
-  NorthMess, // North Mess
+  SouthMess, // South Mess
+  Kadamba, // Non Veg Kadamba
+  Kadamba, // Kadamba
+  Yuktahar, // Yuktahar
 ];
 
 function TabPanel(props) {

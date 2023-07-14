@@ -70,7 +70,7 @@
             },
             "Lunch": {
                 "Wet Curry": "Special Curry",
-                "Dry Curry": "Special Curry",
+                "Dry Curry": "",
                 "Dal": "Chole",
                 "Flavoured Rice": "Veg. Biryani",
                 "Plain Rice": "White Rice",
@@ -189,7 +189,7 @@
                 "Fruits": "Water Melon"
             },
             "Lunch": {
-                "Wet Curry": "Water Melon",
+                "Wet Curry": "",
                 "Dry Curry": "Fruit Custard - Sweet",
                 "Dal": "Chana Dal",
                 "Flavoured Rice": "Veg. Biryani",
@@ -211,7 +211,7 @@
             }
         }
     },
-    "lastUpdated": "",
-    "wef": "",
+    "lastUpdated": "01/02/2023",
+    "wef": "01/02/2023",
     "additionalInfo": []
 }

@@ -14,7 +14,7 @@
                 "Dry Curry": "Karela Fry",
                 "Dal": "Toor dal",
                 "Steam Rice": "Steam Rice",
-                "Flavoured Rice": "Steam Rice",
+                "Flavoured Rice": "",
                 "Accompaniants": "Chapati/Curd/\nPickle/Salad"
             },
             "Snack": {
@@ -27,7 +27,7 @@
                 "Dry Curry": "Bhindi",
                 "Dal": "Dal Makhani",
                 "Steam Rice": "Steam Rice",
-                "Flavoured Rice": "Steam Rice",
+                "Flavoured Rice": "",
                 "Accompaniants": "Chapati/Curd/Pickle"
             }
         },
@@ -45,7 +45,7 @@
                 "Dry Curry": "Aloo Pyaaz",
                 "Dal": "Daal Batti",
                 "Steam Rice": "Steam Rice",
-                "Flavoured Rice": "Steam Rice",
+                "Flavoured Rice": "",
                 "Accompaniants": "Chapati/Curd/\nPickle/Salad"
             },
             "Snack": {
@@ -53,12 +53,12 @@
                 "Bevearge": "Tea"
             },
             "Dinner": {
-                "Sweet /Special": "Tea",
+                "Sweet /Special": "",
                 "Wet Curry": "Kadhai Paneer",
                 "Dry Curry": "Cabbage Mix",
                 "Dal": "Masoor Dal",
                 "Steam Rice": "Steam Rice",
-                "Flavoured Rice": "Steam Rice",
+                "Flavoured Rice": "",
                 "Accompaniants": "Chapati/Curd/Pickle/Salad"
             }
         },
@@ -71,12 +71,12 @@
                 "Fruits": "Grape Juice"
             },
             "Lunch": {
-                "Sweet /Special\nDish": "Grape Juice",
+                "Sweet /Special\nDish": "",
                 "Wet Curry": "Paneer Do Pyaza",
                 "Dry Curry": "Lauki Sabzi",
                 "Dal": "Chane Ki Daal",
                 "Steam Rice": "Steam Rice",
-                "Flavoured Rice": "Steam Rice",
+                "Flavoured Rice": "",
                 "Accompaniants": "Chapati/Curd/Pickle"
             },
             "Snack": {
@@ -89,7 +89,7 @@
                 "Dry Curry": "Tomato Laungi",
                 "Dal": "Aloo Tomato",
                 "Steam Rice": "Steam Rice",
-                "Flavoured Rice": "Steam Rice",
+                "Flavoured Rice": "",
                 "Accompaniants": "Chapati/Curd/Pickle"
             }
         },
@@ -107,7 +107,7 @@
                 "Dry Curry": "Mix Veg",
                 "Dal": "Toor Dal",
                 "Steam Rice": "Steam Rice",
-                "Flavoured Rice": "Steam Rice",
+                "Flavoured Rice": "",
                 "Accompaniants": "Chapati/Curd/\nPickle/Salad"
             },
             "Snack": {
@@ -116,7 +116,7 @@
             },
             "Dinner": {
                 "Sweet /Special": "Suji Halwa",
-                "Wet Curry": "Suji Halwa",
+                "Wet Curry": "",
                 "Dry Curry": "Aloo Methi",
                 "Dal": "Panchmel Dal",
                 "Steam Rice": "Steam Rice",
@@ -151,7 +151,7 @@
                 "Dry Curry": "Soyabean",
                 "Dal": "Palak Dal",
                 "Steam Rice": "Steam Rice",
-                "Flavoured Rice": "Steam Rice",
+                "Flavoured Rice": "",
                 "Accompaniants": "Chapati/Curd/Pickle"
             }
         },
@@ -164,7 +164,7 @@
                 "Fruits": "Melon"
             },
             "Lunch": {
-                "Sweet /Special\nDish": "Melon",
+                "Sweet /Special\nDish": "",
                 "Wet Curry": "Ramas/Khoya Matar",
                 "Dry Curry": "Kundru",
                 "Dal": "Dal Makhani",
@@ -182,7 +182,7 @@
                 "Dry Curry": "Mattar Pullav",
                 "Dal": "Dalcha",
                 "Steam Rice": "Steam Rice",
-                "Flavoured Rice": "Steam Rice",
+                "Flavoured Rice": "",
                 "Accompaniants": "Chapati/Curd/Pickle"
             }
         },
@@ -213,7 +213,7 @@
                 "Dry Curry": "Paneer Butter Masal",
                 "Dal": "Mix Dal",
                 "Steam Rice": "Steam Rice",
-                "Flavoured Rice": "Steam Rice",
+                "Flavoured Rice": "",
                 "Accompaniants": "Chapati/Curd/Pickle"
             }
         }

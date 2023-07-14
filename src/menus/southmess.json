@@ -13,7 +13,7 @@
                 "Dal": "Thotakura / Mango Pappu\n(seasonal)",
                 "Stew": "Rasam",
                 "Salad": "Carrot+Beetroot",
-                "Sweet": "Carrot+Beetroot",
+                "Sweet": "",
                 "Spl Rice": "Veg Pulao/jeera rice",
                 "Roti": "Roti",
                 "Chutney": "Kariveypaku podi",
@@ -25,17 +25,17 @@
                 "Accompaniment": "Putana Chutney"
             },
             "Dinner": {
-                "Fry": "Putana Chutney",
+                "Fry": "",
                 "Curry": "Aloo Methi",
-                "Dal": "Aloo Methi",
+                "Dal": "",
                 "Stew": "Tomato Rasam",
                 "Starter": "Veg Noodles",
                 "Accompainment": "Hot Garlic /Chilly and\nTomato sauce",
-                "Sweet": "Hot Garlic /Chilly and\nTomato sauce",
-                "Spl Rice": "Hot Garlic /Chilly and\nTomato sauce",
+                "Sweet": "",
+                "Spl Rice": "",
                 "Soup": "Manchow Soup",
                 "Chutney": "Snake Guard Dhai Chutney",
-                "Roti": "Snake Guard Dhai Chutney",
+                "Roti": "",
                 "Compulsory Items": "White Rice, Curd, Ghee,\nFryums"
             }
         },
@@ -52,27 +52,27 @@
                 "Dal": "Tomata Pappu",
                 "Stew": "Sambar",
                 "Salad": "Green Salad",
-                "Sweet": "Green Salad",
+                "Sweet": "",
                 "Spl Rice": "Lemon Rice/ Pulihora",
-                "Roti": "Lemon Rice/ Pulihora",
+                "Roti": "",
                 "Chutney": "Dosakaya mukkala pachadi",
-                "Accompaniment": "Dosakaya mukkala pachadi",
+                "Accompaniment": "",
                 "Compasary Items": "White Rice, Curd, Ghee,\nFryums"
             },
             "Snack": {
                 "Item": "Muntha masala/Stuffed Mirchi",
-                "Accompaniment": "Muntha masala/Stuffed Mirchi"
+                "Accompaniment": ""
             },
             "Dinner": {
-                "Fry": "Muntha masala/Stuffed Mirchi",
+                "Fry": "",
                 "Curry": "Paneer Curry",
                 "Dal": "Gongura Pappu",
                 "Stew": "Tomato Rasam",
-                "Starter": "Tomato Rasam",
-                "Accompainment": "Tomato Rasam",
-                "Sweet": "Tomato Rasam",
-                "Spl Rice": "Tomato Rasam",
-                "Soup": "Tomato Rasam",
+                "Starter": "",
+                "Accompainment": "",
+                "Sweet": "",
+                "Spl Rice": "",
+                "Soup": "",
                 "Chutney": "Lemon Pickle / Chutney",
                 "Roti": "Lachha Paratha/chapathi",
                 "Compulsory Items": "White Rice, Curd, Ghee, Fryums"
@@ -88,32 +88,32 @@
             "Lunch": {
                 "Fry": "Banana Chips",
                 "Curry": "Mirchi Ka Salan",
-                "Dal": "Mirchi Ka Salan",
-                "Stew": "Mirchi Ka Salan",
+                "Dal": "",
+                "Stew": "",
                 "Salad": "Onion, Lemon",
                 "Sweet": "Spl.Sweet",
                 "Spl Rice": "Veg Dum Biryani",
-                "Roti": "Veg Dum Biryani",
+                "Roti": "",
                 "Chutney": "Cabbage Pachhadi",
                 "Accompaniment": "Raita,Papad",
                 "Compasary Items": "White Rice, Curd, Ghee"
             },
             "Snack": {
                 "Item": "Kerala Snacks (banana bhajji)",
-                "Accompaniment": "Kerala Snacks (banana bhajji)"
+                "Accompaniment": ""
             },
             "Dinner": {
-                "Fry": "Kerala Snacks (banana bhajji)",
+                "Fry": "",
                 "Curry": "Beerakaya Chanagapappu",
-                "Dal": "Beerakaya Chanagapappu",
+                "Dal": "",
                 "Stew": "Sambar",
                 "Starter": "Dosa with Aloo Masala",
                 "Accompainment": "Chutney",
-                "Sweet": "Chutney",
-                "Spl Rice": "Chutney",
-                "Soup": "Chutney",
-                "Chutney": "Chutney",
-                "Roti": "Chutney",
+                "Sweet": "",
+                "Spl Rice": "",
+                "Soup": "",
+                "Chutney": "",
+                "Roti": "",
                 "Compulsory Items": "White Rice, Curd, Ghee,\nFryums"
             }
         },
@@ -125,12 +125,12 @@
                 "Fruit": "Papaya"
             },
             "Lunch": {
-                "Fry": "Papaya",
+                "Fry": "",
                 "Curry": "Methi Paneer",
                 "Dal": "Sorakaya Pappu",
-                "Stew": "Sorakaya Pappu",
+                "Stew": "",
                 "Salad": "Green Salad",
-                "Sweet": "Green Salad",
+                "Sweet": "",
                 "Spl Rice": "Besibilla Bath",
                 "Roti": "Roti",
                 "Chutney": "Dondakaya Pachadi",
@@ -143,14 +143,14 @@
             },
             "Dinner": {
                 "Fry": "Cabbage Porial",
-                "Curry": "Cabbage Porial",
+                "Curry": "",
                 "Dal": "Tomato Dal",
-                "Stew": "Tomato Dal",
+                "Stew": "",
                 "Starter": "Veg Manchuria",
-                "Accompainment": "Veg Manchuria",
-                "Sweet": "Veg Manchuria",
+                "Accompainment": "",
+                "Sweet": "",
                 "Spl Rice": "Dadhojanam",
-                "Soup": "Dadhojanam",
+                "Soup": "",
                 "Chutney": "Fresh Chutney",
                 "Roti": "Roti",
                 "Compulsory Items": "White Rice, Ghee, Fryums"
@@ -173,7 +173,7 @@
                 "Spl Rice": "Thalimpu Rice",
                 "Roti": "Roti",
                 "Chutney": "Beerakaya Chutney",
-                "Accompaniment": "Beerakaya Chutney",
+                "Accompaniment": "",
                 "Compasary Items": "White Rice, Curd, Ghee,\nPapad"
             },
             "Snack": {
@@ -181,17 +181,17 @@
                 "Accompaniment": "Khatta meeta Chutney"
             },
             "Dinner": {
-                "Fry": "Khatta meeta Chutney",
+                "Fry": "",
                 "Curry": "(CHOLE)",
                 "Dal": "Kaddu Ka Dal",
-                "Stew": "Kaddu Ka Dal",
+                "Stew": "",
                 "Starter": "Poori",
-                "Accompainment": "Poori",
-                "Sweet": "Poori",
-                "Spl Rice": "Poori",
+                "Accompainment": "",
+                "Sweet": "",
+                "Spl Rice": "",
                 "Soup": "Veg Clear Soup",
                 "Chutney": "Pudina Chutney",
-                "Roti": "Pudina Chutney",
+                "Roti": "",
                 "Compulsory Items": "White Rice, Curd, Ghee,\nFryums"
             }
         },
@@ -208,28 +208,28 @@
                 "Dal": "Mudda Pappu",
                 "Stew": "Pacchi Pulusu",
                 "Salad": "Tomato/ Chana salad",
-                "Sweet": "Tomato/ Chana salad",
+                "Sweet": "",
                 "Spl Rice": "Fried Rice",
                 "Roti": "Roti",
                 "Chutney": "Kobbari karam podi",
-                "Accompaniment": "Kobbari karam podi",
+                "Accompaniment": "",
                 "Compasary Items": "White Rice, Curd,\nGhee, Fryums"
             },
             "Snack": {
                 "Item": "Onion Pakodi",
-                "Accompaniment": "Onion Pakodi"
+                "Accompaniment": ""
             },
             "Dinner": {
                 "Fry": "Bhendi Fry",
                 "Curry": "Pul Makhni Curry/ Khaju\nMasala Curry",
                 "Dal": "Pesarapappu",
                 "Stew": "Dappalam",
-                "Starter": "Dappalam",
+                "Starter": "",
                 "Accompainment": "Karam Chitlu Podi",
                 "Sweet": "Double kameta / Gulab\nJamun / Jalebi",
                 "Spl Rice": "Bhagara Rice",
-                "Soup": "Bhagara Rice",
-                "Chutney": "Bhagara Rice",
+                "Soup": "",
+                "Chutney": "",
                 "Roti": "Roti",
                 "Compulsory Items": "White Rice, Curd, Ghee,\nFryums"
             }
@@ -243,38 +243,38 @@
             },
             "Lunch": {
                 "Fry": "Kanda Fry",
-                "Curry": "Kanda Fry",
-                "Dal": "Kanda Fry",
+                "Curry": "",
+                "Dal": "",
                 "Stew": "Mirchi Ka Salan",
                 "Salad": "Onion, Lemon",
                 "Sweet": "Fruit Custard",
                 "Spl Rice": "Veg Dum Biryani",
-                "Roti": "Veg Dum Biryani",
+                "Roti": "",
                 "Chutney": "Gongura Chutney",
                 "Accompaniment": "Raita Papad",
                 "Compasary Items": "White Rice and Ghee"
             },
             "Snack": {
                 "Item": "Papdi Chat",
-                "Accompaniment": "Papdi Chat"
+                "Accompaniment": ""
             },
             "Dinner": {
                 "Fry": "Aloo 65",
                 "Curry": "rajma masala",
                 "Dal": "Palakura Pappu",
                 "Stew": "Pappu Charu",
-                "Starter": "Pappu Charu",
-                "Accompainment": "Pappu Charu",
-                "Sweet": "Pappu Charu",
+                "Starter": "",
+                "Accompainment": "",
+                "Sweet": "",
                 "Spl Rice": "Green Peas Pulav",
-                "Soup": "Green Peas Pulav",
-                "Chutney": "Green Peas Pulav",
+                "Soup": "",
+                "Chutney": "",
                 "Roti": "Roti",
                 "Compulsory Items": "White Rice, Curd, Ghee,\nFryums"
             }
         }
     },
-    "lastUpdated": "",
-    "wef": "",
+    "lastUpdated": "01/02/2023",
+    "wef": "01/02/2023",
     "additionalInfo": []
 }

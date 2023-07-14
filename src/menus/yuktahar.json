@@ -12,9 +12,9 @@
                 "Roti": "Live Roti",
                 "Daal": "Green whole Moongdal\nTadka",
                 "Vegetable": "Mix Veg Paneer",
-                "Extra": "Mix Veg Paneer",
+                "Extra": "",
                 "Chutney": "Gongura chutney",
-                "Sweet": "Gongura chutney",
+                "Sweet": "",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
             },
             "Snack": {
@@ -27,7 +27,7 @@
                 "Vegetable": "Baingan Bartha",
                 "Extra": "Rasam",
                 "Chutney": "Tomato Chutney",
-                "Sweet": "Tomato Chutney",
+                "Sweet": "",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
             }
         },
@@ -45,7 +45,7 @@
                 "Vegetable": "Masala Gobi",
                 "Extra": "Sambar",
                 "Chutney": "Dosakai chutney",
-                "Sweet": "Dosakai chutney",
+                "Sweet": "",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
             },
             "Snack": {
@@ -56,7 +56,7 @@
                 "Roti": "Live Roti",
                 "Daal": "Mix dal / Panchrang Dal [with\nand without onion]",
                 "Vegetable": "Bhindi",
-                "Extra": "Bhindi",
+                "Extra": "",
                 "Chutney": "Donda Chutney",
                 "Sweet": "Raagi laddu",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
@@ -72,7 +72,7 @@
             "Lunch": {
                 "Special Rice": "Brown Rice",
                 "Roti": "Live Roti",
-                "Daal": "Live Roti",
+                "Daal": "",
                 "Vegetable": "Aloo Methi",
                 "Extra": "Palak Paneer",
                 "Chutney": "tomato chutney",
@@ -87,9 +87,9 @@
                 "Roti": "Live Roti",
                 "Daal": "leafy moong dal with tadka",
                 "Vegetable": "Lauki",
-                "Extra": "Lauki",
+                "Extra": "",
                 "Chutney": "Coriander Chutney",
-                "Sweet": "Coriander Chutney",
+                "Sweet": "",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
             }
         },
@@ -107,18 +107,18 @@
                 "Vegetable": "Soyabean",
                 "Extra": "Mah chhole",
                 "Chutney": "Ridge gourd chutney",
-                "Sweet": "Ridge gourd chutney",
+                "Sweet": "",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
             },
             "Snack": {
                 "Item": "Ragi Dosa + Chutney"
             },
             "Dinner": {
-                "RICE": "Ragi Dosa + Chutney",
+                "RICE": "",
                 "Roti": "Live Palak Roti",
                 "Daal": "Daal Makhni",
                 "Vegetable": "Gawar Phali",
-                "Extra": "Gawar Phali",
+                "Extra": "",
                 "Chutney": "Palli Podi",
                 "Sweet": "Semiya Payasam",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
@@ -151,7 +151,7 @@
                 "Vegetable": "Turai-Chana dal Sabzi",
                 "Extra": "Sambar",
                 "Chutney": "Chutney",
-                "Sweet": "Chutney",
+                "Sweet": "",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
             }
         },
@@ -167,9 +167,9 @@
                 "Roti": "Live Roti",
                 "Daal": "Tomato dal",
                 "Vegetable": "Beans & Carrot Poriyal",
-                "Extra": "Beans & Carrot Poriyal",
+                "Extra": "",
                 "Chutney": "Pudina & Tomato Chutney",
-                "Sweet": "Pudina & Tomato Chutney",
+                "Sweet": "",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
             },
             "Snack": {
@@ -180,7 +180,7 @@
                 "Roti": "Beetroot Roti",
                 "Daal": "Thotakura dal",
                 "Vegetable": "Dry mix veg",
-                "Extra": "Dry mix veg",
+                "Extra": "",
                 "Chutney": "coconut podi",
                 "Sweet": "Suji / Lauki Halwa",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
@@ -196,10 +196,10 @@
             "Lunch": {
                 "Special Rice": "Foxtail (Korralu) Millet\nPulao",
                 "Roti": "Live roti",
-                "Daal": "Live roti",
+                "Daal": "",
                 "Vegetable": "Pumpkin Curry / Dal",
                 "Extra": "Black Chana Curry",
-                "Chutney": "Black Chana Curry",
+                "Chutney": "",
                 "Sweet": "Daliya Sweet / Fruit\nCustard",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
             },
@@ -212,13 +212,13 @@
                 "Daal": "Black Masoor Dal",
                 "Vegetable": "Masala Paneer",
                 "Extra": "Pachipulusu",
-                "Chutney": "Pachipulusu",
-                "Sweet": "Pachipulusu",
+                "Chutney": "",
+                "Sweet": "",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
             }
         }
     },
-    "lastUpdated": "",
-    "wef": "",
+    "lastUpdated": "01/02/2023",
+    "wef": "01/02/2023",
     "additionalInfo": []
 }
