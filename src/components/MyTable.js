@@ -1,41 +1,43 @@
 import React from "react";
-import "./table.css";
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from "@mui/material";
 
 const MealPlanTable = ({ menu }) => {
   const days = Object.keys(menu.Days);
   const meals = Object.keys(menu.Days[days[0]]);
 
   return (
-    <table>
-      <thead>
-        <tr>
-          <th>Meal</th>
-          <th>Items</th>
-          {days.map((day) => (
-            <th key={day}>{day}</th>
-          ))}
-        </tr>
-      </thead>
-      <tbody>
-        {meals.map((meal) => (
-          <>
-            {Object.keys(menu.Days["Monday"][meal]).map((item, index) => (
-              <tr key={item}>
-                {index === 0 && (
-                  <td rowSpan={Object.keys(menu.Days["Monday"][meal]).length}>
-                    {meal}
-                  </td>
-                )}
-                <td>{item}</td>
-                {days.map((day) => (
-                  <td key={day}>{menu.Days[day][meal][item]}</td>
-                ))}
-              </tr>
+    <TableContainer component={Paper}>
+      <Table>
+        <TableHead>
+          <TableRow>
+            <TableCell>Meal</TableCell>
+            <TableCell>Items</TableCell>
+            {days.map((day) => (
+              <TableCell key={day}>{day}</TableCell>
             ))}
-          </>
-        ))}
-      </tbody>
-    </table>
+          </TableRow>
+        </TableHead>
+        <TableBody>
+          {meals.map((meal) => (
+            <>
+              {Object.keys(menu.Days["Monday"][meal]).map((item, index) => (
+                <TableRow key={item}>
+                  {index === 0 && (
+                    <TableCell rowSpan={Object.keys(menu.Days["Monday"][meal]).length}>
+                      {meal}
+                    </TableCell>
+                  )}
+                  <TableCell>{item}</TableCell>
+                  {days.map((day) => (
+                    <TableCell key={day}>{menu.Days[day][meal][item]}</TableCell>
+                  ))}
+                </TableRow>
+              ))}
+            </>
+          ))}
+        </TableBody>
+      </Table>
+    </TableContainer>
   );
 };
 
