@@ -7,7 +7,6 @@ import {
   TableHead,
   TableRow,
   Paper,
-  Tab,
 } from "@mui/material";
 
 const DAYS = [
@@ -122,27 +121,30 @@ const TodayMealTable = ({ menu }) => {
   };
 
   return (
-    <TableContainer component={Paper}>
-      {todayMess && (
-        <Table>
-          <TableHead>
-            <TableRow key={0}>
-              <TableCell key={1}>Meal</TableCell>
-              <TableCell key={2}>NorthMess</TableCell>
-              <TableCell key={3}>SouthMess</TableCell>
-              <TableCell key={4}>Kadamba</TableCell>
-              <TableCell key={5}>Yuktahar</TableCell>
-            </TableRow>
-          </TableHead>
-          <TableBody>
-            {generateMealRows("Breakfast")}
-            {generateMealRows("Lunch")}
-            {generateMealRows("Snack")}
-            {generateMealRows("Dinner")}
-          </TableBody>
-        </Table>
-      )}
-    </TableContainer>
+    <div>
+      <h1>{day}</h1>
+      <TableContainer component={Paper}>
+        {todayMess && (
+          <Table>
+            <TableHead>
+              <TableRow key={0}>
+                <TableCell key={1}>Meal</TableCell>
+                <TableCell key={2}>NorthMess</TableCell>
+                <TableCell key={3}>SouthMess</TableCell>
+                <TableCell key={4}>Kadamba</TableCell>
+                <TableCell key={5}>Yuktahar</TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {generateMealRows("Breakfast")}
+              {generateMealRows("Lunch")}
+              {generateMealRows("Snack")}
+              {generateMealRows("Dinner")}
+            </TableBody>
+          </Table>
+        )}
+      </TableContainer>
+    </div>
   );
 };
 

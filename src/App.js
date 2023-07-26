@@ -13,6 +13,9 @@ import InputLabel from "@mui/material/InputLabel";
 // SWAL
 import Swal from "sweetalert2";
 
+// Dark Theme Icon Switch
+import IconSwitch from "./components/IconSwitch";
+
 // import json
 import NorthMess from "./menus/northmess.json";
 import SouthMess from "./menus/southmess.json";
@@ -108,6 +111,9 @@ function App() {
   const TRACKING_ID = "G-MDDETF26DX";
   ReactGA.initialize(TRACKING_ID);
 
+  // Add a state to handle the theme mode
+  const [darkMode, setDarkMode] = React.useState(false);
+
   const [value, setValue] = React.useState(0);
   const [mealMenu, setMealMenu] = React.useState("Today Menu");
 
@@ -136,7 +142,22 @@ function App() {
         label: savedMealMenu,
       });
     }
+
+    // Load the saved theme mode from localStorage
+    const savedThemeMode = localStorage.getItem("themeMode");
+    if (savedThemeMode) {
+      setDarkMode(savedThemeMode === "dark");
+    }
   }, []);
+
+  const handleChangeTheme = () => {
+    // Toggle the theme mode
+    const newThemeMode = !darkMode;
+    setDarkMode(newThemeMode);
+
+    // Save the theme mode to localStorage
+    localStorage.setItem("themeMode", newThemeMode ? "dark" : "light");
+  };
 
   const handleChange = (event) => {
     const selectedMenu = event.target.value;
@@ -183,6 +204,16 @@ function App() {
             <MenuItem value="Upcoming Meal">Upcoming Meal</MenuItem>
           </Select>
         </FormControl>
+        <Box
+          sx={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "flex-end",
+            px: 3,
+          }}
+        >
+          <IconSwitch isDark={darkMode} onToggle={handleChangeTheme} />
+        </Box>
 
         {/* Print Last updated date and WEF date */}
         {mealMenu === "Full Menu" && (
