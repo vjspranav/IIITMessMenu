@@ -1,4 +1,5 @@
 import * as React from "react";
+import { useEffect } from "react";
 import PropTypes from "prop-types";
 import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
@@ -104,7 +105,22 @@ function App() {
   ReactGA.initialize(TRACKING_ID);
 
   const [value, setValue] = React.useState(0);
-  const [mealMenu, setMealMenu] = React.useState("Full Menu");
+  const [mealMenu, setMealMenu] = React.useState("Today Menu");
+
+  useEffect(() => {
+    ReactGA.send({ hitType: "pageview", page: window.location.pathname });
+
+    // Check if mealMenu is saved in localStorage
+    const savedMealMenu = localStorage.getItem("mealMenu");
+    if (savedMealMenu) {
+      setMealMenu(savedMealMenu);
+      ReactGA.event({
+        category: "User",
+        action: "Loaded Menu",
+        label: savedMealMenu,
+      });
+    }
+  }, []);
 
   const handleChange = (event) => {
     const selectedMenu = event.target.value;
@@ -114,6 +130,15 @@ function App() {
       // Set value to the index of the corresponding tab
       setValue(selectedMenu === "Today Menu" ? 2 : 3);
     }
+
+    // Save mealMenu in localStorage
+    localStorage.setItem("mealMenu", selectedMenu);
+
+    ReactGA.event({
+      category: "User",
+      action: "Changed Menu",
+      label: selectedMenu,
+    });
   };
 
   return (
