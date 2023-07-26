@@ -29,6 +29,7 @@ import CurrentMeal from "./components/currentMealTable";
 
 import ReactGA from "react-ga4";
 import TodayMealTable from "./components/TodayMealTable";
+import { Link, Typography } from "@mui/material";
 
 const messFiles = [
   NorthMess, // North Mess
@@ -195,7 +196,7 @@ function App() {
   return (
     <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
       <CssBaseline />
-      <Box sx={{ width: "100vw", height: "100vh" }}>
+      <Box sx={{ width: "100vw", height: "100vh", paddingBottom: "50px" }}>
         <Box
           sx={{
             borderBottom: 1,
@@ -281,7 +282,14 @@ function App() {
 
         {/* Additional Info */}
         {messFiles[value] && (
-          <div style={{ float: "left", marginLeft: "10px", marginTop: "10px" }}>
+          <div
+            style={{
+              float: "left",
+              marginLeft: "10px",
+              marginTop: "10px",
+              paddingBottom: "50px",
+            }}
+          >
             <b>Additional Info:</b>
             <ul>
               {messFiles[value].additionalInfo.map((item, index) => (
@@ -291,35 +299,38 @@ function App() {
           </div>
         )}
 
-        {/* Copyright and Source */}
-        <div
-          style={{
+        <Box
+          sx={{
             position: "fixed",
             bottom: "0",
             width: "100%",
             textAlign: "center",
             fontSize: "15px",
-            backgroundColor: "#f5f5f5",
+            backgroundColor: (theme) =>
+              theme.palette.mode === "dark" ? "#333" : "#f5f5f5", // Use MUI theme for background color
             borderRadius: "5px",
             paddingBottom: "5px",
           }}
         >
-          <div style={{ float: "left", marginLeft: "10px", marginTop: "10px" }}>
-            © 2023, vjspranav
-          </div>
-          <div
-            style={{ float: "right", marginRight: "10px", marginTop: "10px" }}
-          >
-            Source:{" "}
-            <a
-              href="https://github.com/vjspranav/IIITMessMenu/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              Github
-            </a>
-          </div>
-        </div>
+          <Box sx={{ float: "left", marginLeft: "10px", marginTop: "10px" }}>
+            <Typography variant="body2" color="text.primary">
+              © 2023, vjspranav
+            </Typography>
+          </Box>
+          <Box sx={{ float: "right", marginRight: "10px", marginTop: "10px" }}>
+            <Typography variant="body2" color="text.primary">
+              Source:{" "}
+              <Link
+                href="https://github.com/vjspranav/IIITMessMenu/"
+                target="_blank"
+                rel="noreferrer"
+                color="secondary"
+              >
+                Github
+              </Link>
+            </Typography>
+          </Box>
+        </Box>
       </Box>
     </ThemeProvider>
   );
