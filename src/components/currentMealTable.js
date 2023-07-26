@@ -82,7 +82,7 @@ const CurrentMeal = ({ meal }) => {
 
     setItems(items);
     console.log(items);
-  }, [meal]);
+  }, [meal, maxItems]);
 
   console.log(day, meal, items);
 

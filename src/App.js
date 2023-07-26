@@ -4,6 +4,10 @@ import Tabs from "@mui/material/Tabs";
 import Tab from "@mui/material/Tab";
 import Box from "@mui/material/Box";
 import { makeStyles } from "@mui/styles";
+import MenuItem from "@mui/material/MenuItem";
+import Select from "@mui/material/Select";
+import FormControl from "@mui/material/FormControl";
+import InputLabel from "@mui/material/InputLabel";
 
 // import json
 import NorthMess from "./menus/northmess.json";
@@ -15,14 +19,6 @@ import MyTable from "./components/MyTable";
 import CurrentMeal from "./components/currentMealTable";
 
 import ReactGA from "react-ga4";
-import FormControlLabel from "@mui/material/FormControlLabel";
-import IOSSwitch from "./components/IOSSwitch";
-
-function App() {
-  const TRACKING_ID = "G-MDDETF26DX";
-  ReactGA.initialize(TRACKING_ID);
-  return <BasicTabs sx={{ width: "100vw" }} />;
-}
 
 const messFiles = [
   NorthMess, // North Mess
@@ -33,7 +29,7 @@ const messFiles = [
 ];
 
 function TabPanel(props) {
-  const { value, index, mealMenu, ...other } = props;
+  const { value, index, ...other } = props;
 
   return (
     <div
@@ -43,12 +39,12 @@ function TabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {messFiles[index] ? (
-        <MyTable menu={messFiles[index]} />
+      {messFiles[value] ? (
+        <MyTable menu={messFiles[value]} />
       ) : (
-        <Box sx={{ p: 3 }}>
+        <div style={{ textAlign: "center", marginTop: "20px" }}>
           <h1>Coming Soon!</h1>
-        </Box>
+        </div>
       )}
     </div>
   );
@@ -75,111 +71,136 @@ const useStyles = makeStyles({
   },
 });
 
-function BasicTabs() {
-  const [value, setValue] = React.useState(0);
-  const [mealMenu, setMealMenu] = React.useState(false);
-
+function BasicTabs(props) {
   const classes = useStyles();
+  const { value, onChange } = props;
 
-  const handleChange = (event, newValue) => {
-    setValue(newValue);
+  return (
+    <Tabs
+      value={value}
+      onChange={onChange}
+      classes={classes}
+      aria-label="basic tabs example"
+      variant="scrollable"
+      allowScrollButtonsMobile
+      sx={{ flex: 1 }}
+    >
+      <Tab label="North Mess" {...a11yProps(0)} />
+      <Tab label="South Mess" {...a11yProps(1)} />
+      <Tab label="Non Veg Kadamba" {...a11yProps(2)} />
+      <Tab label="Kadamba" {...a11yProps(3)} />
+      <Tab label="Yuktahar" {...a11yProps(4)} />
+    </Tabs>
+  );
+}
+
+BasicTabs.propTypes = {
+  value: PropTypes.number.isRequired,
+  onChange: PropTypes.func.isRequired,
+};
+
+function App() {
+  const TRACKING_ID = "G-MDDETF26DX";
+  ReactGA.initialize(TRACKING_ID);
+
+  const [value, setValue] = React.useState(0);
+  const [mealMenu, setMealMenu] = React.useState("Full Menu");
+
+  const handleChange = (event) => {
+    const selectedMenu = event.target.value;
+    setMealMenu(selectedMenu);
+
+    if (selectedMenu === "Today Menu" || selectedMenu === "Upcoming Meal") {
+      // Set value to the index of the corresponding tab
+      setValue(selectedMenu === "Today Menu" ? 2 : 3);
+    }
   };
 
   return (
-    <Box
-      sx={{
-        width: "100vw",
-        height: "100vh",
-      }}
-    >
+    <Box sx={{ width: "100vw", height: "100vh" }}>
       <Box
         sx={{
           borderBottom: 1,
           borderColor: "divider",
+          display: "flex",
+          flexDirection: "row",
+          alignItems: "center",
+          justifyContent: "space-between",
+          px: 3,
         }}
       >
-        <Box
-          sx={{
-            display: "flex",
-            flexDirection: "row", // Change the flexDirection to "row" to make them appear in the same line
-            alignItems: "center", // Align items vertically in the center
-          }}
-        >
-          {!mealMenu && (
-            <Tabs
-              value={value}
-              onChange={handleChange}
-              classes={classes}
-              aria-label="basic tabs example"
-              variant="scrollable"
-              allowScrollButtonsMobile
-              sx={{ flex: 1 }} // Allow the Tabs component to take available space
-            >
-              <Tab label="North Mess" {...a11yProps(0)} />
-              <Tab label="South Mess" {...a11yProps(1)} />
-              <Tab label="Non Veg Kadamba" {...a11yProps(2)} />
-              <Tab label="Kadamba" {...a11yProps(3)} />
-              <Tab label="Yuktahar" {...a11yProps(4)} />
-            </Tabs>
-          )}
-          <FormControlLabel
-            control={
-              <IOSSwitch
-                checked={mealMenu}
-                onChange={() => setMealMenu(!mealMenu)}
-                inputProps={{ "aria-label": "controlled" }}
-                sx={{ marginLeft: "10px", marginRight: "10px" }}
-              />
-            }
-            label="Current meal"
-            labelPlacement="start"
-          />
-        </Box>
+        <FormControl variant="standard" sx={{ minWidth: 150 }}>
+          <InputLabel htmlFor="meal-menu">Select Menu</InputLabel>
+          <Select
+            value={mealMenu}
+            onChange={handleChange}
+            label="Select Menu"
+            inputProps={{ id: "meal-menu" }}
+          >
+            <MenuItem value="Full Menu">Full Menu</MenuItem>
+            <MenuItem value="Today Menu">Today Menu</MenuItem>
+            <MenuItem value="Upcoming Meal">Upcoming Meal</MenuItem>
+          </Select>
+        </FormControl>
 
-        {/* Print Last updated date to right */}
-        <div style={{ float: "right", marginRight: "10px", marginTop: "10px" }}>
+        {/* Print Last updated date and WEF date */}
+        <div style={{ fontSize: "12px" }}>
           Last Updated: {messFiles[value]?.lastUpdated}
         </div>
-        {/* Print wef date to right */}
-        <div style={{ float: "right", marginRight: "10px", marginTop: "10px" }}>
-          WEF: {messFiles[value]?.wef}
-        </div>
+        <div
+          style={{ fontSize: "12px" }}
+        >{`WEF: ${messFiles[value]?.wef}`}</div>
       </Box>
 
-      {mealMenu ? (
-        <CurrentMeal meal={messFiles} />
-      ) : (
+      {mealMenu === "Full Menu" && (
         <div>
-          <TabPanel mealMenu={mealMenu} value={value} index={0}></TabPanel>
-          <TabPanel mealMenu={mealMenu} value={value} index={1}>
+          <BasicTabs
+            value={value}
+            onChange={(event, newValue) => setValue(newValue)}
+          />
+          <TabPanel value={value} index={0}></TabPanel>
+          <TabPanel value={value} index={1}>
             Item Two
           </TabPanel>
-          <TabPanel mealMenu={mealMenu} value={value} index={2}>
+          <TabPanel value={value} index={2}>
             Item Three
           </TabPanel>
-          <TabPanel mealMenu={mealMenu} value={value} index={3}>
+          <TabPanel value={value} index={3}>
             Item Four
           </TabPanel>
-          <TabPanel mealMenu={mealMenu} value={value} index={4}>
+          <TabPanel value={value} index={4}>
             Item Five
           </TabPanel>
         </div>
       )}
 
-      {/* Add additional info if any right below the table */}
-      {messFiles[value] && (
+      {mealMenu === "Today Menu" && (
         <div>
-          <div style={{ float: "left", marginLeft: "10px", marginTop: "10px" }}>
-            <b>Additional Info:</b>
-            <ul>
-              {messFiles[value].additionalInfo.map((item) => (
-                <li>{item}</li>
-              ))}
-            </ul>
-          </div>
+          <Box sx={{ px: 3, py: 2 }}>
+            <h1>Coming Soon!</h1>
+          </Box>
         </div>
       )}
-      {/* Add copyright and source at the bottom */}
+
+      {mealMenu === "Upcoming Meal" && (
+        <div>
+          <CurrentMeal meal={messFiles} />
+        </div>
+      )}
+
+      {/* Additional Info */}
+      {messFiles[value] && (
+        <div style={{ float: "left", marginLeft: "10px", marginTop: "10px" }}>
+          <b>Additional Info:</b>
+          <ul>
+            {messFiles[value].additionalInfo.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {/* Copyright and Source */}
       <div
         style={{
           position: "fixed",
