@@ -10,16 +10,20 @@ import Select from "@mui/material/Select";
 import FormControl from "@mui/material/FormControl";
 import InputLabel from "@mui/material/InputLabel";
 
+// SWAL
+import Swal from "sweetalert2";
+
 // import json
 import NorthMess from "./menus/northmess.json";
 import SouthMess from "./menus/southmess.json";
 import Kadamba from "./menus/kadamba.json";
 import Yuktahar from "./menus/yuktahar.json";
 
-import MyTable from "./components/MyTable";
+import MyTable from "./components/FullMealTable";
 import CurrentMeal from "./components/currentMealTable";
 
 import ReactGA from "react-ga4";
+import TodayMealTable from "./components/TodayMealTable";
 
 const messFiles = [
   NorthMess, // North Mess
@@ -108,6 +112,18 @@ function App() {
   const [mealMenu, setMealMenu] = React.useState("Today Menu");
 
   useEffect(() => {
+    // Check if they are opening for the first time
+    const firstTimeVisited = localStorage.getItem("firstTimeV1");
+    if (!firstTimeVisited) {
+      Swal.fire({
+        title: "Welcome to IIIT Mess Menu!",
+        text: "This is a new version of the app. Now it allows you to check Only Today's menu or only the upcoming meal. Also loads much much faster",
+        icon: "info",
+        confirmButtonText: "OK",
+      });
+      localStorage.setItem("firstTimeV1", "true");
+    }
+
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });
 
     // Check if mealMenu is saved in localStorage
@@ -169,12 +185,16 @@ function App() {
         </FormControl>
 
         {/* Print Last updated date and WEF date */}
-        <div style={{ fontSize: "12px" }}>
-          Last Updated: {messFiles[value]?.lastUpdated}
-        </div>
-        <div
-          style={{ fontSize: "12px" }}
-        >{`WEF: ${messFiles[value]?.wef}`}</div>
+        {mealMenu === "Full Menu" && (
+          <div style={{ fontSize: "12px" }}>
+            Last Updated: {messFiles[value]?.lastUpdated}
+          </div>
+        )}
+        {mealMenu === "Full Menu" && (
+          <div
+            style={{ fontSize: "12px" }}
+          >{`WEF: ${messFiles[value]?.wef}`}</div>
+        )}
       </Box>
 
       {mealMenu === "Full Menu" && (
@@ -201,9 +221,7 @@ function App() {
 
       {mealMenu === "Today Menu" && (
         <div>
-          <Box sx={{ px: 3, py: 2 }}>
-            <h1>Coming Soon!</h1>
-          </Box>
+          <TodayMealTable menu={messFiles} />
         </div>
       )}
 

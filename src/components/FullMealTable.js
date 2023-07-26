@@ -1,7 +1,15 @@
 import React from "react";
-import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from "@mui/material";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableContainer,
+  TableHead,
+  TableRow,
+  Paper,
+} from "@mui/material";
 
-const MealPlanTable = ({ menu }) => {
+const FullMealTable = ({ menu }) => {
   const days = Object.keys(menu.Days);
   const meals = Object.keys(menu.Days[days[0]]);
 
@@ -9,9 +17,9 @@ const MealPlanTable = ({ menu }) => {
     <TableContainer component={Paper}>
       <Table>
         <TableHead>
-          <TableRow>
-            <TableCell>Meal</TableCell>
-            <TableCell>Items</TableCell>
+          <TableRow key={0}>
+            <TableCell key={1}>Meal</TableCell>
+            <TableCell key={2}>Items</TableCell>
             {days.map((day) => (
               <TableCell key={day}>{day}</TableCell>
             ))}
@@ -23,13 +31,17 @@ const MealPlanTable = ({ menu }) => {
               {Object.keys(menu.Days["Monday"][meal]).map((item, index) => (
                 <TableRow key={item}>
                   {index === 0 && (
-                    <TableCell rowSpan={Object.keys(menu.Days["Monday"][meal]).length}>
+                    <TableCell
+                      rowSpan={Object.keys(menu.Days["Monday"][meal]).length}
+                    >
                       {meal}
                     </TableCell>
                   )}
                   <TableCell>{item}</TableCell>
                   {days.map((day) => (
-                    <TableCell key={day}>{menu.Days[day][meal][item]}</TableCell>
+                    <TableCell key={day}>
+                      {menu.Days[day][meal][item]}
+                    </TableCell>
                   ))}
                 </TableRow>
               ))}
@@ -41,4 +53,4 @@ const MealPlanTable = ({ menu }) => {
   );
 };
 
-export default MealPlanTable;
+export default FullMealTable;
