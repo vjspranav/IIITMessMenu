@@ -38,8 +38,6 @@ const CurrentMeal = ({ meal }) => {
     let tMeal = "Breakfast";
     setDay(day);
 
-    console.log(time);
-
     if (time < 10) {
       tMeal = "Breakfast";
     } else if (time < 15) {
@@ -67,7 +65,6 @@ const CurrentMeal = ({ meal }) => {
 
     // Populate items, meals[mess]["Days"][day][meal]
     [NORTHMESS, SOUTHMESS, KADAMBA, YUKTAHAR].forEach((cMess) => {
-      console.log(cMess);
       for (let item in meal[cMess]["Days"][day][tMeal]) {
         items[cMess].push(meal[cMess]["Days"][day][tMeal][item]);
       }
@@ -81,10 +78,7 @@ const CurrentMeal = ({ meal }) => {
     });
 
     setItems(items);
-    console.log(items);
   }, [meal, maxItems]);
-
-  console.log(day, meal, items);
 
   return (
     <div>

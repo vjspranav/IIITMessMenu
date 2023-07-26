@@ -15,6 +15,8 @@ import Swal from "sweetalert2";
 
 // Dark Theme Icon Switch
 import IconSwitch from "./components/IconSwitch";
+import { ThemeProvider, createTheme } from "@mui/material/styles";
+import CssBaseline from "@mui/material/CssBaseline";
 
 // import json
 import NorthMess from "./menus/northmess.json";
@@ -123,7 +125,7 @@ function App() {
     if (!firstTimeVisited) {
       Swal.fire({
         title: "Welcome to IIIT Mess Menu!",
-        text: "This is a new version of the app. Now it allows you to check Only Today's menu or only the upcoming meal. Also loads much much faster",
+        text: "This is a new version of the app. Now it allows you to check Only Today's menu or only the upcoming meal. Now with Dark theme!.",
         icon: "info",
         confirmButtonText: "OK",
       });
@@ -178,130 +180,148 @@ function App() {
     });
   };
 
+  const darkTheme = createTheme({
+    palette: {
+      mode: "dark",
+    },
+  });
+
+  const lightTheme = createTheme({
+    palette: {
+      mode: "light",
+    },
+  });
+
   return (
-    <Box sx={{ width: "100vw", height: "100vh" }}>
-      <Box
-        sx={{
-          borderBottom: 1,
-          borderColor: "divider",
-          display: "flex",
-          flexDirection: "row",
-          alignItems: "center",
-          justifyContent: "space-between",
-          px: 3,
-        }}
-      >
-        <FormControl variant="standard" sx={{ minWidth: 150 }}>
-          <InputLabel htmlFor="meal-menu">Select Menu</InputLabel>
-          <Select
-            value={mealMenu}
-            onChange={handleChange}
-            label="Select Menu"
-            inputProps={{ id: "meal-menu" }}
-          >
-            <MenuItem value="Full Menu">Full Menu</MenuItem>
-            <MenuItem value="Today Menu">Today Menu</MenuItem>
-            <MenuItem value="Upcoming Meal">Upcoming Meal</MenuItem>
-          </Select>
-        </FormControl>
+    <ThemeProvider theme={darkMode ? darkTheme : lightTheme}>
+      <CssBaseline />
+      <Box sx={{ width: "100vw", height: "100vh" }}>
         <Box
           sx={{
+            borderBottom: 1,
+            borderColor: "divider",
             display: "flex",
+            flexDirection: "row",
             alignItems: "center",
-            justifyContent: "flex-end",
+            justifyContent: "space-between",
             px: 3,
           }}
         >
-          <IconSwitch isDark={darkMode} onToggle={handleChangeTheme} />
+          <FormControl variant="standard" sx={{ minWidth: 150 }}>
+            <InputLabel htmlFor="meal-menu">Select Menu</InputLabel>
+            <Select
+              value={mealMenu}
+              onChange={handleChange}
+              label="Select Menu"
+              inputProps={{ id: "meal-menu" }}
+            >
+              <MenuItem value="Full Menu">Full Menu</MenuItem>
+              <MenuItem value="Today Menu">Today Menu</MenuItem>
+              <MenuItem value="Upcoming Meal">Upcoming Meal</MenuItem>
+            </Select>
+          </FormControl>
+
+          {/* Print Last updated date and WEF date */}
+          {mealMenu === "Full Menu" && (
+            <div style={{ fontSize: "12px" }}>
+              Last Updated: {messFiles[value]?.lastUpdated}
+            </div>
+          )}
+          {mealMenu === "Full Menu" && (
+            <div
+              style={{ fontSize: "12px" }}
+            >{`WEF: ${messFiles[value]?.wef}`}</div>
+          )}
+
+          <Box
+            sx={{
+              display: "flex",
+              alignItems: "center",
+              justifyContent: "flex-end",
+              px: 3,
+            }}
+          >
+            <IconSwitch isDark={darkMode} onToggle={handleChangeTheme} />
+          </Box>
         </Box>
 
-        {/* Print Last updated date and WEF date */}
         {mealMenu === "Full Menu" && (
-          <div style={{ fontSize: "12px" }}>
-            Last Updated: {messFiles[value]?.lastUpdated}
+          <div>
+            <BasicTabs
+              value={value}
+              onChange={(event, newValue) => setValue(newValue)}
+            />
+            <TabPanel value={value} index={0}></TabPanel>
+            <TabPanel value={value} index={1}>
+              Item Two
+            </TabPanel>
+            <TabPanel value={value} index={2}>
+              Item Three
+            </TabPanel>
+            <TabPanel value={value} index={3}>
+              Item Four
+            </TabPanel>
+            <TabPanel value={value} index={4}>
+              Item Five
+            </TabPanel>
           </div>
         )}
-        {mealMenu === "Full Menu" && (
-          <div
-            style={{ fontSize: "12px" }}
-          >{`WEF: ${messFiles[value]?.wef}`}</div>
+
+        {mealMenu === "Today Menu" && (
+          <div>
+            <TodayMealTable menu={messFiles} />
+          </div>
         )}
-      </Box>
 
-      {mealMenu === "Full Menu" && (
-        <div>
-          <BasicTabs
-            value={value}
-            onChange={(event, newValue) => setValue(newValue)}
-          />
-          <TabPanel value={value} index={0}></TabPanel>
-          <TabPanel value={value} index={1}>
-            Item Two
-          </TabPanel>
-          <TabPanel value={value} index={2}>
-            Item Three
-          </TabPanel>
-          <TabPanel value={value} index={3}>
-            Item Four
-          </TabPanel>
-          <TabPanel value={value} index={4}>
-            Item Five
-          </TabPanel>
-        </div>
-      )}
+        {mealMenu === "Upcoming Meal" && (
+          <div>
+            <CurrentMeal meal={messFiles} />
+          </div>
+        )}
 
-      {mealMenu === "Today Menu" && (
-        <div>
-          <TodayMealTable menu={messFiles} />
-        </div>
-      )}
+        {/* Additional Info */}
+        {messFiles[value] && (
+          <div style={{ float: "left", marginLeft: "10px", marginTop: "10px" }}>
+            <b>Additional Info:</b>
+            <ul>
+              {messFiles[value].additionalInfo.map((item, index) => (
+                <li key={index}>{item}</li>
+              ))}
+            </ul>
+          </div>
+        )}
 
-      {mealMenu === "Upcoming Meal" && (
-        <div>
-          <CurrentMeal meal={messFiles} />
-        </div>
-      )}
-
-      {/* Additional Info */}
-      {messFiles[value] && (
-        <div style={{ float: "left", marginLeft: "10px", marginTop: "10px" }}>
-          <b>Additional Info:</b>
-          <ul>
-            {messFiles[value].additionalInfo.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        </div>
-      )}
-
-      {/* Copyright and Source */}
-      <div
-        style={{
-          position: "fixed",
-          bottom: "0",
-          width: "100%",
-          textAlign: "center",
-          fontSize: "15px",
-          backgroundColor: "#f5f5f5",
-          borderRadius: "5px",
-          paddingBottom: "5px",
-        }}
-      >
-        <div style={{ float: "left", marginLeft: "10px", marginTop: "10px" }}>
-          © 2023, vjspranav
-        </div>
-        <div style={{ float: "right", marginRight: "10px", marginTop: "10px" }}>
-          Source:{" "}
-          <a
-            href="https://github.com/vjspranav/IIITMessMenu/"
-            target="_blank"
-            rel="noreferrer"
+        {/* Copyright and Source */}
+        <div
+          style={{
+            position: "fixed",
+            bottom: "0",
+            width: "100%",
+            textAlign: "center",
+            fontSize: "15px",
+            backgroundColor: "#f5f5f5",
+            borderRadius: "5px",
+            paddingBottom: "5px",
+          }}
+        >
+          <div style={{ float: "left", marginLeft: "10px", marginTop: "10px" }}>
+            © 2023, vjspranav
+          </div>
+          <div
+            style={{ float: "right", marginRight: "10px", marginTop: "10px" }}
           >
-            Github
-          </a>
+            Source:{" "}
+            <a
+              href="https://github.com/vjspranav/IIITMessMenu/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github
+            </a>
+          </div>
         </div>
-      </div>
-    </Box>
+      </Box>
+    </ThemeProvider>
   );
 }
 
