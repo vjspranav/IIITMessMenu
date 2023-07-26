@@ -36,6 +36,8 @@ const TodayMealTable = ({ menu }) => {
   });
 
   useEffect(() => {
+    const menuCopy = JSON.parse(JSON.stringify(menu));
+
     // Get today's day and time and decide day and meal
     let today = DAYS[new Date().getDay()];
     let time = new Date().getHours();
@@ -49,10 +51,10 @@ const TodayMealTable = ({ menu }) => {
 
     // Get today's menu for all messes
     const todayMess = {
-      NORTHMESS: menu[NORTHMESS].Days[today],
-      SOUTHMESS: menu[SOUTHMESS].Days[today],
-      KADAMBA: menu[KADAMBA].Days[today],
-      YUKTAHAR: menu[YUKTAHAR].Days[today],
+      NORTHMESS: menuCopy[NORTHMESS].Days[today],
+      SOUTHMESS: menuCopy[SOUTHMESS].Days[today],
+      KADAMBA: menuCopy[KADAMBA].Days[today],
+      YUKTAHAR: menuCopy[YUKTAHAR].Days[today],
     };
 
     // Convert each meal to array of items

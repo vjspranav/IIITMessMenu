@@ -9,13 +9,35 @@ import {
   Paper,
 } from "@mui/material";
 
+import { makeStyles } from "@mui/styles";
+
+const useStyles = makeStyles((theme) => ({
+  customTable: {
+    borderCollapse: "collapse",
+    "& th, td": {
+      border: `1px solid ${theme.palette.divider}`,
+      padding: theme.spacing(1),
+    },
+    "& th": {
+      fontWeight: "bold",
+      // backgroundColor: theme.palette.primary.main, // Customize the background color of the header row
+      // color: theme.palette.common.white, // Customize the text color of the header row
+    },
+  },
+  customCell: {
+    fontWeight: "bold",
+  },
+}));
+
 const FullMealTable = ({ menu }) => {
+  const classes = useStyles();
+
   const days = Object.keys(menu.Days);
   const meals = Object.keys(menu.Days[days[0]]);
 
   return (
     <TableContainer component={Paper}>
-      <Table>
+      <Table className={classes.customTable}>
         <TableHead>
           <TableRow key={0}>
             <TableCell key={1}>Meal</TableCell>
@@ -32,6 +54,7 @@ const FullMealTable = ({ menu }) => {
                 <TableRow key={item}>
                   {index === 0 && (
                     <TableCell
+                      className={classes.customCell}
                       rowSpan={Object.keys(menu.Days["Monday"][meal]).length}
                     >
                       {meal}
