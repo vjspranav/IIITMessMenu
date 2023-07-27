@@ -115,7 +115,7 @@ function App() {
   ReactGA.initialize(TRACKING_ID);
 
   // Add a state to handle the theme mode
-  const [darkMode, setDarkMode] = React.useState(false);
+  const [darkMode, setDarkMode] = React.useState(true);
 
   const [value, setValue] = React.useState(0);
   const [mealMenu, setMealMenu] = React.useState("Today Menu");
