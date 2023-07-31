@@ -22,19 +22,21 @@ import CssBaseline from "@mui/material/CssBaseline";
 import NorthMess from "./menus/northmess.json";
 import SouthMess from "./menus/southmess.json";
 import Kadamba from "./menus/kadamba.json";
+import KNonVeg from "./menus/kadambanonveg.json";
 import Yuktahar from "./menus/yuktahar.json";
 
 import MyTable from "./components/FullMealTable";
+import KadambaNonVeg from "./components/KadambaNonVeg";
 import CurrentMeal from "./components/currentMealTable";
+import TodayMealTable from "./components/TodayMealTable";
 
 import ReactGA from "react-ga4";
-import TodayMealTable from "./components/TodayMealTable";
 import { Link, Typography } from "@mui/material";
 
 const messFiles = [
   NorthMess, // North Mess
   SouthMess, // South Mess
-  null, // Non Veg Kadamba
+  KNonVeg, // Non Veg Kadamba
   Kadamba, // Kadamba
   Yuktahar, // Yuktahar
 ];
@@ -50,11 +52,11 @@ function TabPanel(props) {
       aria-labelledby={`simple-tab-${index}`}
       {...other}
     >
-      {messFiles[value] ? (
+      {value !== 2 ? (
         <MyTable menu={messFiles[value]} darkMode={darkMode} />
       ) : (
         <div style={{ textAlign: "center", marginTop: "20px" }}>
-          <h1>Coming Soon!</h1>
+          <KadambaNonVeg darkMode={darkMode} />
         </div>
       )}
     </div>
@@ -299,7 +301,7 @@ function App() {
         )}
 
         {/* Additional Info */}
-        {messFiles[value] && mealMenu === "Full Menu" && (
+        {messFiles[value]?.additionalInfo && mealMenu === "Full Menu" && (
           <div
             style={{
               float: "left",
@@ -310,7 +312,7 @@ function App() {
           >
             <b>Additional Info:</b>
             <ul>
-              {messFiles[value].additionalInfo.map((item, index) => (
+              {messFiles[value].additionalInfo?.map((item, index) => (
                 <li key={index}>{item}</li>
               ))}
             </ul>
