@@ -36,11 +36,16 @@ const FullMealTable = ({ menu }) => {
   const meals = Object.keys(menu.Days[days[0]]);
 
   return (
-    <TableContainer component={Paper}>
-      <Table className={classes.customTable}>
+    <TableContainer component={Paper} sx={{ height: "60vh" }}>
+      <Table stickyHeader className={classes.customTable}>
         <TableHead>
           <TableRow key={0}>
-            <TableCell key={1}>Meal</TableCell>
+            <TableCell
+              key={1}
+              style={{ position: "sticky", left: 0, zIndex: 100 }}
+            >
+              Meal
+            </TableCell>
             <TableCell key={2}>Items</TableCell>
             {days.map((day) => (
               <TableCell key={day}>{day}</TableCell>
@@ -56,6 +61,11 @@ const FullMealTable = ({ menu }) => {
                     <TableCell
                       className={classes.customCell}
                       rowSpan={Object.keys(menu.Days["Monday"][meal]).length}
+                      style={{
+                        position: "sticky",
+                        left: 0,
+                        background: "#121212",
+                      }}
                     >
                       {meal}
                     </TableCell>
