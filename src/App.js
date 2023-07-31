@@ -209,7 +209,7 @@ function App() {
             px: 3,
           }}
         >
-          <FormControl variant="standard" sx={{ minWidth: 150 }}>
+          <FormControl variant="standard" sx={{ minWidth: 100 }}>
             <InputLabel htmlFor="meal-menu">Select Menu</InputLabel>
             <Select
               value={mealMenu}
@@ -224,7 +224,7 @@ function App() {
           </FormControl>
 
           {/* Print Last updated date and WEF date */}
-          {mealMenu === "Full Menu" && (
+          {/* {mealMenu === "Full Menu" && (
             <div style={{ fontSize: "12px" }}>
               Last Updated: {messFiles[value]?.lastUpdated}
             </div>
@@ -233,6 +233,31 @@ function App() {
             <div
               style={{ fontSize: "12px" }}
             >{`WEF: ${messFiles[value]?.wef}`}</div>
+          )} */}
+          {mealMenu === "Full Menu" &&
+          messFiles[value]?.lastUpdated === messFiles[value]?.wef ? (
+            <div
+              style={{
+                margin: "10px",
+                marginTop: "20px",
+                fontSize: "12px",
+                fontFamily: "Arial, sans-serif",
+              }}
+            >
+              Updated & WEF: {messFiles[value]?.lastUpdated}
+            </div>
+          ) : (
+            <div
+              style={{
+                margin: "10px",
+                marginTop: "20px",
+                fontSize: "12px",
+                fontFamily: "Arial, sans-serif",
+              }}
+            >
+              Updated: {messFiles[value]?.lastUpdated} | WEF:
+              {messFiles[value]?.wef}
+            </div>
           )}
 
           <Box
