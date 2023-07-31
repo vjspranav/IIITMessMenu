@@ -1,0 +1,224 @@
+{
+    "Days": {
+        "Monday": {
+            "Breakfast": {
+                "Item 1": "Aloo Palak Paratha/Methi\nParatha",
+                "Item 2": "Aloo Bonda",
+                "Accompaniants": "Tomato chutney",
+                "Mandatory Items": "Bread/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
+                "Fruits": "Pineapple"
+            },
+            "Lunch": {
+                "Sweet /Special\nDish": "Aloo tikki",
+                "Wet Curry": "Rajma Masala",
+                "Dry Curry": "Karela Fry",
+                "Dal": "Toor dal",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "",
+                "Accompaniants": "Chapati/Curd/\nPickle/Salad"
+            },
+            "Snack": {
+                "Item": "Noodles",
+                "Bevearge": "Tea"
+            },
+            "Dinner": {
+                "Sweet /Special": "Plain Paratha",
+                "Wet Curry": "Gobhi Matar",
+                "Dry Curry": "Bhindi",
+                "Dal": "Dal Makhani",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "",
+                "Accompaniants": "Chapati/Curd/Pickle"
+            }
+        },
+        "Tuesday": {
+            "Breakfast": {
+                "Item 1": "Veg Cutlet",
+                "Item 2": "POHA",
+                "Accompaniants": "Green chutney,achar, SEV",
+                "Mandatory Items": "Bread/ Toast/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
+                "Fruits": "BANANA"
+            },
+            "Lunch": {
+                "Sweet /Special\nDish": "Besan Laddu/Semiya Kheer",
+                "Wet Curry": "kala channa",
+                "Dry Curry": "Aloo Pyaaz",
+                "Dal": "Daal Batti",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "",
+                "Accompaniants": "Chapati/Curd/\nPickle/Salad"
+            },
+            "Snack": {
+                "Item": "Aloo Sandwich",
+                "Bevearge": "Tea"
+            },
+            "Dinner": {
+                "Sweet /Special": "",
+                "Wet Curry": "Kadhai Paneer",
+                "Dry Curry": "Cabbage Mix",
+                "Dal": "Masoor Dal",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "",
+                "Accompaniants": "Chapati/Curd/Pickle/Salad"
+            }
+        },
+        "Wednesday": {
+            "Breakfast": {
+                "Item 1": "Bedmi Puri",
+                "Item 2": "Daliya/oats",
+                "Accompaniants": "Aloo Sabji",
+                "Mandatory Items": "Bread/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
+                "Fruits": "Grape Juice"
+            },
+            "Lunch": {
+                "Sweet /Special\nDish": "",
+                "Wet Curry": "Paneer Do Pyaza",
+                "Dry Curry": "Lauki Sabzi",
+                "Dal": "Chane Ki Daal",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "",
+                "Accompaniants": "Chapati/Curd/Pickle"
+            },
+            "Snack": {
+                "Item": "Mirchi-Bhaji",
+                "Bevearge": "Tea"
+            },
+            "Dinner": {
+                "Sweet /Special": "Aloo paratha",
+                "Wet Curry": "Green Cutney",
+                "Dry Curry": "Tomato Laungi",
+                "Dal": "Aloo Tomato",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "",
+                "Accompaniants": "Chapati/Curd/Pickle"
+            }
+        },
+        "Thursday": {
+            "Breakfast": {
+                "Item 1": "Mooli Paratha",
+                "Item 2": "Veg Upma",
+                "Accompaniants": "Tomato chutney",
+                "Mandatory Items": "Bread/ Toast/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
+                "Fruits": "Papaya"
+            },
+            "Lunch": {
+                "Sweet /Special\nDish": "Boondi Raita",
+                "Wet Curry": "Chola Masala/Palak puri",
+                "Dry Curry": "Mix Veg",
+                "Dal": "Toor Dal",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "",
+                "Accompaniants": "Chapati/Curd/\nPickle/Salad"
+            },
+            "Snack": {
+                "Item": "Bhel puri",
+                "Bevearge": "Tea"
+            },
+            "Dinner": {
+                "Sweet /Special": "Suji Halwa",
+                "Wet Curry": "",
+                "Dry Curry": "Aloo Methi",
+                "Dal": "Panchmel Dal",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "Veg Pulao",
+                "Accompaniants": "Chapati/Curd/Pickle"
+            }
+        },
+        "Friday": {
+            "Breakfast": {
+                "Item 1": "Khasta kachori",
+                "Item 2": "Aloo-Mayo Sandwich",
+                "Accompaniants": "Aloo sabzi",
+                "Mandatory Items": "Bread/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
+                "Fruits": "Banana"
+            },
+            "Lunch": {
+                "Sweet /Special\nDish": "Dahi Bhalla/Imli\nChutney",
+                "Wet Curry": "Kofta Curry",
+                "Dry Curry": "Aloo Tomato",
+                "Dal": "Mansoor Dal Tadka",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "White Rice",
+                "Accompaniants": "Chapati/Curd/\nPickle/Salad"
+            },
+            "Snack": {
+                "Item": "Macroni",
+                "Bevearge": "Tea"
+            },
+            "Dinner": {
+                "Sweet /Special": "Jalebi",
+                "Wet Curry": "Dum aloo",
+                "Dry Curry": "Soyabean",
+                "Dal": "Palak Dal",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "",
+                "Accompaniants": "Chapati/Curd/Pickle"
+            }
+        },
+        "Saturday": {
+            "Breakfast": {
+                "Item 1": "Gobi paratha",
+                "Item 2": "Vermicelli(Sewai)",
+                "Accompaniants": "GREEN CHUTNEY+\nAchar",
+                "Mandatory Items": "Bread/Toast/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
+                "Fruits": "Melon"
+            },
+            "Lunch": {
+                "Sweet /Special\nDish": "",
+                "Wet Curry": "Ramas/Khoya Matar",
+                "Dry Curry": "Kundru",
+                "Dal": "Dal Makhani",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "Jeera Rice",
+                "Accompaniants": "Chapati/Curd/\nPickle/Salad"
+            },
+            "Snack": {
+                "Item": "Mix Pakoda",
+                "Bevearge": "Tea"
+            },
+            "Dinner": {
+                "Sweet /Special": "Gulab Jamun",
+                "Wet Curry": "Cholla Bhatura",
+                "Dry Curry": "Mattar Pullav",
+                "Dal": "Dalcha",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "",
+                "Accompaniants": "Chapati/Curd/Pickle"
+            }
+        },
+        "Sunday": {
+            "Breakfast": {
+                "Item 1": "Samosa",
+                "Item 2": "Macroni",
+                "Accompaniants": "Chutney/ACHHAR",
+                "Mandatory Items": "BreadButter/Jam, Cornflakes, Milk/Tea/Coffee",
+                "Fruits": "WATER MELON"
+            },
+            "Lunch": {
+                "Sweet /Special\nDish": "FRUIT CUSTARD",
+                "Wet Curry": "Aloo Matar",
+                "Dry Curry": "Veg Biryani",
+                "Dal": "Toor dal Tadka",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "Mirch ka Salan, Paapad",
+                "Accompaniants": "Chapati/Curd/\nPickle/Salad"
+            },
+            "Snack": {
+                "Item": "Dabeli/Chana Chat",
+                "Bevearge": "Tea"
+            },
+            "Dinner": {
+                "Sweet /Special": "Plain Paratha",
+                "Wet Curry": "pumpkin",
+                "Dry Curry": "Paneer Butter Masal",
+                "Dal": "Mix Dal",
+                "Steam Rice": "Steam Rice",
+                "Flavoured Rice": "",
+                "Accompaniants": "Chapati/Curd/Pickle"
+            }
+        }
+    },
+    "lastUpdated": "05/11/2022",
+    "wef": "07/11/2022",
+    "additionalInfo": []
+}
