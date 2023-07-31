@@ -237,30 +237,30 @@ function App() {
             >{`WEF: ${messFiles[value]?.wef}`}</div>
           )} */}
           {mealMenu === "Full Menu" &&
-          messFiles[value]?.lastUpdated === messFiles[value]?.wef ? (
-            <div
-              style={{
-                margin: "10px",
-                marginTop: "20px",
-                fontSize: "12px",
-                fontFamily: "Arial, sans-serif",
-              }}
-            >
-              Updated & WEF: {messFiles[value]?.lastUpdated}
-            </div>
-          ) : (
-            <div
-              style={{
-                margin: "10px",
-                marginTop: "20px",
-                fontSize: "12px",
-                fontFamily: "Arial, sans-serif",
-              }}
-            >
-              Updated: {messFiles[value]?.lastUpdated} | WEF:
-              {messFiles[value]?.wef}
-            </div>
-          )}
+            (messFiles[value]?.lastUpdated === messFiles[value]?.wef ? (
+              <div
+                style={{
+                  margin: "10px",
+                  marginTop: "20px",
+                  fontSize: "12px",
+                  fontFamily: "Arial, sans-serif",
+                }}
+              >
+                Updated & WEF: {messFiles[value]?.lastUpdated}
+              </div>
+            ) : (
+              <div
+                style={{
+                  margin: "10px",
+                  marginTop: "20px",
+                  fontSize: "12px",
+                  fontFamily: "Arial, sans-serif",
+                }}
+              >
+                Updated: {messFiles[value]?.lastUpdated} | WEF:
+                {messFiles[value]?.wef}
+              </div>
+            ))}
 
           <Box
             sx={{
