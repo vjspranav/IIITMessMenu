@@ -29,7 +29,7 @@ const useStyles = makeStyles((theme) => ({
   },
 }));
 
-const FullMealTable = ({ menu }) => {
+const FullMealTable = ({ menu, darkMode }) => {
   const classes = useStyles();
 
   const days = Object.keys(menu.Days);
@@ -42,19 +42,35 @@ const FullMealTable = ({ menu }) => {
           <TableRow key={0}>
             <TableCell
               key={1}
-              style={{ position: "sticky", left: 0, zIndex: 100 }}
+              style={{
+                position: "sticky",
+                left: 0,
+                zIndex: 100,
+                background: darkMode ? "#121212" : "#f5f5f5",
+              }}
             >
               Meal
             </TableCell>
-            <TableCell key={2}>Items</TableCell>
+            <TableCell
+              style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+              key={2}
+            >
+              Items
+            </TableCell>
             {days.map((day) => (
-              <TableCell key={day}>{day}</TableCell>
+              <TableCell
+                style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+                key={day}
+              >
+                {day}
+              </TableCell>
             ))}
           </TableRow>
         </TableHead>
         <TableBody>
           {meals.map((meal) => (
-            <>
+            <React.Fragment key={meal}>
+              {/* Add key to the outer Fragment */}
               {Object.keys(menu.Days["Monday"][meal]).map((item, index) => (
                 <TableRow key={item}>
                   {index === 0 && (
@@ -64,7 +80,7 @@ const FullMealTable = ({ menu }) => {
                       style={{
                         position: "sticky",
                         left: 0,
-                        background: "#121212",
+                        background: darkMode ? "#121212" : "#f5f5f5",
                       }}
                     >
                       {meal}
@@ -78,7 +94,7 @@ const FullMealTable = ({ menu }) => {
                   ))}
                 </TableRow>
               ))}
-            </>
+            </React.Fragment>
           ))}
         </TableBody>
       </Table>

@@ -8,6 +8,25 @@ import {
   TableRow,
   Paper,
 } from "@mui/material";
+import { makeStyles } from "@mui/styles";
+
+const useStyles = makeStyles((theme) => ({
+  customTable: {
+    borderCollapse: "collapse",
+    "& th, td": {
+      border: `1px solid ${theme.palette.divider}`,
+      padding: theme.spacing(1),
+    },
+    "& th": {
+      fontWeight: "bold",
+      // backgroundColor: theme.palette.primary.main, // Customize the background color of the header row
+      // color: theme.palette.common.white, // Customize the text color of the header row
+    },
+  },
+  customCell: {
+    fontWeight: "bold",
+  },
+}));
 
 const DAYS = [
   "Sunday",
@@ -24,7 +43,9 @@ const SOUTHMESS = 1;
 const KADAMBA = 3;
 const YUKTAHAR = 4;
 
-const TodayMealTable = ({ menu }) => {
+const TodayMealTable = ({ menu, darkMode }) => {
+  const classes = useStyles();
+
   const [day, setDay] = useState("");
   const [todayMess, setTodayMess] = useState(null);
 
@@ -110,7 +131,14 @@ const TodayMealTable = ({ menu }) => {
     return Array.from(Array(maxMeals[mealType]), (_, i) => i).map((item) => (
       <TableRow key={item}>
         {item === 0 && (
-          <TableCell rowSpan={maxMeals[mealType]}>
+          <TableCell
+            rowSpan={maxMeals[mealType]}
+            style={{
+              position: "sticky",
+              left: 0,
+              background: darkMode ? "#121212" : "#f5f5f5",
+            }}
+          >
             {mealType.charAt(0).toUpperCase() + mealType.slice(1)}
           </TableCell>
         )}
@@ -125,16 +153,46 @@ const TodayMealTable = ({ menu }) => {
   return (
     <div>
       <h1>{day}</h1>
-      <TableContainer component={Paper}>
+      <TableContainer component={Paper} sx={{ height: "60vh" }}>
         {todayMess && (
-          <Table>
+          <Table stickyHeader className={classes.customTable}>
             <TableHead>
               <TableRow key={0}>
-                <TableCell key={1}>Meal</TableCell>
-                <TableCell key={2}>NorthMess</TableCell>
-                <TableCell key={3}>SouthMess</TableCell>
-                <TableCell key={4}>Kadamba</TableCell>
-                <TableCell key={5}>Yuktahar</TableCell>
+                <TableCell
+                  key={1}
+                  style={{
+                    position: "sticky",
+                    left: 0,
+                    zIndex: 100,
+                    background: darkMode ? "#121212" : "#f5f5f5",
+                  }}
+                >
+                  Meal
+                </TableCell>
+                <TableCell
+                  style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+                  key={2}
+                >
+                  NorthMess
+                </TableCell>
+                <TableCell
+                  style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+                  key={3}
+                >
+                  SouthMess
+                </TableCell>
+                <TableCell
+                  style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+                  key={4}
+                >
+                  Kadamba
+                </TableCell>
+                <TableCell
+                  style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+                  key={5}
+                >
+                  Yuktahar
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>

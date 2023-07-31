@@ -9,6 +9,26 @@ import {
   Paper,
 } from "@mui/material";
 
+import { makeStyles } from "@mui/styles";
+
+const useStyles = makeStyles((theme) => ({
+  customTable: {
+    borderCollapse: "collapse",
+    "& th, td": {
+      border: `1px solid ${theme.palette.divider}`,
+      padding: theme.spacing(1),
+    },
+    "& th": {
+      fontWeight: "bold",
+      // backgroundColor: theme.palette.primary.main, // Customize the background color of the header row
+      // color: theme.palette.common.white, // Customize the text color of the header row
+    },
+  },
+  customCell: {
+    fontWeight: "bold",
+  },
+}));
+
 const DAYS = [
   "Sunday",
   "Monday",
@@ -24,7 +44,9 @@ const SOUTHMESS = 1;
 const KADAMBA = 3;
 const YUKTAHAR = 4;
 
-const CurrentMeal = ({ meal }) => {
+const CurrentMeal = ({ meal, darkMode }) => {
+  const classes = useStyles();
+
   const [day, setDay] = useState("");
   const [curMeal, setCurMeal] = useState("");
   const [items, setItems] = useState([]);
@@ -86,14 +108,30 @@ const CurrentMeal = ({ meal }) => {
         {day} - {curMeal}
       </h1>
       {day && (
-        <TableContainer component={Paper}>
-          <Table>
+        <TableContainer component={Paper} sx={{ height: "60vh" }}>
+          <Table stickyHeader className={classes.customTable}>
             <TableHead>
               <TableRow>
-                <TableCell>North Mess</TableCell>
-                <TableCell>South Mess</TableCell>
-                <TableCell>Kadamba</TableCell>
-                <TableCell>Yuktahar</TableCell>
+                <TableCell
+                  style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+                >
+                  North Mess
+                </TableCell>
+                <TableCell
+                  style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+                >
+                  South Mess
+                </TableCell>
+                <TableCell
+                  style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+                >
+                  Kadamba
+                </TableCell>
+                <TableCell
+                  style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+                >
+                  Yuktahar
+                </TableCell>
               </TableRow>
             </TableHead>
             <TableBody>

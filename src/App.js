@@ -40,7 +40,7 @@ const messFiles = [
 ];
 
 function TabPanel(props) {
-  const { value, index, ...other } = props;
+  const { value, index, darkMode, ...other } = props;
 
   return (
     <div
@@ -51,7 +51,7 @@ function TabPanel(props) {
       {...other}
     >
       {messFiles[value] ? (
-        <MyTable menu={messFiles[value]} />
+        <MyTable menu={messFiles[value]} darkMode={darkMode} />
       ) : (
         <div style={{ textAlign: "center", marginTop: "20px" }}>
           <h1>Coming Soon!</h1>
@@ -93,14 +93,15 @@ function BasicTabs(props) {
       classes={classes}
       aria-label="basic tabs example"
       variant="scrollable"
+      key={value + "tabs"}
       // allowScrollButtonsMobile
-      centered
+      // centered
     >
-      <Tab label="North Mess" {...a11yProps(0)} />
-      <Tab label="South Mess" {...a11yProps(1)} />
-      <Tab label="Non Veg Kadamba" {...a11yProps(2)} />
-      <Tab label="Kadamba" {...a11yProps(3)} />
-      <Tab label="Yuktahar" {...a11yProps(4)} />
+      <Tab key="north" label="North Mess" {...a11yProps(0)} />
+      <Tab key="south" label="South Mess" {...a11yProps(1)} />
+      <Tab key="nonveg" label="Non Veg Kadamba" {...a11yProps(2)} />
+      <Tab key="kadamba" label="Kadamba" {...a11yProps(3)} />
+      <Tab key="yuktahar" label="Yuktahar" {...a11yProps(4)} />
     </Tabs>
   );
 }
@@ -252,28 +253,28 @@ function App() {
               value={value}
               onChange={(event, newValue) => setValue(newValue)}
             />
-            <TabPanel value={value} index={0}></TabPanel>
-            <TabPanel value={value} index={1}></TabPanel>
-            <TabPanel value={value} index={2}></TabPanel>
-            <TabPanel value={value} index={3}></TabPanel>
-            <TabPanel value={value} index={4}></TabPanel>
+            <TabPanel darkMode={darkMode} value={value} index={0}></TabPanel>
+            <TabPanel darkMode={darkMode} value={value} index={1}></TabPanel>
+            <TabPanel darkMode={darkMode} value={value} index={2}></TabPanel>
+            <TabPanel darkMode={darkMode} value={value} index={3}></TabPanel>
+            <TabPanel darkMode={darkMode} value={value} index={4}></TabPanel>
           </div>
         )}
 
         {mealMenu === "Today Menu" && (
           <div>
-            <TodayMealTable menu={messFiles} />
+            <TodayMealTable menu={messFiles} darkMode={darkMode} />
           </div>
         )}
 
         {mealMenu === "Upcoming Meal" && (
           <div>
-            <CurrentMeal meal={messFiles} />
+            <CurrentMeal meal={messFiles} darkMode={darkMode} />
           </div>
         )}
 
         {/* Additional Info */}
-        {messFiles[value] && (
+        {messFiles[value] && mealMenu === "Full Menu" && (
           <div
             style={{
               float: "left",
