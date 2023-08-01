@@ -65,7 +65,7 @@ const CurrentMeal = ({ meal, darkMode }) => {
     } else if (time < 15) {
       tMeal = "Lunch";
     } else if (time < 18) {
-      tMeal = "Snack";
+      tMeal = "Snacks";
     } else if (time < 22) {
       tMeal = "Dinner";
     } else {

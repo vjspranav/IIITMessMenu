@@ -3,26 +3,27 @@
         "Monday": {
             "Breakfast": {
                 "Item 1": "Poori",
-                "Item 2": "Semiya",
+                "Item 2": "Tomato bath",
                 "Accompaniants": "Aloo ki Bhaji",
                 "Beverages": "Tea, Coffee and Milk",
                 "Fruits": "Muskmelon/Pineapple"
             },
             "Lunch": {
                 "Wet Curry": "Rajma",
-                "Dry Curry": "Cabbage / Veg Jalfrez",
+                "Dry Curry": "Cabbage / Bhendi",
                 "Dal": "Sambar",
                 "Flavoured Rice": "Veg. Pulao",
                 "Plain Rice": "White Rice",
                 "Chutney": "Fresh Chutney",
                 "Accompaniants": "Phulka, Curd and Salad"
             },
-            "Snack": {
+            "Snacks": {
                 "Item": "Dahi Bhalla/ Sandwich",
+                "": "",
                 "Beverages": "Tea , Coffee and Milk"
             },
             "Dinner": {
-                "Wet Curry": "Beeroot Porial / Karela\nFry",
+                "Wet Curry": "Mix veg curry/Allo dum",
                 "Dry\nCurry/Special": "Soup",
                 "Dal": "Moong Dal",
                 "Steam Rice": "White Rice",
@@ -39,23 +40,24 @@
                 "Fruits": "Banana"
             },
             "Lunch": {
-                "Wet Curry": "Broad Beans & Thurai",
+                "Wet Curry": "Cluster Beans & Thurai",
                 "Dry Curry": "French Fries",
                 "Dal": "Masoor Daal",
                 "Flavoured Rice": "Millet Khichidi",
                 "Plain Rice": "White Rice",
                 "Chutney": "Fresh Chutney",
-                "Accompaniants": "Methi Phulka, Curd\n,Salad and Rasam"
+                "Accompaniants": "Methi Phulka, Curd\n,Salad and + Sweet"
             },
-            "Snack": {
+            "Snacks": {
                 "Item": "Papdi chat",
+                "": "",
                 "Beverages": "Tea, Coffee and Milk"
             },
             "Dinner": {
                 "Wet Curry": "Veg/ Gobi Manchurian",
                 "Dry\nCurry/Special": "Tomato Soup",
                 "Dal": "Moong Dal",
-                "Steam Rice": "White Rice & Fried\nRice",
+                "Steam Rice": "White Rice & Fried\nRice + Noodles",
                 "Chutney": "Fresh Chutney",
                 "Accompaniants": "Phulka, Curd and\nSalad"
             }
@@ -69,7 +71,7 @@
                 "Fruits": "Water Melon"
             },
             "Lunch": {
-                "Wet Curry": "Special Curry",
+                "Wet Curry": "Special Curry/Dal",
                 "Dry Curry": "",
                 "Dal": "Chole",
                 "Flavoured Rice": "Veg. Biryani",
@@ -77,13 +79,14 @@
                 "Chutney": "Fresh Chutney",
                 "Accompaniants": "Phulka, Curd, Raitha,\nSalad, Papad"
             },
-            "Snack": {
-                "Item": "Gunta Ponganalu",
+            "Snacks": {
+                "Item": "Gunta Ponganalu/\nAloo cutlet",
+                "": "Chutney",
                 "Beverages": "Tea , Coffee and Milk"
             },
             "Dinner": {
                 "Wet Curry": "Bhindi Jaipuri/\nBhendi Kurkure",
-                "Dry\nCurry/Special": "------------",
+                "Dry\nCurry/Special": "Special Paneer curry",
                 "Dal": "Pancharang Dal",
                 "Steam Rice": "White Rice & Tomato\nPulao",
                 "Chutney": "Fresh Chutney",
@@ -93,13 +96,13 @@
         "Thursday": {
             "Breakfast": {
                 "Item 1": "Uttapam",
-                "Item 2": "Veg. Upma",
+                "Item 2": "Semiya upma",
                 "Accompaniants": "Sambhar,Chutney",
                 "Beverages": "Tea, Coffee and Milk",
                 "Fruits": "Papaya"
             },
             "Lunch": {
-                "Wet Curry": "Gatte / Cluster Bean",
+                "Wet Curry": "Gatte / Beetroot/kofta",
                 "Dry Curry": "Sambhar",
                 "Dal": "Green Moong Dal",
                 "Flavoured Rice": "Jeera Rice",
@@ -107,12 +110,13 @@
                 "Chutney": "Fresh Chutney",
                 "Accompaniants": "Phulka, Curd and\nSalad"
             },
-            "Snack": {
+            "Snacks": {
                 "Item": "Samosa",
+                "": "Sauce",
                 "Beverages": "Tea , Coffee and Milk"
             },
             "Dinner": {
-                "Wet Curry": "Special Paneer",
+                "Wet Curry": "Aloo chokha",
                 "Dry\nCurry/Special": "Wheat -Lachha Paratha",
                 "Dal": "Toor Dal",
                 "Steam Rice": "White Rice",
@@ -129,7 +133,7 @@
                 "Fruits": "Banana"
             },
             "Lunch": {
-                "Wet Curry": "Mix Veg Paneer",
+                "Wet Curry": "Mix Veg Paneer/Arbi fry",
                 "Dry Curry": "Rasam",
                 "Dal": "Dal Makhani",
                 "Flavoured Rice": "Pulihora/ Lemon",
@@ -137,17 +141,18 @@
                 "Chutney": "Fresh Chutney",
                 "Accompaniants": "Phulka, Curd, Salad"
             },
-            "Snack": {
+            "Snacks": {
                 "Item": "Pav Bhaji/ Vada Pav",
+                "": "-",
                 "Beverages": "Tea , Coffee and Milk"
             },
             "Dinner": {
                 "Wet Curry": "Mailai Kofta Curry",
-                "Dry\nCurry/Special": "Lauki ka Sabji",
-                "Dal": "Tomato Dal",
+                "Dry\nCurry/Special": "Lauki ka Sabji/Pumpkin\nchana",
+                "Dal": "Tomato Dal/Dal triveni",
                 "Steam Rice": "White Rice",
                 "Chutney": "Fresh Chutney",
-                "Accompaniants": "Chapathi/ (Roomali -4th\nweek) , Curd and Salad"
+                "Accompaniants": "Double roti, Curd and\nSalad"
             }
         },
         "Saturday": {
@@ -160,21 +165,22 @@
             },
             "Lunch": {
                 "Wet Curry": "Khadi Pakodi",
-                "Dry Curry": "Aloo Baigan",
-                "Dal": "Chana Dal Tadka",
+                "Dry Curry": "Aloo Baigan/Allo methi",
+                "Dal": "Chana Dal/Gongura dal",
                 "Flavoured Rice": "Millet Khichidi",
                 "Plain Rice": "White Rice",
                 "Chutney": "Fresh Chutney",
-                "Accompaniants": "Palak Phulka, Curd,\nSalad"
+                "Accompaniants": "Palak Phulka, Curd, Salad"
             },
-            "Snack": {
+            "Snacks": {
                 "Item": "Pasta",
+                "": "Chutney",
                 "Beverages": "Tea , Coffee and Milk"
             },
             "Dinner": {
                 "Wet Curry": "Chole Bhature",
                 "Dry\nCurry/Special": "Spl Sweet",
-                "Dal": "Donda",
+                "Dal": "Donda/Dal fry",
                 "Steam Rice": "White Rice &\nBagara Pulao",
                 "Chutney": "Fresh Chutney",
                 "Accompaniants": "Curd, Raitha and Salad"
@@ -197,28 +203,22 @@
                 "Chutney": "Fresh Chutney",
                 "Accompaniants": "Curd, Raitha, Salad\nand Salan"
             },
-            "Snack": {
-                "Item": "Bhelpuri",
+            "Snacks": {
+                "Item": "Chewda",
+                "": "Chutney",
                 "Beverages": "Tea , Coffee and Milk"
             },
             "Dinner": {
-                "Wet Curry": "Gobhi Matar Gazar ka\nBhaji / Chamagadda\nFry",
-                "Dry\nCurry/Special": "Soyabeans masala",
-                "Dal": "Veg. Dal",
+                "Wet Curry": "Gobhi Matar Gazar ka\nBhaji / Chamagadda Fry",
+                "Dry\nCurry/Special": "Soyabeans\nmasala/Manchurian",
+                "Dal": "Veg. Dal/Dalma",
                 "Steam Rice": "Khichidi and White\nRice",
                 "Chutney": "Fresh Chutney",
                 "Accompaniants": "Triangle Chapathi, Curd\nand Salad"
             }
         }
     },
-    "lastUpdated": "01/02/2023",
-    "wef": "01/02/2023",
-    "additionalInfo": [
-        "Sweet & Paneer",
-        "Week 1: Gulab Jamun & Paneer Butter Masala",
-        "Week 2: Sweet Boondi & Mutter Paneer",
-        "Week 3: Jalebi & Palak Paneer",
-        "Week 4: Kala Jamoon",
-        "Week 5: Semiya Kheer"
-    ]
+    "lastUpdated": "01/08/2023",
+    "wef": "01/08/2023",
+    "additionalInfo": []
 }

@@ -129,7 +129,7 @@ const KadambaNonVeg = ({ darkMode }) => {
             </TableRow>
             <TableRow>
               <TableCell>Wednesday</TableCell>
-              <TableCell>Omlette</TableCell>
+              <TableCell>Boiled Egg</TableCell>
             </TableRow>
             <TableRow>
               <TableCell>Thursday</TableCell>
@@ -137,7 +137,7 @@ const KadambaNonVeg = ({ darkMode }) => {
             </TableRow>
             <TableRow>
               <TableCell>Friday</TableCell>
-              <TableCell>Boiled Egg</TableCell>
+              <TableCell>Omlette</TableCell>
             </TableRow>
             <TableRow>
               <TableCell>Saturday</TableCell>
@@ -182,7 +182,7 @@ const KadambaNonVeg = ({ darkMode }) => {
           <TableBody>
             <TableRow>
               <TableCell>Gongura Chicken Curry</TableCell>
-              <TableCell>Chilly Chicken</TableCell>
+              <TableCell>Chilly Manchurian</TableCell>
               <TableCell>Week-1 Egg Curry</TableCell>
             </TableRow>
             <TableRow>
@@ -192,18 +192,23 @@ const KadambaNonVeg = ({ darkMode }) => {
             </TableRow>
             <TableRow>
               <TableCell>Chicken Curry Home Style</TableCell>
-              <TableCell></TableCell>
+              <TableCell>Kerala Chicken</TableCell>
               <TableCell>Week-3 Egg Curry</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell></TableCell>
-              <TableCell></TableCell>
+              <TableCell>Moghal chicken</TableCell>
+              <TableCell>Chicken Kosha</TableCell>
               <TableCell>Week-4 Egg Bhurji</TableCell>
             </TableRow>
             <TableRow>
-              <TableCell></TableCell>
+              <TableCell>Kadhai chicken</TableCell>
               <TableCell></TableCell>
               <TableCell>Week-5 Egg Curry</TableCell>
+            </TableRow>
+            <TableRow>
+              <TableCell>Punjabi chicken</TableCell>
+              <TableCell></TableCell>
+              <TableCell></TableCell>
             </TableRow>
           </TableBody>
         </Table>

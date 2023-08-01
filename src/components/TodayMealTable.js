@@ -52,7 +52,7 @@ const TodayMealTable = ({ menu, darkMode }) => {
   const [maxMeals, setMaxMeals] = useState({
     Breakfast: 0,
     Lunch: 0,
-    Snack: 0,
+    Snacks: 0,
     Dinner: 0,
   });
 
@@ -108,11 +108,11 @@ const TodayMealTable = ({ menu, darkMode }) => {
         todayMess["KADAMBA"]["Lunch"].length,
         todayMess["YUKTAHAR"]["Lunch"].length
       ),
-      Snack: Math.max(
-        todayMess["NORTHMESS"]["Snack"].length,
-        todayMess["SOUTHMESS"]["Snack"].length,
-        todayMess["KADAMBA"]["Snack"].length,
-        todayMess["YUKTAHAR"]["Snack"].length
+      Snacks: Math.max(
+        todayMess["NORTHMESS"]["Snacks"].length,
+        todayMess["SOUTHMESS"]["Snacks"].length,
+        todayMess["KADAMBA"]["Snacks"].length,
+        todayMess["YUKTAHAR"]["Snacks"].length
       ),
       Dinner: Math.max(
         todayMess["NORTHMESS"]["Dinner"].length,
@@ -201,7 +201,7 @@ const TodayMealTable = ({ menu, darkMode }) => {
             <TableBody>
               {generateMealRows("Breakfast")}
               {generateMealRows("Lunch")}
-              {generateMealRows("Snack")}
+              {generateMealRows("Snacks")}
               {generateMealRows("Dinner")}
             </TableBody>
           </Table>
