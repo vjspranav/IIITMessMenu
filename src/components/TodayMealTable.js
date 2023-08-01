@@ -153,7 +153,10 @@ const TodayMealTable = ({ menu, darkMode }) => {
   return (
     <div>
       <h1>{day}</h1>
-      <TableContainer component={Paper} sx={{ height: "60vh" }}>
+      <TableContainer
+        component={Paper}
+        sx={{ height: "60vh", overscrollBehavior: "none" }}
+      >
         {todayMess && (
           <Table stickyHeader className={classes.customTable}>
             <TableHead>

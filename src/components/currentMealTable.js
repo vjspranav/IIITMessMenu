@@ -108,7 +108,10 @@ const CurrentMeal = ({ meal, darkMode }) => {
         {day} - {curMeal}
       </h1>
       {day && (
-        <TableContainer component={Paper} sx={{ height: "60vh" }}>
+        <TableContainer
+          component={Paper}
+          sx={{ height: "60vh", overscrollBehavior: "none" }}
+        >
           <Table stickyHeader className={classes.customTable}>
             <TableHead>
               <TableRow>

@@ -36,7 +36,10 @@ const FullMealTable = ({ menu, darkMode }) => {
   const meals = Object.keys(menu.Days[days[0]]);
 
   return (
-    <TableContainer component={Paper} sx={{ height: "60vh" }}>
+    <TableContainer
+      component={Paper}
+      sx={{ height: "60vh", overscrollBehavior: "none" }}
+    >
       <Table stickyHeader className={classes.customTable}>
         <TableHead>
           <TableRow key={0}>
