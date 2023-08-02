@@ -42,7 +42,12 @@ const FullMealTable = ({ menu, darkMode }) => {
     >
       <Table stickyHeader className={classes.customTable}>
         <TableHead>
-          <TableRow key={0}>
+          <TableRow
+            key={0}
+            style={{
+              background: darkMode ? "#121212" : "#f5f5f5",
+            }}
+          >
             <TableCell
               key={1}
               style={{
@@ -55,6 +60,7 @@ const FullMealTable = ({ menu, darkMode }) => {
               Meal
             </TableCell>
             <TableCell
+              className={classes.separator}
               style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
               key={2}
             >
