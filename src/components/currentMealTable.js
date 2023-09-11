@@ -47,7 +47,7 @@ const YUKTAHAR = 4;
 const CurrentMeal = ({ meal, darkMode }) => {
   const classes = useStyles();
 
-  const [day, setDay] = useState("");
+  const [day, setDay] = useState(DAYS[new Date().getDay()]);
   const [curMeal, setCurMeal] = useState("");
   const [items, setItems] = useState([]);
   const [maxItems, setMax] = useState(0);
@@ -55,10 +55,10 @@ const CurrentMeal = ({ meal, darkMode }) => {
   useEffect(() => {
     // Get today's day and time and decide day and meal
     let today = new Date();
-    const day = DAYS[today.getDay()];
+    const cur_day = DAYS[today.getDay()];
     const time = today.getHours();
     let tMeal = "Breakfast";
-    setDay(day);
+    setDay(cur_day);
 
     if (time < 10) {
       tMeal = "Breakfast";
@@ -85,6 +85,7 @@ const CurrentMeal = ({ meal, darkMode }) => {
       [], // Yuktahar
     ];
 
+    console.log(day, tMeal);
     // Populate items, meals[mess]["Days"][day][meal]
     [NORTHMESS, SOUTHMESS, KADAMBA, YUKTAHAR].forEach((cMess) => {
       for (let item in meal[cMess]["Days"][day][tMeal]) {
@@ -100,7 +101,7 @@ const CurrentMeal = ({ meal, darkMode }) => {
     });
 
     setItems(items);
-  }, [meal, maxItems]);
+  }, [day, meal, maxItems]);
 
   return (
     <div>

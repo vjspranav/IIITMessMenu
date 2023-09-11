@@ -220,7 +220,7 @@ function App() {
               inputProps={{ id: "meal-menu" }}
             >
               <MenuItem value="Full Menu">Full Menu</MenuItem>
-              <MenuItem value="Today Menu">Today Menu</MenuItem>
+              <MenuItem value="Today Menu">Today's Menu</MenuItem>
               <MenuItem value="Upcoming Meal">Upcoming Meal</MenuItem>
             </Select>
           </FormControl>
