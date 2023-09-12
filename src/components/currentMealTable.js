@@ -120,16 +120,19 @@ const CurrentMeal = ({ meal, darkMode }) => {
         </h1>
         <Button
           onClick={() => {
-            if (curMeal === "Breakfast")
-              setDay(DAYS[(DAYS.indexOf(day) + 6) % 7]);
+            let curDay = day;
+            if (curMeal === "Breakfast") {
+              curDay = DAYS[(DAYS.indexOf(day) + 6) % 7];
+              setDay(curDay);
+            }
             let tMeal = MEALS[(MEALS.indexOf(curMeal) + 3) % 4];
             setCurMeal(tMeal);
 
             // Populate items, meals[mess]["Days"][day][meal]
             [NORTHMESS, SOUTHMESS, KADAMBA, YUKTAHAR].forEach((cMess) => {
               items[cMess] = [];
-              for (let item in meal[cMess]["Days"][day][tMeal]) {
-                items[cMess].push(meal[cMess]["Days"][day][tMeal][item]);
+              for (let item in meal[cMess]["Days"][curDay][tMeal]) {
+                items[cMess].push(meal[cMess]["Days"][curDay][tMeal][item]);
               }
 
               //   Remove empty items
@@ -144,15 +147,19 @@ const CurrentMeal = ({ meal, darkMode }) => {
         </Button>
         <Button
           onClick={() => {
-            if (curMeal === "Dinner") setDay(DAYS[(DAYS.indexOf(day) + 1) % 7]);
+            let curDay = day;
+            if (curMeal === "Dinner") {
+              curDay = DAYS[(DAYS.indexOf(day) + 1) % 7];
+              setDay(curDay);
+            }
             let tMeal = MEALS[(MEALS.indexOf(curMeal) + 1) % 4];
             setCurMeal(tMeal);
 
             // Populate items, meals[mess]["Days"][day][meal]
             [NORTHMESS, SOUTHMESS, KADAMBA, YUKTAHAR].forEach((cMess) => {
               items[cMess] = [];
-              for (let item in meal[cMess]["Days"][day][tMeal]) {
-                items[cMess].push(meal[cMess]["Days"][day][tMeal][item]);
+              for (let item in meal[cMess]["Days"][curDay][tMeal]) {
+                items[cMess].push(meal[cMess]["Days"][curDay][tMeal][item]);
               }
 
               //   Remove empty items
