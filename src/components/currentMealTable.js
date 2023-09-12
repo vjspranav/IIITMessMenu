@@ -88,11 +88,10 @@ const CurrentMeal = ({ meal, darkMode }) => {
       [], // Yuktahar
     ];
 
-    console.log(day, tMeal);
     // Populate items, meals[mess]["Days"][day][meal]
     [NORTHMESS, SOUTHMESS, KADAMBA, YUKTAHAR].forEach((cMess) => {
-      for (let item in meal[cMess]["Days"][day][tMeal]) {
-        items[cMess].push(meal[cMess]["Days"][day][tMeal][item]);
+      for (let item in meal[cMess]["Days"][cur_day][tMeal]) {
+        items[cMess].push(meal[cMess]["Days"][cur_day][tMeal][item]);
       }
       //   Remove empty items
       items[cMess] = items[cMess].filter((item) => item !== "");
@@ -104,7 +103,7 @@ const CurrentMeal = ({ meal, darkMode }) => {
     });
 
     setItems(items);
-  }, [day, meal]);
+  }, [meal]);
 
   return (
     <div>
