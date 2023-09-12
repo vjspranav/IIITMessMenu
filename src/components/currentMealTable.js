@@ -7,6 +7,7 @@ import {
   TableHead,
   TableRow,
   Paper,
+  Button,
 } from "@mui/material";
 
 import { makeStyles } from "@mui/styles";
@@ -38,6 +39,8 @@ const DAYS = [
   "Friday",
   "Saturday",
 ];
+
+const MEALS = ["Breakfast", "Lunch", "Snacks", "Dinner"];
 
 const NORTHMESS = 0;
 const SOUTHMESS = 1;
@@ -95,19 +98,75 @@ const CurrentMeal = ({ meal, darkMode }) => {
       items[cMess] = items[cMess].filter((item) => item !== "");
 
       //   Set max items
-      if (items[cMess].length > maxItems) {
-        setMax(items[cMess].length);
-      }
+      // if (items[cMess].length > maxItems) {
+      setMax(items[cMess].length + 1);
+      // }
     });
 
     setItems(items);
-  }, [day, meal, maxItems]);
+  }, [day, meal]);
 
   return (
     <div>
-      <h1>
-        {day} - {curMeal}
-      </h1>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "space-between",
+          alignItems: "center",
+          padding: "1rem",
+        }}
+      >
+        <h1>
+          {day} - {curMeal}
+        </h1>
+        <Button
+          onClick={() => {
+            if (curMeal === "Breakfast")
+              setDay(DAYS[(DAYS.indexOf(day) + 6) % 7]);
+            let tMeal = MEALS[(MEALS.indexOf(curMeal) + 3) % 4];
+            setCurMeal(tMeal);
+
+            // Populate items, meals[mess]["Days"][day][meal]
+            [NORTHMESS, SOUTHMESS, KADAMBA, YUKTAHAR].forEach((cMess) => {
+              items[cMess] = [];
+              for (let item in meal[cMess]["Days"][day][tMeal]) {
+                items[cMess].push(meal[cMess]["Days"][day][tMeal][item]);
+              }
+
+              //   Remove empty items
+              items[cMess] = items[cMess].filter((item) => item !== "");
+
+              //   Set max items
+              setMax(items[cMess].length + 1);
+            });
+          }}
+        >
+          Prev
+        </Button>
+        <Button
+          onClick={() => {
+            if (curMeal === "Dinner") setDay(DAYS[(DAYS.indexOf(day) + 1) % 7]);
+            let tMeal = MEALS[(MEALS.indexOf(curMeal) + 1) % 4];
+            setCurMeal(tMeal);
+
+            // Populate items, meals[mess]["Days"][day][meal]
+            [NORTHMESS, SOUTHMESS, KADAMBA, YUKTAHAR].forEach((cMess) => {
+              items[cMess] = [];
+              for (let item in meal[cMess]["Days"][day][tMeal]) {
+                items[cMess].push(meal[cMess]["Days"][day][tMeal][item]);
+              }
+
+              //   Remove empty items
+              items[cMess] = items[cMess].filter((item) => item !== "");
+
+              //   Set max items
+              setMax(items[cMess].length + 1);
+            });
+          }}
+        >
+          Next
+        </Button>
+      </div>
       {day && (
         <TableContainer
           component={Paper}
