@@ -57,8 +57,8 @@ const CurrentMeal = ({ meal, darkMode }) => {
 
   useEffect(() => {
     // Get today's day and time and decide day and meal
-    let today = new Date();
-    const cur_day = DAYS[today.getDay()];
+    const today = new Date();
+    let cur_day = DAYS[today.getDay()];
     const time = today.getHours();
     let tMeal = "Breakfast";
     setDay(cur_day);
@@ -72,10 +72,9 @@ const CurrentMeal = ({ meal, darkMode }) => {
     } else if (time < 22) {
       tMeal = "Dinner";
     } else {
-      const nextDay = DAYS[(today.getDay() + 1) % 7];
+      cur_day = DAYS[(today.getDay() + 1) % 7];
       tMeal = "Breakfast";
-      setDay(nextDay);
-      today = nextDay;
+      setDay(cur_day);
     }
 
     setCurMeal(tMeal);
