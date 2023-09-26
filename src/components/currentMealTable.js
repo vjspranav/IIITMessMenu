@@ -8,7 +8,10 @@ import {
   TableRow,
   Paper,
   Button,
+  IconButton,
 } from "@mui/material";
+import ArrowBackIosIcon from "@mui/icons-material/ArrowBackIos";
+import ArrowForwardIosIcon from "@mui/icons-material/ArrowForwardIos";
 
 import { makeStyles } from "@mui/styles";
 
@@ -114,10 +117,7 @@ const CurrentMeal = ({ meal, darkMode }) => {
           padding: "1rem",
         }}
       >
-        <h1>
-          {day} - {curMeal}
-        </h1>
-        <Button
+        <IconButton
           onClick={() => {
             let curDay = day;
             if (curMeal === "Breakfast") {
@@ -134,17 +134,27 @@ const CurrentMeal = ({ meal, darkMode }) => {
                 items[cMess].push(meal[cMess]["Days"][curDay][tMeal][item]);
               }
 
-              //   Remove empty items
+              // Remove empty items
               items[cMess] = items[cMess].filter((item) => item !== "");
 
-              //   Set max items
+              // Set max items
               setMax(items[cMess].length + 1);
             });
           }}
+          aria-label="prevMeal"
+          color="inherit"
         >
-          Prev
-        </Button>
-        <Button
+          <ArrowBackIosIcon />
+        </IconButton>
+        <h1
+          style={{
+            textAlign: "center",
+            color: darkMode ? "#fff" : "#000",
+          }}
+        >
+          {day} {curMeal}
+        </h1>
+        <IconButton
           onClick={() => {
             let curDay = day;
             if (curMeal === "Dinner") {
@@ -161,16 +171,16 @@ const CurrentMeal = ({ meal, darkMode }) => {
                 items[cMess].push(meal[cMess]["Days"][curDay][tMeal][item]);
               }
 
-              //   Remove empty items
+              // Remove empty items
               items[cMess] = items[cMess].filter((item) => item !== "");
 
-              //   Set max items
+              // Set max items
               setMax(items[cMess].length + 1);
             });
           }}
         >
-          Next
-        </Button>
+          <ArrowForwardIosIcon />
+        </IconButton>
       </div>
       {day && (
         <TableContainer
