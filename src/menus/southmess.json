@@ -4,104 +4,104 @@
       "Breakfast": {
         "Item 1": "Wada",
         "Item 2": "Pongal",
-        "Accompaniment": "Putana Coconut Chutney, sambar",
-        "Fruits": "sprouts",
-        "compulsory": "Tea, Coffee, Milk, Cornflakes"
+        "Accompaniments": "Putana Coconut Chutney, Sambar",
+        "Fruits": "Sprouts",
+        "Compulsory": "Tea, Coffee, Milk, Cornflakes"
       },
       "Lunch": {
         "Fry": "Dondakaya Vepudu",
-        "Curry": "Aloo Tomato Curry",
-        "Dal": "palak dal",
+        "Curry": "Meal Maker Curry",
+        "Dal": "Sorakaya Pappu",
         "Stew": "",
-        "salad": "green salad",
-        "sweet": "",
-        "S rice": "Vangi Bath/veg fride rice",
-        "roti": "Chapathi",
-        "chutney": "Cabbage Pachhadi",
-        "Accompainment": "",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Salad": "Green salad",
+        "Sweet": "",
+        "Spl rice": "Veg Fride Rice",
+        "Roti": "Chapathi",
+        "Chutney": "Cabbage Pachhadi",
+        "Accompaniments": "",
+        "Compulsory": "white rice, curd, ghee, fryums"
       },
       "Snacks": {
-        "Item": "steam dosa",
-        "accomp": "Putana Chutney"
+        "Item": "Steam dosa",
+        "Accompaniments": "Putana Chutney"
       },
       "Dinner": {
         "Fry": "Aloo 65",
         "Curry": "Mix Veg with Paneer",
-        "Dal": "pesarappu",
-        "Stew": "papper rasam",
+        "Dal": "Pesarappu",
+        "Stew": "Pepper Rasam",
         "Starter": "",
-        "Accompainment": "karam chitlu podi",
-        "Sweet": "jelebi/sweet boondi",
-        "S Rice": "",
-        "chutney": "",
-        "roti": "Roti",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Accompaniments": "karam chitlu podi",
+        "Sweet": "Jelebi / Sweet Boondi",
+        "Spl Rice": "",
+        "Chutney": "",
+        "Roti": "Roti",
+        "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
       }
     },
     "Tuesday": {
       "Breakfast": {
-        "Item 1": "Puri",
+        "Item 1": "Poori",
         "Item 2": "Bread-Butter-Jam",
-        "Accompaniment": "puri masala",
-        "Fruits": "banan",
-        "compulsory": "Tea, Coffee, Milk, Cornflakes"
+        "Accompaniments": "Poori masala",
+        "Fruits": "Banana",
+        "Compulsory": "Tea, Coffee, Milk, Cornflakes"
       },
       "Lunch": {
-        "Fry": "Beans Carrot poriyal",
-        "Curry": "Mill Maker Masala",
+        "Fry": "",
+        "Curry": "Aloo Kurma",
         "Dal": "Tomato Pappu",
-        "Stew": "rasam",
-        "salad": "peanut salad",
-        "sweet": "payasam (Semiya/Rice)",
-        "S rice": "Fried Corn Rice/Veg Pulav",
-        "roti": "",
-        "chutney": "kariveypaku podi",
-        "Accompainment": "",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Stew": "",
+        "Salad": "Green salad",
+        "Sweet": "Payasam (Semiya/Rice)",
+        "Spl rice": "Besi Bele Bath",
+        "Roti": "",
+        "Chutney": "kariveypaku podi",
+        "Accompaniments": "Boondi",
+        "Compulsory": "white rice, curd, ghee, fryums"
       },
       "Snacks": {
         "Item": "Aloo Bonda/Pav Bhaji",
-        "accomp": "Ketchup"
+        "Accompaniments": "Ketchup"
       },
       "Dinner": {
-        "Fry": "Bendi Do Pyaza",
+        "Fry": "",
         "Curry": "Beerakaya channa dal",
         "Dal": "",
         "Stew": "Sambar",
-        "Starter": "veg noodles",
-        "Accompainment": "chilly sauce/ t.sauce",
+        "Starter": "Veg Noodles",
+        "Accompaniments": "chilly sauce/ t.sauce",
         "Sweet": "",
-        "S Rice": "Tomato Rice",
-        "chutney": "Snake guard dhai chutney",
-        "roti": "",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Spl Rice": "Tomato Rice",
+        "Chutney": "Snake guard dhai chutney",
+        "Roti": "",
+        "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
       }
     },
     "Wednesday": {
       "Breakfast": {
-        "Item 1": "fried idly/idly",
-        "Item 2": "semia upma",
-        "Accompaniment": "Groundnut Chutney, sambar+podi+ghee",
-        "Fruits": "muskmelon",
-        "compulsory": "Tea, Coffee, Milk, Cornflakes"
+        "Item 1": "Idly",
+        "Item 2": "Semia upma",
+        "Accompaniments": "Groundnut Chutney, sambar+podi+ghee",
+        "Fruits": "Muskmelon",
+        "Compulsory": "Tea, Coffee, Milk, Cornflakes"
       },
       "Lunch": {
-        "Fry": "",
-        "Curry": "mirchi ka salan",
+        "Fry": "Banana Chips",
+        "Curry": "Mirchi ka Salan",
         "Dal": "Thotakura Pappu",
-        "Stew": "Kobbari Charu",
-        "salad": "onion salad",
-        "sweet": "",
-        "S rice": "Veg dum biryani",
-        "roti": "",
-        "chutney": "dosakaya mukkala pachadi",
-        "Accompainment": "Raita,Papad",
-        "compulsory": "white rice,curd,ghee"
+        "Stew": "",
+        "Salad": "Onion Salad",
+        "Sweet": "",
+        "Spl rice": "Veg Dum Biryani",
+        "Roti": "",
+        "Chutney": "dosakaya mukkala pachadi",
+        "Accompaniments": "Raita,Papad",
+        "Compulsory": "white rice, curd, ghee"
       },
       "Snacks": {
-        "Item": "masalavada/Pasta",
-        "accomp": "Putana Chutney/ketchup"
+        "Item": "Masala Wada / Pasta",
+        "Accompaniments": "Putana Chutney/ketchup"
       },
       "Dinner": {
         "Fry": "",
@@ -109,172 +109,172 @@
         "Dal": "Dosakaya pappu",
         "Stew": "Sambar",
         "Starter": "Plain Dosa",
-        "Accompainment": "Putana Chutney& fried onions",
+        "Accompaniments": "Putana Chutney & fried onions",
         "Sweet": "Double ka Meeta/Gulab jamoon",
-        "S Rice": "",
-        "chutney": "Pickel",
-        "roti": "",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Spl Rice": "",
+        "Chutney": "Pickle",
+        "Roti": "",
+        "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
       }
     },
     "Thursday": {
       "Breakfast": {
         "Item 1": "Utappam",
         "Item 2": "Poha",
-        "Accompaniment": "Putana Coconut Chutney, sambar",
-        "Fruits": "watermelon",
-        "compulsory": "Tea, Coffee, Milk, Cornflakes"
+        "Accompaniments": "Putana Coconut Chutney, Sambar",
+        "Fruits": "Water Melon",
+        "Compulsory": "Tea, Coffee, Milk, Cornflakes"
       },
       "Lunch": {
-        "Fry": "Bhendi Palli / BHendi dum fry",
+        "Fry": "Bhendi Palli / Bhendi dum fry",
         "Curry": "Guthi vankaya masala",
-        "Dal": "Sorakaya Pappu",
-        "Stew": "Creamy Tomato Soup",
-        "salad": "Green salad",
-        "sweet": "",
-        "S rice": "Jeera rice",
-        "roti": "Roti",
-        "chutney": "Dondakaya pachadi",
-        "Accompainment": "Bread croutons",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Dal": "Palakura Pappu",
+        "Stew": "",
+        "Salad": "Green salad",
+        "Sweet": "",
+        "Spl rice": "Veg Pulao",
+        "Roti": "Roti",
+        "Chutney": "Dondakaya pachadi",
+        "Accompaniments": "Raitha",
+        "Compulsory": "white rice, curd, ghee, fryums"
       },
       "Snacks": {
-        "Item": "mirchi bajji",
-        "accomp": "ketchup/green chutney"
+        "Item": "Mirchi Bajji",
+        "Accompaniments": "ketchup/green chutney"
       },
       "Dinner": {
-        "Fry": "Cabbage pokodi",
+        "Fry": "Cabbage Porial",
         "Curry": "Masala / Palak Paneer",
         "Dal": "Tomato dal",
         "Stew": "Pepper Rasam",
         "Starter": "Lachha Paratha / Chapathi",
-        "Accompainment": "Fresh chutney",
-        "Sweet": "'",
-        "S Rice": "",
-        "chutney": "",
-        "roti": "",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Accompaniments": "Fresh chutney",
+        "Sweet": "",
+        "Spl Rice": "",
+        "Chutney": "",
+        "Roti": "",
+        "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
       }
     },
     "Friday": {
       "Breakfast": {
         "Item 1": "Ghee Pesarattu",
         "Item 2": "Upama",
-        "Accompaniment": "Groundnut Chutney, sambar",
-        "Fruits": "Grape juice",
-        "compulsory": "Tea, Coffee, Milk, Cornflakes"
+        "Accompaniments": "Groundnut Chutney, Sambar",
+        "Fruits": "Grape Juice",
+        "Compulsory": "Tea, Coffee, Milk, Cornflakes"
       },
       "Lunch": {
-        "Fry": "Beetroot Dum",
-        "Curry": "drumstick curry",
+        "Fry": "",
+        "Curry": "Drumstick Curry",
         "Dal": "Dosakaya Pappu",
         "Stew": "Sambar",
-        "salad": "kosambari salad",
-        "sweet": "",
-        "S rice": "Lemon rice / Pulihora",
-        "roti": "",
-        "chutney": "beerakaya chutney",
-        "Accompainment": "",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Salad": "Kosambari Salad",
+        "Sweet": "",
+        "Spl rice": "Lemon Rice / Pulihora",
+        "Roti": "",
+        "Chutney": "Beerakaya chutney",
+        "Accompaniments": "",
+        "Compulsory": "white rice, curd, ghee, fryums"
       },
       "Snacks": {
-        "Item": "samosa",
-        "accomp": "kata meeta chutney"
+        "Item": "Samosa",
+        "Accompaniments": "kata meeta chutney"
       },
       "Dinner": {
-        "Fry": "donda dum fry",
+        "Fry": "",
         "Curry": "Kadai veg",
         "Dal": "Sorakaya Pappu",
-        "Stew": "Dappalam",
+        "Stew": "Sambar",
         "Starter": "Veg Manchuria",
-        "Accompainment": "raita",
+        "Accompaniments": "Raita",
         "Sweet": "",
-        "S Rice": "Aloo Rice",
-        "chutney": "",
-        "roti": "Roti",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Spl Rice": "Aloo Rice",
+        "Chutney": "",
+        "Roti": "Roti",
+        "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
       }
     },
     "Saturday": {
       "Breakfast": {
-        "Item 1": "Mysore Bonda",
+        "Item 1": "Mysore Bonda/ Punugulu",
         "Item 2": "Uggani",
-        "Accompaniment": "Putana Coconut chutney, sambar",
-        "Fruits": "papaya",
-        "compulsory": "Tea, Coffee, Milk, Cornflakes"
+        "Accompaniments": "Putana Coconut chutney, Sambar",
+        "Fruits": "Papaya",
+        "Compulsory": "Tea, Coffee, Milk, Cornflakes"
       },
       "Lunch": {
         "Fry": "Kakarakaya/Brinjal onions",
         "Curry": "Malai Kofta curry",
         "Dal": "Mudda Pappu",
-        "Stew": "pacchi pulusu",
-        "salad": "green salad",
-        "sweet": "",
-        "S rice": "",
-        "roti": "Roti",
-        "chutney": "Mango Pickel",
-        "Accompainment": "",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Stew": "Pacchi Pulusu",
+        "Salad": "Green salad",
+        "Sweet": "",
+        "Spl rice": "",
+        "Roti": "Roti",
+        "Chutney": "Mango Pickle",
+        "Accompaniments": "",
+        "Compulsory": "white rice, curd, ghee, fryums"
       },
       "Snacks": {
         "Item": "Onion Pakoda",
-        "accomp": "Ketchup/sweet chutney"
+        "Accompaniments": "Ketchup/sweet chutney"
       },
       "Dinner": {
-        "Fry": "Aloo methi",
-        "Curry": "Chole Masala / Aloo curry",
+        "Fry": "",
+        "Curry": "Aloo curry",
         "Dal": "Beerakaya Pappu",
         "Stew": "Tomato rasam",
-        "Starter": "Poori",
-        "Accompainment": "Onion salad",
+        "Starter": "",
+        "Accompaniments": "Onion salad",
         "Sweet": "",
-        "S Rice": "",
-        "chutney": "pudina chutney",
-        "roti": "",
-        "compulsory": "white rice,curd,ghee,fryums"
+        "Spl Rice": "Jeera Rice",
+        "Chutney": "Pudina chutney",
+        "Roti": "",
+        "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
       }
     },
     "Sunday": {
       "Breakfast": {
         "Item 1": "Corn Dosa/Karam Dosa",
         "Item 2": "Bread-Butter-Jam",
-        "Accompaniment": "Groundnut Chutney, sambar",
-        "Fruits": "banana",
-        "compulsory": "Tea, Coffee, Milk, Cornflakes"
+        "Accompaniments": "Groundnut Chutney, Sambar",
+        "Fruits": "Banana",
+        "Compulsory": "Tea, Coffee, Milk, Cornflakes"
       },
       "Lunch": {
-        "Fry": "Kanda Fry/aloo fry",
-        "Curry": "",
-        "Dal": "methi dal",
-        "Stew": "sambar",
-        "salad": "onion salad",
-        "sweet": "fruit custurd",
-        "S rice": "Paneer/Veg Dum Biryani",
-        "roti": "",
-        "chutney": "Gongura Chutney",
-        "Accompainment": "Raita,Papad",
-        "compulsory": "white rice,curd,ghee"
+        "Fry": "Kanda Fry / Aloo fry",
+        "Curry": "Mirchi Ka Salan",
+        "Dal": "",
+        "Stew": "Sambar",
+        "Salad": "Onion Salad",
+        "Sweet": "Fruit Custurd",
+        "Spl rice": "Paneer / Veg Dum Biryani",
+        "Roti": "",
+        "Chutney": "Gongura Chutney",
+        "Accompaniments": "Raita,Papad",
+        "Compulsory": "white rice, curd, ghee"
       },
       "Snacks": {
-        "Item": "ponganalu/sarapindi",
-        "accomp": "Chutney"
+        "Item": "Ponganalu / Sarapindi",
+        "Accompaniments": "Chutney"
       },
       "Dinner": {
         "Fry": "",
-        "Curry": "RAJMAH CURRY",
+        "Curry": "Rajmah Curry",
         "Dal": "Dal Tadka",
         "Stew": "Pappu charu",
         "Starter": "",
-        "Accompainment": "",
+        "Accompaniments": "",
         "Sweet": "",
-        "S Rice": "dadhojanam",
-        "chutney": "nimmakaya pickle",
-        "roti": "Roti",
-        "compulsory": "white rice,curd,ghee,Papad"
+        "Spl Rice": "Dadhojanam",
+        "Chutney": "Mamidikaya Pickle",
+        "Roti": "Roti",
+        "Compulsory": "Pl.\nRice,Curd,Ghee,Fryums"
       }
     }
   },
-  "lastUpdated": "01/08/2023",
-  "wef": "01/08/2023",
+  "lastUpdated": "15/01/2024",
+  "wef": "16/01/2024",
   "additionalInfo": []
 }

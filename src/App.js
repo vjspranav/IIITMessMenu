@@ -125,15 +125,31 @@ function App() {
 
   useEffect(() => {
     // Check if they are opening for the first time
-    const firstTimeVisited = localStorage.getItem("firstTimeV1");
+    const firstTimeVisited = localStorage.getItem("firstTimeV12024");
     if (!firstTimeVisited) {
+      // get today's date
+      const today = new Date();
+      // check if 15th Jan 2024
+      let text =
+        "The mess menu is updated and will be following 2024's mess menu";
+      if (
+        today.getDate() === 15 &&
+        today.getMonth() === 0 &&
+        today.getFullYear() === 2024
+      ) {
+        text +=
+          ".\nPl. Note Menu might not match the actual menu for today, as the new menu will be followed from tomorrow.";
+      } else {
+        text += " wef 16th Jan 2024";
+      }
+
       Swal.fire({
         title: "Welcome to IIIT Mess Menu!",
-        text: "This is a new version of the app. Now it allows you to check Only Today's menu or only the upcoming meal. Now with Dark theme!.",
+        text: text,
         icon: "info",
         confirmButtonText: "OK",
       });
-      localStorage.setItem("firstTimeV1", "true");
+      localStorage.setItem("firstTimeV12024", "true");
     }
 
     ReactGA.send({ hitType: "pageview", page: window.location.pathname });

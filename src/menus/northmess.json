@@ -40,7 +40,7 @@
         "Fruits": "Banana"
       },
       "Lunch": {
-        "Sweet /Special Dish": "Besan Laddu/Semiya Kheer",
+        "Sweet /Special Dish": "Besan Laddu/Semiya",
         "Wet Curry": "kala channa",
         "Dry Curry": "Aloo Pyaaz",
         "Dal": "Daal Batti",
@@ -54,12 +54,12 @@
       },
       "Dinner": {
         "Sweet /Special Dish": "",
-        "Wet Curry": "Kadhai Paneer",
+        "Wet Curry": "Kadai Paneer",
         "Dry Curry": "Soya Masala",
         "Dal": "Dal Fry",
         "Steam Rice": "Steam Rice",
         "Flavoured Rice": "",
-        "Accompaniants": "Chapati/Curd/Pickle/Salad"
+        "Accompaniants": "Chapati/Curd/Pickle/Sala\nd"
       }
     },
     "Wednesday": {
@@ -71,9 +71,9 @@
         "Fruits": "Grape Juice"
       },
       "Lunch": {
-        "Sweet /Special Dish": "Hot n Sour Soup",
-        "Wet Curry": "Cabbage fry",
-        "Dry Curry": "Lauki Sabzi",
+        "Sweet /Special Dish": "Aloo fry",
+        "Wet Curry": "Navratan Veg",
+        "Dry Curry": "Malai Kofta",
         "Dal": "Chane Ki Daal",
         "Steam Rice": "Steam Rice",
         "Flavoured Rice": "Fried Rice",
@@ -95,15 +95,15 @@
     },
     "Thursday": {
       "Breakfast": {
-        "Item 1": "Bhaji",
+        "Item 1": "Pav Bhaji",
         "Item 2": "Veg Upma",
-        "Accompaniants": "Pav",
+        "Accompaniants": "Bhaji",
         "Mandatory Items": "Bread/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
         "Fruits": "Watermelon"
       },
       "Lunch": {
         "Sweet /Special Dish": "Boondi Raita",
-        "Wet Curry": "Chola Masala/Palak puri",
+        "Wet Curry": "Chola Masala/Palak Puri",
         "Dry Curry": "Mix Veg",
         "Dal": "Toor Dal",
         "Steam Rice": "Steam Rice",
@@ -116,7 +116,7 @@
       },
       "Dinner": {
         "Sweet /Special Dish": "Latcha Paratha",
-        "Wet Curry": "Matar Paneer",
+        "Wet Curry": "Matar/Palak Paneer",
         "Dry Curry": "Pumpkin",
         "Dal": "Masoor Dal",
         "Steam Rice": "White Rice",
@@ -133,7 +133,7 @@
         "Fruits": "Banana"
       },
       "Lunch": {
-        "Sweet /Special Dish": "Dahi Bhalla/Imli\nChutney",
+        "Sweet /Special Dish": "Dahi Bhalla",
         "Wet Curry": "Kofta Curry",
         "Dry Curry": "Aloo Gajar Matar",
         "Dal": "Dal Fry",
@@ -195,7 +195,7 @@
         "Fruits": "Banana"
       },
       "Lunch": {
-        "Sweet /Special Dish": "FRUIT CUSTARD",
+        "Sweet /Special Dish": "Fruit Custard",
         "Wet Curry": "Aloo Matar",
         "Dry Curry": "Veg Biryani",
         "Dal": "Toor dal Tadka",
@@ -204,7 +204,7 @@
         "Accompaniants": "Chapati/Curd/\nPickle/Salad"
       },
       "Snacks": {
-        "Item": "Dabeli/Chana Chat",
+        "Item": "Noodles",
         "Bevearge": "Tea/Milk"
       },
       "Dinner": {
@@ -218,7 +218,7 @@
       }
     }
   },
-  "lastUpdated": "01/08/2023",
-  "wef": "01/08/2023",
+  "lastUpdated": "15/01/2024",
+  "wef": "16/01/2024",
   "additionalInfo": []
 }

@@ -2,223 +2,237 @@
     "Days": {
         "Monday": {
             "Breakfast": {
-                "Item 1": "Poori",
-                "Item 2": "Tomato bath",
-                "Accompaniants": "Aloo ki Bhaji",
-                "Beverages": "Tea, Coffee and Milk",
-                "Fruits": "Muskmelon/Pineapple"
+                "Item 1": "TOASTED BREAD",
+                "Item 2": "WADA+SAMBAR",
+                "Accompaniants": "BUTTER, JAM, CHUTNEY",
+                "Beverages": "TEA, COFFE, MILK",
+                "Fruits": "FRUIT"
             },
             "Lunch": {
-                "Wet Curry": "Rajma",
-                "Dry Curry": "Cabbage / Bhendi",
-                "Dal": "Sambar",
-                "Flavoured Rice": "Veg. Pulao",
-                "Plain Rice": "White Rice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Phulka, Curd and Salad"
+                "Sweet / Spl. Dish": "",
+                "Dry Curry": "CABBAGE MASALA",
+                "Wet Curry": "ALOO+CAPSICUM CURRY",
+                "Dal / Rajma / Choley": "RAJMA",
+                "Sambar / Rasam": "SAMBAR",
+                "Flavoured Rice": "VEG POLAV",
+                "Accompaniants": "",
+                "Salads": "GREEN"
             },
             "Snacks": {
-                "Item": "Dahi Bhalla/ Sandwich",
-                "": "",
-                "Beverages": "Tea , Coffee and Milk"
+                "Item": "DAHI BHALLA/ SANDWICH",
+                "Beverages": "TEA, COFFE, MILK"
             },
             "Dinner": {
-                "Wet Curry": "Mix veg curry/Allo dum",
-                "Dry\nCurry/Special": "Soup",
-                "Dal": "Moong Dal",
-                "Steam Rice": "White Rice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Butter Naan, Curd and\nSalad"
+                "Sweet / Spl. Dish": "BUTTER NAAN+DOUBLE ROTI",
+                "Dry Curry": "",
+                "Wet Curry": "ALOO DUM",
+                "Dal / Rajma / Choley": "MOONG DAL",
+                "Sambar / Rasam": "MANCHOW SOUP",
+                "Flavoured Rice": "",
+                "Accompaniants": "CURD, PICKLE, RICE",
+                "Rice": ""
             }
         },
         "Tuesday": {
             "Breakfast": {
-                "Item 1": "Wada",
-                "Item 2": "Bread -Butter-Jam",
-                "Accompaniants": "Sambhar,Chutney",
-                "Beverages": "Tea, Coffee and Milk",
-                "Fruits": "Banana"
+                "Item 1": "TRIANGLE PARATHA",
+                "Item 2": "CORNFLAKES",
+                "Accompaniants": "ALOO SABZI, CHUTNEY",
+                "Beverages": "TEA, COFFE, MILK",
+                "Fruits": "FRUIT"
             },
             "Lunch": {
-                "Wet Curry": "Cluster Beans & Thurai",
-                "Dry Curry": "French Fries",
-                "Dal": "Masoor Daal",
-                "Flavoured Rice": "Millet Khichidi",
-                "Plain Rice": "White Rice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Methi Phulka, Curd\n,Salad and + Sweet"
+                "Sweet / Spl. Dish": "SEMIA KHEER",
+                "Dry Curry": "FRENCH FRIES",
+                "Wet Curry": "RIDGE GOURD CURRY",
+                "Dal / Rajma / Choley": "MASOOR DAL",
+                "Sambar / Rasam": "SAMBAR",
+                "Flavoured Rice": "LEMON RICE",
+                "Accompaniants": "METHI PHULKA, CURD",
+                "Salads": "KASAMBHARI"
             },
             "Snacks": {
-                "Item": "Papdi chat",
-                "": "",
-                "Beverages": "Tea, Coffee and Milk"
+                "Item": "PAPDI CHAAT",
+                "Beverages": "TEA, COFFE, MILK"
             },
             "Dinner": {
-                "Wet Curry": "Veg/ Gobi Manchurian",
-                "Dry\nCurry/Special": "Tomato Soup",
-                "Dal": "Moong Dal",
-                "Steam Rice": "White Rice & Fried\nRice + Noodles",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Phulka, Curd and\nSalad"
+                "Sweet / Spl. Dish": "CHOLEY BHATURE",
+                "Dry Curry": "DONDA FRY",
+                "Wet Curry": "",
+                "Dal / Rajma / Choley": "",
+                "Sambar / Rasam": "",
+                "Flavoured Rice": "BAGARA RICE",
+                "Accompaniants": "BOONDI RAITA",
+                "Rice": "RICE"
             }
         },
         "Wednesday": {
             "Breakfast": {
-                "Item 1": "Kanchipuram / Veg Idly",
-                "Item 2": "Poha",
-                "Accompaniants": "Sambhar, Chutney",
-                "Beverages": "Tea, Coffee and Milk",
-                "Fruits": "Water Melon"
+                "Item 1": "KANCHIPURAM IDLI",
+                "Item 2": "TOMATO BATH",
+                "Accompaniants": "SAMBAR, CHUTNEY",
+                "Beverages": "TEA, COFFE, MILK",
+                "Fruits": "FRUIT"
             },
             "Lunch": {
-                "Wet Curry": "Special Curry/Dal",
+                "Sweet / Spl. Dish": "VEG BIRIYANI",
                 "Dry Curry": "",
-                "Dal": "Chole",
-                "Flavoured Rice": "Veg. Biryani",
-                "Plain Rice": "White Rice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Phulka, Curd, Raitha,\nSalad, Papad"
+                "Wet Curry": "MIRCHI KA SALAN",
+                "Dal / Rajma / Choley": "CHOLEY",
+                "Sambar / Rasam": "",
+                "Flavoured Rice": "",
+                "Accompaniants": "RAITHA, PHULKA",
+                "Salads": "LACHCHA PYAZ, RAITHA"
             },
             "Snacks": {
-                "Item": "Gunta Ponganalu/\nAloo cutlet",
-                "": "Chutney",
-                "Beverages": "Tea , Coffee and Milk"
+                "Item": "GUNTA PUNGANALU",
+                "Beverages": "TEA, COFFE, MILK"
             },
             "Dinner": {
-                "Wet Curry": "Bhindi Jaipuri/\nBhendi Kurkure",
-                "Dry\nCurry/Special": "Special Paneer curry",
-                "Dal": "Pancharang Dal",
-                "Steam Rice": "White Rice & Tomato\nPulao",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Phulka, Curd and\nSalad"
+                "Sweet / Spl. Dish": "PANEER CURRY",
+                "Dry Curry": "ALOO CHOKHA",
+                "Wet Curry": "",
+                "Dal / Rajma / Choley": "PANCHRANG DAL",
+                "Sambar / Rasam": "",
+                "Flavoured Rice": "TOMATO POLAV",
+                "Accompaniants": "WHEAT LACHCHA PARATHA",
+                "Rice": "RICE+CURD"
             }
         },
         "Thursday": {
             "Breakfast": {
-                "Item 1": "Uttapam",
-                "Item 2": "Semiya upma",
-                "Accompaniants": "Sambhar,Chutney",
-                "Beverages": "Tea, Coffee and Milk",
-                "Fruits": "Papaya"
+                "Item 1": "ONION UTAPPAM",
+                "Item 2": "VEG POHA",
+                "Accompaniants": "SAMBAR, CHUTNEY",
+                "Beverages": "TEA, COFFE, MILK",
+                "Fruits": "FRUIT"
             },
             "Lunch": {
-                "Wet Curry": "Gatte / Beetroot/kofta",
-                "Dry Curry": "Sambhar",
-                "Dal": "Green Moong Dal",
-                "Flavoured Rice": "Jeera Rice",
-                "Plain Rice": "White Rice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Phulka, Curd and\nSalad"
+                "Sweet / Spl. Dish": "GATTE KI SABZI/KOFTA",
+                "Dry Curry": "BEETROOT PORIAL",
+                "Wet Curry": "",
+                "Dal / Rajma / Choley": "GREEN MOONG DAL",
+                "Sambar / Rasam": "SAMBAR",
+                "Flavoured Rice": "ZEERA RICE",
+                "Accompaniants": "CURD, PHULKA",
+                "Salads": "PEANUT"
             },
             "Snacks": {
-                "Item": "Samosa",
-                "": "Sauce",
-                "Beverages": "Tea , Coffee and Milk"
+                "Item": "SAMOSA",
+                "Beverages": "TEA, COFFE, MILK"
             },
             "Dinner": {
-                "Wet Curry": "Aloo chokha",
-                "Dry\nCurry/Special": "Wheat -Lachha Paratha",
-                "Dal": "Toor Dal",
-                "Steam Rice": "White Rice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Curd, Salad and\nSweet"
+                "Sweet / Spl. Dish": "DOUBLE ROTI",
+                "Dry Curry": "VEG JAL FREZY",
+                "Wet Curry": "",
+                "Dal / Rajma / Choley": "DAL FRY",
+                "Sambar / Rasam": "",
+                "Flavoured Rice": "",
+                "Accompaniants": "CURD+PHULKA",
+                "Rice": "RICE"
             }
         },
         "Friday": {
             "Breakfast": {
-                "Item 1": "Dosa (Allo/Corn)",
-                "Item 2": "Cornflakes",
-                "Accompaniants": "Sambhar, Chutney",
-                "Beverages": "Tea, Coffee and Milk",
-                "Fruits": "Banana"
+                "Item 1": "MASALA/CORN DOSA",
+                "Item 2": "VEG UPMA",
+                "Accompaniants": "SAMBAR, CHUTNEY",
+                "Beverages": "TEA, COFFE, MILK",
+                "Fruits": "FRUIT"
             },
             "Lunch": {
-                "Wet Curry": "Mix Veg Paneer/Arbi fry",
-                "Dry Curry": "Rasam",
-                "Dal": "Dal Makhani",
-                "Flavoured Rice": "Pulihora/ Lemon",
-                "Plain Rice": "Whit Rice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Phulka, Curd, Salad"
+                "Sweet / Spl. Dish": "KADAI PANEER",
+                "Dry Curry": "ARBI FRY",
+                "Wet Curry": "",
+                "Dal / Rajma / Choley": "DAL MAKHANI",
+                "Sambar / Rasam": "RASAM",
+                "Flavoured Rice": "TAMARIND RICE",
+                "Accompaniants": "CURD, PHULKA",
+                "Salads": "GREEN"
             },
             "Snacks": {
-                "Item": "Pav Bhaji/ Vada Pav",
-                "": "-",
-                "Beverages": "Tea , Coffee and Milk"
+                "Item": "PAV BHAJI",
+                "Beverages": "TEA, COFFE, MILK"
             },
             "Dinner": {
-                "Wet Curry": "Mailai Kofta Curry",
-                "Dry\nCurry/Special": "Lauki ka Sabji/Pumpkin\nchana",
-                "Dal": "Tomato Dal/Dal triveni",
-                "Steam Rice": "White Rice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Double roti, Curd and\nSalad"
+                "Sweet / Spl. Dish": "MALAI KOFTA",
+                "Dry Curry": "PUMPKIN CHANA",
+                "Wet Curry": "",
+                "Dal / Rajma / Choley": "TOMATO DAL",
+                "Sambar / Rasam": "",
+                "Flavoured Rice": "",
+                "Accompaniants": "PHULKA",
+                "Rice": "RICE"
             }
         },
         "Saturday": {
             "Breakfast": {
-                "Item 1": "Paratha (Aloo/ Paneer)",
-                "Item 2": "Uggani",
-                "Accompaniants": "Raitha, Chutney",
-                "Beverages": "Tea, Coffee and Milk,",
-                "Fruits": "Muskmelon"
+                "Item 1": "ALOO/PANEER PARATHA",
+                "Item 2": "UGANI",
+                "Accompaniants": "RAITHA, CHUTNEY",
+                "Beverages": "TEA, COFFE, MILK",
+                "Fruits": "FRUIT"
             },
             "Lunch": {
-                "Wet Curry": "Khadi Pakodi",
-                "Dry Curry": "Aloo Baigan/Allo methi",
-                "Dal": "Chana Dal/Gongura dal",
-                "Flavoured Rice": "Millet Khichidi",
-                "Plain Rice": "White Rice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Palak Phulka, Curd, Salad"
+                "Sweet / Spl. Dish": "KADI PAKODI",
+                "Dry Curry": "ALOO BAINGAN",
+                "Wet Curry": "",
+                "Dal / Rajma / Choley": "TOOR DAL",
+                "Sambar / Rasam": "",
+                "Flavoured Rice": "BISIBELLEY BATH",
+                "Accompaniants": "CURD, BOONDI, PHULKA",
+                "Salads": "RAITHA"
             },
             "Snacks": {
-                "Item": "Pasta",
-                "": "Chutney",
-                "Beverages": "Tea , Coffee and Milk"
+                "Item": "PASTA",
+                "Beverages": "TEA, COFFE, MILK"
             },
             "Dinner": {
-                "Wet Curry": "Chole Bhature",
-                "Dry\nCurry/Special": "Spl Sweet",
-                "Dal": "Donda/Dal fry",
-                "Steam Rice": "White Rice &\nBagara Pulao",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Curd, Raitha and Salad"
+                "Sweet / Spl. Dish": "DOSA+ GULAB JAMOON",
+                "Dry Curry": "ALOO MASALA",
+                "Wet Curry": "",
+                "Dal / Rajma / Choley": "",
+                "Sambar / Rasam": "SAMBAR",
+                "Flavoured Rice": "VANKAI BHATH",
+                "Accompaniants": "",
+                "Rice": "RICE"
             }
         },
         "Sunday": {
             "Breakfast": {
-                "Item 1": "Idly",
-                "Item 2": "Bread -Butter-Jam",
-                "Accompaniants": "Sambhar, Chutney",
-                "Beverages": "Tea, Coffee and Milk",
-                "Fruits": "Water Melon"
+                "Item 1": "TOASTED BREAD",
+                "Item 2": "POHA",
+                "Accompaniants": "BUTTER, JAM, CHUTNEY",
+                "Beverages": "TEA, COFFE, MILK",
+                "Fruits": "FRUIT"
             },
             "Lunch": {
-                "Wet Curry": "",
-                "Dry Curry": "Fruit Custard - Sweet",
-                "Dal": "Chana Dal",
-                "Flavoured Rice": "Veg. Biryani",
-                "Plain Rice": "White Rice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Curd, Raitha, Salad\nand Salan"
+                "Sweet / Spl. Dish": "FRUIT CUSTARD",
+                "Dry Curry": "",
+                "Wet Curry": "MIRCHI KA SALAN",
+                "Dal / Rajma / Choley": "DAL FRY",
+                "Sambar / Rasam": "",
+                "Flavoured Rice": "VEG BIRIYANI",
+                "Accompaniants": "",
+                "Salads": "LACHCHA PYAZ, RAITHA"
             },
             "Snacks": {
-                "Item": "Chewda",
-                "": "Chutney",
-                "Beverages": "Tea , Coffee and Milk"
+                "Item": "CHIDWA",
+                "Beverages": "TEA, COFFE, MILK"
             },
             "Dinner": {
-                "Wet Curry": "Gobhi Matar Gazar ka\nBhaji / Chamagadda Fry",
-                "Dry\nCurry/Special": "Soyabeans\nmasala/Manchurian",
-                "Dal": "Veg. Dal/Dalma",
-                "Steam Rice": "Khichidi and White\nRice",
-                "Chutney": "Fresh Chutney",
-                "Accompaniants": "Triangle Chapathi, Curd\nand Salad"
+                "Sweet / Spl. Dish": "",
+                "Dry Curry": "VEG/GOBI MANCHURIAN",
+                "Wet Curry": "TOMATO SOUP+CROTONS",
+                "Dal / Rajma / Choley": "VEG NOODLES",
+                "Sambar / Rasam": "ALOO+GOBI CURRY",
+                "Flavoured Rice": "VEG FRIED RICE",
+                "Accompaniants": "CURD+DOUBLE ROTI",
+                "Rice": "RICE"
             }
         }
     },
-    "lastUpdated": "01/08/2023",
-    "wef": "01/08/2023",
+    "lastUpdated": "15/01/2024",
+    "wef": "16/01/2024",
     "additionalInfo": []
 }
