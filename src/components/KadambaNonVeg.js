@@ -37,6 +37,11 @@ const KadambaNonVeg = ({ darkMode }) => {
   // T1. (2 rows): 1. Monday, Wednesday, Thursday, Friday, Sunday, 2. Items for each day
   // T2. (2 columns, 1 row for each day): first row Day, second row Egg type
   // T3. (3 columns, 5 rows): I'll fill this
+  // Calculate which week
+  let week = Math.floor((new Date().getDate() - 1) / 7) + 1;
+  if (week > 5) {
+    week = 5;
+  }
 
   return (
     <Box
@@ -86,10 +91,10 @@ const KadambaNonVeg = ({ darkMode }) => {
           <TableBody>
             <TableRow>
               <TableCell>Dinner: Chicken (Wet)</TableCell>
-              <TableCell>Lunch: Chicken Biryani</TableCell>
+              <TableCell>Lunch: Chicken Dum Biryani</TableCell>
               <TableCell>Dinner: Egg curry/bhurji</TableCell>
               <TableCell>Dinner: Chicken (Dry)</TableCell>
-              <TableCell>Lunch: Chicken Biryani</TableCell>
+              <TableCell>Lunch: Chicken Dum Biryani</TableCell>
             </TableRow>
           </TableBody>
         </Table>
@@ -165,6 +170,11 @@ const KadambaNonVeg = ({ darkMode }) => {
               <TableCell
                 style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
               >
+                Week
+              </TableCell>
+              <TableCell
+                style={{ background: darkMode ? "#121212" : "#f5f5f5" }}
+              >
                 Chicken Wet Items
               </TableCell>
               <TableCell
@@ -180,35 +190,46 @@ const KadambaNonVeg = ({ darkMode }) => {
             </TableRow>
           </TableHead>
           <TableBody>
-            <TableRow>
+            <TableRow
+              style={{ backgroundColor: week === 1 ? "gray" : "transparent" }}
+            >
+              {" "}
+              <TableCell>Week 1</TableCell>
               <TableCell>Gongura Chicken Curry</TableCell>
-              <TableCell>Chilly Manchurian</TableCell>
-              <TableCell>Week-1 Egg Curry</TableCell>
+              <TableCell>Chicken Manchurian</TableCell>
+              <TableCell>Egg Curry</TableCell>
             </TableRow>
-            <TableRow>
+            <TableRow
+              style={{ backgroundColor: week === 2 ? "gray" : "transparent" }}
+            >
+              <TableCell>Week 2</TableCell>
               <TableCell>Butter Chicken</TableCell>
               <TableCell>Chicken 65</TableCell>
-              <TableCell>Week-2 Egg Bhurji</TableCell>
+              <TableCell>Egg Bhurji</TableCell>
             </TableRow>
-            <TableRow>
+            <TableRow
+              style={{ backgroundColor: week === 3 ? "gray" : "transparent" }}
+            >
+              <TableCell>Week 3</TableCell>
               <TableCell>Chicken Curry Home Style</TableCell>
               <TableCell>Kerala Chicken</TableCell>
-              <TableCell>Week-3 Egg Curry</TableCell>
+              <TableCell>Egg Curry</TableCell>
             </TableRow>
-            <TableRow>
-              <TableCell>Moghal chicken</TableCell>
+            <TableRow
+              style={{ backgroundColor: week === 4 ? "gray" : "transparent" }}
+            >
+              <TableCell>Week 4</TableCell>
+              <TableCell>Moghalai chicken</TableCell>
               <TableCell>Chicken Kosha</TableCell>
-              <TableCell>Week-4 Egg Bhurji</TableCell>
+              <TableCell>Egg Bhurji</TableCell>
             </TableRow>
-            <TableRow>
-              <TableCell>Kadhai chicken</TableCell>
-              <TableCell></TableCell>
-              <TableCell>Week-5 Egg Curry</TableCell>
-            </TableRow>
-            <TableRow>
-              <TableCell>Punjabi chicken</TableCell>
-              <TableCell></TableCell>
-              <TableCell></TableCell>
+            <TableRow
+              style={{ backgroundColor: week === 5 ? "gray" : "transparent" }}
+            >
+              <TableCell>Week 5</TableCell>
+              <TableCell>Kadhai/Punjabi Chicken</TableCell>
+              <TableCell>Chicken 65</TableCell>
+              <TableCell>Egg Curry</TableCell>
             </TableRow>
           </TableBody>
         </Table>
