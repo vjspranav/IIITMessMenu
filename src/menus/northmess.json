@@ -55,7 +55,7 @@
       "Dinner": {
         "Sweet /Special Dish": "",
         "Wet Curry": "Kadai Paneer",
-        "Dry Curry": "Soya Masala",
+        "Dry Curry": "Arbi",
         "Dal": "Dal Fry",
         "Steam Rice": "Steam Rice",
         "Flavoured Rice": "",
@@ -76,7 +76,7 @@
         "Dry Curry": "Malai Kofta",
         "Dal": "Chane Ki Daal",
         "Steam Rice": "Steam Rice",
-        "Flavoured Rice": "Fried Rice",
+        "Flavoured Rice": "",
         "Accompaniants": "Chapati/Curd/Pickle"
       },
       "Snacks": {
@@ -147,7 +147,7 @@
       },
       "Dinner": {
         "Sweet /Special Dish": "Gajar/Suji Halwa",
-        "Wet Curry": "Arbi",
+        "Wet Curry": "Soya Masala",
         "Dry Curry": "Aloo Methi",
         "Dal": "Panchmel Dal",
         "Steam Rice": "Steam Rice",
@@ -157,7 +157,7 @@
     },
     "Saturday": {
       "Breakfast": {
-        "Item 1": "Dal paratha",
+        "Item 1": "Paneer paratha",
         "Item 2": "Vermicelli(Sewai)",
         "Accompaniants": "GREEN CHUTNEY",
         "Mandatory Items": "Bread/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
@@ -218,7 +218,7 @@
       }
     }
   },
-  "lastUpdated": "15/01/2024",
-  "wef": "16/01/2024",
+  "lastUpdated": "30/01/2024",
+  "wef": "30/01/2024",
   "additionalInfo": []
 }
