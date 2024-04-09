@@ -3,7 +3,7 @@
     "Monday": {
       "Breakfast": {
         "Item 1": "Aloo Palak Paratha",
-        "Item 2": "Aloo Bonda",
+        "Item 2": "Puffed rice upma",
         "Accompaniants": "Tomato chutney",
         "Mandatory Items": "Bread/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
         "Fruits": "Pineapple"
@@ -40,7 +40,7 @@
         "Fruits": "Banana"
       },
       "Lunch": {
-        "Sweet /Special Dish": "Besan Laddu/Semiya",
+        "Sweet /Special Dish": "Besan Laddu/Semiya Kheer",
         "Wet Curry": "kala channa",
         "Dry Curry": "Aloo Pyaaz",
         "Dal": "Daal Batti",
@@ -59,7 +59,7 @@
         "Dal": "Dal Fry",
         "Steam Rice": "Steam Rice",
         "Flavoured Rice": "",
-        "Accompaniants": "Chapati/Curd/Pickle/Sala\nd"
+        "Accompaniants": "Chapati/Curd/Pickle/Salad"
       }
     },
     "Wednesday": {
@@ -87,7 +87,7 @@
         "Sweet /Special Dish": "Aloo paratha",
         "Wet Curry": "Green Cutney",
         "Dry Curry": "Tomato Laungi",
-        "Dal": "Aloo Tomato",
+        "Dal": "Mixed Veg",
         "Steam Rice": "Steam Rice",
         "Flavoured Rice": "Butter",
         "Accompaniants": "Chapati/Curd/Pickle"
@@ -97,13 +97,13 @@
       "Breakfast": {
         "Item 1": "Pav Bhaji",
         "Item 2": "Veg Upma",
-        "Accompaniants": "Bhaji",
+        "Accompaniants": "Ketchup",
         "Mandatory Items": "Bread/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
         "Fruits": "Watermelon"
       },
       "Lunch": {
         "Sweet /Special Dish": "Boondi Raita",
-        "Wet Curry": "Chola Masala/Palak Puri",
+        "Wet Curry": "Chola Masala & Puri",
         "Dry Curry": "Mix Veg",
         "Dal": "Toor Dal",
         "Steam Rice": "Steam Rice",
@@ -116,7 +116,7 @@
       },
       "Dinner": {
         "Sweet /Special Dish": "Latcha Paratha",
-        "Wet Curry": "Matar/Palak Paneer",
+        "Wet Curry": "Matar Paneer",
         "Dry Curry": "Pumpkin",
         "Dal": "Masoor Dal",
         "Steam Rice": "White Rice",
@@ -148,7 +148,7 @@
       "Dinner": {
         "Sweet /Special Dish": "Gajar/Suji Halwa",
         "Wet Curry": "Soya Masala",
-        "Dry Curry": "Aloo Methi",
+        "Dry Curry": "Dum Cabbage",
         "Dal": "Panchmel Dal",
         "Steam Rice": "Steam Rice",
         "Flavoured Rice": "Veg Pulao",
@@ -159,7 +159,7 @@
       "Breakfast": {
         "Item 1": "Paneer paratha",
         "Item 2": "Vermicelli(Sewai)",
-        "Accompaniants": "GREEN CHUTNEY",
+        "Accompaniants": "Green Chutney",
         "Mandatory Items": "Bread/Butter/Jam, Cornflakes, Milk/Tea/Coffee",
         "Fruits": "Melon"
       },
@@ -209,7 +209,7 @@
       },
       "Dinner": {
         "Sweet /Special Dish": "Plain Paratha",
-        "Wet Curry": "Aloo Palak",
+        "Wet Curry": "Lauki",
         "Dry Curry": "Paneer Lababdar",
         "Dal": "Mix Dal",
         "Steam Rice": "White Rice",
@@ -218,7 +218,7 @@
       }
     }
   },
-  "lastUpdated": "30/01/2024",
-  "wef": "30/01/2024",
+  "lastUpdated": "10/04/2024",
+  "wef": "11/04/2024",
   "additionalInfo": []
 }
