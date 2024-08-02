@@ -131,14 +131,12 @@ function App() {
       const today = new Date();
       // check if 15th Jan 2024
       let text =
-        "The mess menu is updated and will be following 2024's mess menu";
+        "The mess menu is updated for Monsoon 2024 semester.";
       if (
-        today.getDate() === 10 &&
-        today.getMonth() === 3 &&
+        today.getDate() === 2 &&
+        today.getMonth() === 7 &&
         today.getFullYear() === 2024
       ) {
-        text =
-          "Pl. Note, North Mess Menu might not match the actual menu for today, as the new menu will be followed from tomorrow.";
 
         Swal.fire({
           title: "Welcome to IIIT Mess Menu!",
