@@ -26,7 +26,7 @@
                 "Accompaniments": "Tea/Milk"
             },
             "Dinner": {
-                "Fry": "Aloo 65",
+                "Fry": "",
                 "Curry": "Mix Veg with Paneer",
                 "Dal": "Toor dal",
                 "Stew": "Pepper Rasam",
@@ -41,7 +41,7 @@
         },
         "Tuesday": {
             "Breakfast": {
-                "Item 1": "Poori",
+                "Item 1": "Poha",
                 "Item 2": "Bonda",
                 "Accompaniments": "Poori masala",
                 "Fruits": "Banana, Sattu Drink",
@@ -204,13 +204,13 @@
                 "Compulsory": "Tea, Coffee, Milk, Cornflakes"
             },
             "Lunch": {
-                "Fry": "Kakarakaya/Brinjal onions",
+                "Fry": "Kakarakaya",
                 "Curry": "Kofta curry",
                 "Dal": "Mudda Pappu, Chole",
                 "Stew": "Pacchi Pulusu",
                 "Salad": "Green salad",
                 "Sweet": "",
-                "Spl rice": "",
+                "Spl rice": "Tomato Rice",
                 "Roti": "Roti",
                 "Chutney": "Mango Pickle",
                 "Accompaniments": "",
@@ -274,7 +274,7 @@
             }
         }
     },
-    "lastUpdated": "01/08/2024",
+    "lastUpdated": "26/08/2024",
     "wef": "01/08/2024",
     "additionalInfo": []
 }

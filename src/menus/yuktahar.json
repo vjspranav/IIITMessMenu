@@ -33,7 +33,7 @@
         },
         "Tuesday": {
             "Breakfast": {
-                "ITEM 1": "Veg. Upma",
+                "ITEM 1": "Veg. Poha",
                 "ITEM 2": "Raagi Sankati",
                 "ACCOMPANIMENTS": "Groundnut Chutney",
                 "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
@@ -127,7 +127,7 @@
         "Friday": {
             "Breakfast": {
                 "ITEM 1": "Vegetable Idly",
-                "ITEM 2": "Ragi malt",
+                "ITEM 2": "Ragi malt & Daliya",
                 "ACCOMPANIMENTS": "Sambhar + Tomato\nchutney/Coconut\nchutney",
                 "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
             },
@@ -218,7 +218,7 @@
             }
         }
     },
-    "lastUpdated": "01/08/2024",
+    "lastUpdated": "26/08/2024",
     "wef": "01/08/2024",
     "additionalInfo": []
 }
