@@ -129,12 +129,11 @@ function App() {
     if (!firstTimeVisited) {
       // get today's date
       const today = new Date();
-      // check if 15th Jan 2024
       let text =
-        "The mess menu is updated for Monsoon 2024 semester.";
+        "The mess menu is updated w.e.f 01.09.2024. No major changes. Only one or two changes/swaps were made in the menus.";
       if (
         today.getDate() === 2 &&
-        today.getMonth() === 7 &&
+        today.getMonth() === 8 &&
         today.getFullYear() === 2024
       ) {
 

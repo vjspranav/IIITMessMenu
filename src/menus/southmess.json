@@ -10,9 +10,9 @@
             },
             "Lunch": {
                 "Fry": "",
-                "Curry": "Drumstick with Palak/ Tomato",
+                "Curry": "Tomato Drumstick Curry",
                 "Dal": "Dosakaya Pappu, Soyabean",
-                "Stew": "Kobbari Charu",
+                "Stew": "Pappu Charu",
                 "Salad": "Green salad",
                 "Sweet": "Mix/Flax seed laddu/ Coconut Laddu",
                 "Spl rice": "Pulihora",
@@ -27,7 +27,7 @@
             },
             "Dinner": {
                 "Fry": "",
-                "Curry": "Mix Veg with Paneer",
+                "Curry": "Kadai Paneer",
                 "Dal": "Toor dal",
                 "Stew": "Pepper Rasam",
                 "Starter": "Cabbage Poriyal",
@@ -35,14 +35,14 @@
                 "Sweet": "",
                 "Spl Rice": "",
                 "Chutney": "",
-                "Roti": "Roti/ Paratha",
+                "Roti": "Chapati",
                 "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
             }
         },
         "Tuesday": {
             "Breakfast": {
-                "Item 1": "Poha",
-                "Item 2": "Bonda",
+                "Item 1": "Poori/Kachori",
+                "Item 2": "Bread-Butter-Jam",
                 "Accompaniments": "Poori masala",
                 "Fruits": "Banana, Sattu Drink",
                 "Compulsory": "Tea, Coffee, Milk, Cornflakes"
@@ -51,10 +51,10 @@
                 "Fry": "",
                 "Curry": "Meal Maker",
                 "Dal": "Thotakura pappu, Kala chana",
-                "Stew": "Rasam",
+                "Stew": "Rasam/ Boondi Raitha",
                 "Salad": "Green salad",
                 "Sweet": "",
-                "Spl rice": "Jeera Rice",
+                "Spl rice": "Jeera Rice/ Green Peas Pulao",
                 "Roti": "",
                 "Chutney": "",
                 "Accompaniments": "",
@@ -66,15 +66,15 @@
             },
             "Dinner": {
                 "Fry": "",
-                "Curry": "Beerakaya ",
-                "Dal": "Moong dal, Lobia",
+                "Curry": "Beerakaya Tomato Curry",
+                "Dal": "Moong dal, Chole",
                 "Stew": "Sambar",
                 "Starter": "",
                 "Accompaniments": "",
                 "Sweet": "",
-                "Spl Rice": "Tomato Rice",
+                "Spl Rice": "",
                 "Chutney": "Snake guard dhai chutney",
-                "Roti": "",
+                "Roti": "Roti",
                 "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
             }
         },
@@ -87,7 +87,7 @@
                 "Compulsory": "Tea, Coffee, Milk, Cornflakes"
             },
             "Lunch": {
-                "Fry": "Potato fry, Bendakaya ",
+                "Fry": "Potato fry",
                 "Curry": "Tuver dal",
                 "Dal": "",
                 "Stew": "",
@@ -95,22 +95,22 @@
                 "Sweet": "",
                 "Spl rice": "Veg Biryani",
                 "Roti": "",
-                "Chutney": "pachadi",
+                "Chutney": "pachadi, Chenaga Bella Payasam",
                 "Accompaniments": "Raita,Papad",
                 "Compulsory": "white rice, curd, ghee\nrice,curd,ghee,fryums          "
             },
             "Snacks": {
-                "Item": "Aloo Bonda",
+                "Item": "Samosa",
                 "Accompaniments": "Tea/Milk"
             },
             "Dinner": {
                 "Fry": "",
                 "Curry": "Aloo Kurma",
                 "Dal": "Masoor Dal",
-                "Stew": "Sambar",
+                "Stew": "Sambar, Dondakaya Dum",
                 "Starter": "Dosa",
-                "Accompaniments": "Putana Chutney & fried onions",
-                "Sweet": "Jalebi/Gulab jamoon",
+                "Accompaniments": "Groundnut Chutney & fried onions",
+                "Sweet": "Spl. Sweet",
                 "Spl Rice": "",
                 "Chutney": "Pickle",
                 "Roti": "",
@@ -126,7 +126,7 @@
                 "Compulsory": "Tea, Coffee, Milk, Cornflakes"
             },
             "Lunch": {
-                "Fry": "Potato/ cauliflower",
+                "Fry": "Cauliflower",
                 "Curry": "",
                 "Dal": "Mix Dal",
                 "Stew": "Soya bean",
@@ -152,7 +152,7 @@
                 "Sweet": "",
                 "Spl Rice": "",
                 "Chutney": "",
-                "Roti": "Paratha",
+                "Roti": "Lacha Paratha",
                 "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
             }
         },
@@ -165,9 +165,9 @@
                 "Compulsory": "Tea, Coffee, Milk, Cornflakes"
             },
             "Lunch": {
-                "Fry": "Dosakaya",
+                "Fry": "Chana Brinjal",
                 "Curry": "",
-                "Dal": "Masoor dal, Lobia",
+                "Dal": "Masoor dal, Chole",
                 "Stew": "Sambar",
                 "Salad": "Kosambari Salad",
                 "Sweet": "",
@@ -178,18 +178,18 @@
                 "Compulsory": "white rice, curd, ghee, fryums\nrice,curd,ghee,fryums          "
             },
             "Snacks": {
-                "Item": "Samosa",
+                "Item": "Aloo Bonda",
                 "Accompaniments": "Tea/Milk"
             },
             "Dinner": {
-                "Fry": "Carrot Green Peas fry",
-                "Curry": "Chole",
+                "Fry": "Carrot Green Peas fry, Aloo 65",
+                "Curry": "Lobia",
                 "Dal": "Green moong dal",
-                "Stew": "Dappalam",
+                "Stew": "",
                 "Starter": "",
                 "Accompaniments": "Raita",
                 "Sweet": "Peanut chiki/ Basen chiki",
-                "Spl Rice": "",
+                "Spl Rice": "Tomato Rice",
                 "Chutney": "",
                 "Roti": "Roti",
                 "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
@@ -197,16 +197,16 @@
         },
         "Saturday": {
             "Breakfast": {
-                "Item 1": "Dosa (Karam/Corn)",
+                "Item 1": "Bonda",
                 "Item 2": "Uggani",
                 "Accompaniments": "chutney, Sambar",
                 "Fruits": "Banana/ Grape Juice",
                 "Compulsory": "Tea, Coffee, Milk, Cornflakes"
             },
             "Lunch": {
-                "Fry": "Kakarakaya",
+                "Fry": "",
                 "Curry": "Kofta curry",
-                "Dal": "Mudda Pappu, Chole",
+                "Dal": "Mudda Pappu, Lobia",
                 "Stew": "Pacchi Pulusu",
                 "Salad": "Green salad",
                 "Sweet": "",
@@ -222,13 +222,13 @@
             },
             "Dinner": {
                 "Fry": "",
-                "Curry": "Brinjal/Thotakura",
+                "Curry": "Brinjal, Chole",
                 "Dal": "Mix dal, Soyabean",
                 "Stew": "Ginger rasam",
-                "Starter": "",
+                "Starter": "Poori",
                 "Accompaniments": "Onion salad",
                 "Sweet": "",
-                "Spl Rice": "Jeera Rice",
+                "Spl Rice": "",
                 "Chutney": "",
                 "Roti": "",
                 "Compulsory": "Pl. Rice,Curd,Ghee,Fryums"
@@ -236,14 +236,14 @@
         },
         "Sunday": {
             "Breakfast": {
-                "Item 1": "Poori/ kachori/ Paratha",
-                "Item 2": "Bread-Butter-Jam",
+                "Item 1": "Dosa(Kaaram/Corn/Paneer)",
+                "Item 2": "Poha",
                 "Accompaniments": "Aloo Sabji/ Chole",
                 "Fruits": "Muskmelon",
                 "Compulsory": "Tea, Coffee, Milk, Cornflakes"
             },
             "Lunch": {
-                "Fry": "Aloo fry",
+                "Fry": "Green Peas Masala, Aloo Matar Curry, French Fries",
                 "Curry": "",
                 "Dal": "Palakura Pappu",
                 "Stew": "Sambar",
@@ -260,7 +260,7 @@
                 "Accompaniments": "Tea/Milk"
             },
             "Dinner": {
-                "Fry": "Potato fry",
+                "Fry": "Gobi/Veg Manchuria",
                 "Curry": "Rajmah Curry",
                 "Dal": "Moong dal",
                 "Stew": "Pappu charu",
@@ -274,7 +274,7 @@
             }
         }
     },
-    "lastUpdated": "26/08/2024",
-    "wef": "01/08/2024",
+    "lastUpdated": "02/09/2024",
+    "wef": "01/09/2024",
     "additionalInfo": []
 }

@@ -11,7 +11,7 @@
                 "Special Rice": "Tamarind Rice/ Lemon Rice",
                 "Roti": "Live Methi Roti, Kichdi",
                 "Daal": "Green moong dal",
-                "Vegetable": "Bhindi",
+                "Vegetable": "Soya Bean",
                 "Extra": "",
                 "Chutney": "Ridge gourd chutney",
                 "Sweet": "Rice Kheer",
@@ -25,7 +25,7 @@
                 "Roti": "Live Roti",
                 "Daal": "Rajma",
                 "Vegetable": "Dry kichdi",
-                "Extra": "Baingan Bharta",
+                "Extra": "Lauki",
                 "Chutney": "Coriander Chutney",
                 "Sweet": "",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
@@ -41,8 +41,8 @@
             "Lunch": {
                 "Special Rice": "brown rice",
                 "Roti": "Live Jawari/ Bajra Roti",
-                "Daal": "Kala Chana",
-                "Vegetable": "Masala Gobi",
+                "Daal": "Masoor Dal",
+                "Vegetable": "Bottle Gourd",
                 "Extra": "Sambar",
                 "Chutney": "Dosakai chutney",
                 "Sweet": "",
@@ -55,8 +55,8 @@
                 "RICE": "Tomato Rice",
                 "Roti": "Live Roti",
                 "Daal": "Lobia",
-                "Vegetable": "Cabbage Porial\n(Patta Gobi)",
-                "Extra": "",
+                "Vegetable": "",
+                "Extra": "Baingan Bharta",
                 "Chutney": "Donda Chutney",
                 "Sweet": "Raagi laddu",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
@@ -86,7 +86,7 @@
                 "RICE": "Brown Rice",
                 "Roti": "Live Roti",
                 "Daal": "Masoor Dal",
-                "Vegetable": "Soyabean/ Beans Curry",
+                "Vegetable": "Bhindi",
                 "Extra": "",
                 "Chutney": "Tomato Chutney",
                 "Sweet": "",
@@ -95,16 +95,16 @@
         },
         "Thursday": {
             "Breakfast": {
-                "ITEM 1": "Whole wheat bread",
+                "ITEM 1": "Semia",
                 "ITEM 2": "Veg Oats Upma",
                 "ACCOMPANIMENTS": "Hummus with Veggies, Daliya, Sattu Drink, Badam milk",
                 "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
             },
             "Lunch": {
-                "Special Rice": "Curd Rice",
+                "Special Rice": "Veg Pulao",
                 "Roti": "Live Roti, Kichdi",
-                "Daal": "Rajma, Kadhi",
-                "Vegetable": "Aloo Gobi Matar",
+                "Daal": "Chole, Gongura Dal",
+                "Vegetable": "",
                 "Extra": "",
                 "Chutney": "Chutney",
                 "Sweet": "Semiya",
@@ -134,7 +134,7 @@
             "Lunch": {
                 "Special Rice": "Millet rice",
                 "Roti": "Live Methi Roti, Kichdi",
-                "Daal": "Masoor dal, Gatte ka Sabji",
+                "Daal": "Rajma, Gatte ka Sabji/Kadhi",
                 "Vegetable": "",
                 "Extra": "",
                 "Chutney": "",
@@ -178,7 +178,7 @@
             "Dinner": {
                 "RICE": "Tomato Rice",
                 "Roti": "Live Roti",
-                "Daal": "Mix dal",
+                "Daal": "Leafy Dal",
                 "Vegetable": "Thurai ka Sabji",
                 "Extra": "",
                 "Chutney": "Chutney",
@@ -188,17 +188,17 @@
         },
         "Sunday": {
             "Breakfast": {
-                "ITEM 1": "Foxtail (Korralu) Millet Poha",
+                "ITEM 1": "",
                 "ITEM 2": "Dahi Poha, Mint Chutney",
                 "ACCOMPANIMENTS": "Sambar",
                 "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
             },
             "Lunch": {
-                "Special Rice": "Veg Pulao",
+                "Special Rice": "Curd Rice",
                 "Roti": "Live Roti, Kichdi",
                 "Daal": "Tuver Dal",
-                "Vegetable": "Chole",
-                "Extra": "",
+                "Vegetable": "Pumpkin",
+                "Extra": "Aloo Matar",
                 "Chutney": "Cabbage Chutney",
                 "Sweet": "Fruit Custard",
                 "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
@@ -218,7 +218,7 @@
             }
         }
     },
-    "lastUpdated": "26/08/2024",
-    "wef": "01/08/2024",
+    "lastUpdated": "02/09/2024",
+    "wef": "01/09/2024",
     "additionalInfo": []
 }
