@@ -2,10 +2,10 @@
     "Days": {
         "Monday": {
             "Breakfast": {
-                "ITEM 1": "Raagi Idly",
-                "ITEM 2": "Raajgira + Badam Milk",
-                "ACCOMPANIMENTS": "Sambhar + Cocount\nchutney",
-                "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
+                "Item 1": "Raagi Idly",
+                "Item 2": "",
+                "Accompaniments": "Sambhar + Groundnut/ Tomato chutney",
+                "Compulsory": "Badam Milk + Sprouts+ Seasonal Fruits + Daliya"
             },
             "Lunch": {
                 "Special Rice": "Tamarind Rice/ Lemon Rice",
@@ -13,30 +13,29 @@
                 "Daal": "Green moong dal",
                 "Vegetable": "Soya Bean",
                 "Extra": "",
-                "Chutney": "Ridge gourd chutney",
                 "Sweet": "Rice Kheer",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice  + Salad + Ridge Gourd Chutney"
             },
             "Snacks": {
-                "Item": "Steamed Corn and\nMilk"
+                "Item": "Steamed Corn"
             },
             "Dinner": {
-                "RICE": "Jeera Rice",
+                "Rice": "Jeera Rice",
                 "Roti": "Live Roti",
                 "Daal": "Rajma",
-                "Vegetable": "Dry kichdi",
+                "Vegetable": "Dry Khichidi",
                 "Extra": "Lauki",
                 "Chutney": "Coriander Chutney",
                 "Sweet": "",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice + Milk  + Salad"
             }
         },
         "Tuesday": {
             "Breakfast": {
-                "ITEM 1": "Veg. Poha",
-                "ITEM 2": "Raagi Sankati",
-                "ACCOMPANIMENTS": "Groundnut Chutney",
-                "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
+                "Item 1": "Veg. Poha",
+                "Item 2": "Raagi Sankati",
+                "Accompaniments": "Groundnut Chutney + Sambar",
+                "Compulsory": "Milk + Sprouts + Almonds + Seasonal Fruits"
             },
             "Lunch": {
                 "Special Rice": "brown rice",
@@ -44,30 +43,29 @@
                 "Daal": "Masoor Dal",
                 "Vegetable": "Bottle Gourd",
                 "Extra": "Sambar",
-                "Chutney": "Dosakai chutney",
                 "Sweet": "",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice + Buttermilk + Kichidi + Salad + Dosakaya Chutney"
             },
             "Snacks": {
-                "Item": "Sabudana kichdi + Milk"
+                "Item": "Sabudana kichdi"
             },
             "Dinner": {
-                "RICE": "Tomato Rice",
+                "Rice": "Tomato Rice",
                 "Roti": "Live Roti",
                 "Daal": "Lobia",
                 "Vegetable": "",
                 "Extra": "Baingan Bharta",
                 "Chutney": "Donda Chutney",
-                "Sweet": "Raagi laddu",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Sweet": "",
+                "Compulsory": "Rice + Milk + Kichidi + Salad"
             }
         },
         "Wednesday": {
             "Breakfast": {
-                "ITEM 1": "Chilla",
-                "ITEM 2": "Rajgira",
-                "ACCOMPANIMENTS": "Mint Chutney, Daliya, Ragi Malt, Almonds, sprouts",
-                "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
+                "Item 1": "Chilla",
+                "Item 2": "Rajgira",
+                "Accompaniments": "Mint Chutney, Daliya, Ragi Malt, Almonds, sprouts",
+                "Compulsory": "Milk + Seasonal Fruits"
             },
             "Lunch": {
                 "Special Rice": "Sama Rice (Little Millet)",
@@ -75,30 +73,29 @@
                 "Daal": "Tuver Dal",
                 "Vegetable": "",
                 "Extra": "Masala Paneer",
-                "Chutney": "",
                 "Sweet": "Ragi Laddu",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice + Buttermilk +  Green Salad"
             },
             "Snacks": {
-                "Item": "Peanut Chole Chat + Milk"
+                "Item": "Peanut Chole Chat"
             },
             "Dinner": {
-                "RICE": "Brown Rice",
+                "Rice": "Brown Rice",
                 "Roti": "Live Roti",
                 "Daal": "Masoor Dal",
                 "Vegetable": "Bhindi",
                 "Extra": "",
                 "Chutney": "Tomato Chutney",
                 "Sweet": "",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice + Milk + Kichidi + Salad"
             }
         },
         "Thursday": {
             "Breakfast": {
-                "ITEM 1": "Semia",
-                "ITEM 2": "Veg Oats Upma",
-                "ACCOMPANIMENTS": "Hummus with Veggies, Daliya, Sattu Drink, Badam milk",
-                "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
+                "Item 1": "Semia",
+                "Item 2": "Veg Oats Upma",
+                "Accompaniments": "Hummus with Veggies, Daliya, Badam milk",
+                "Compulsory": "Sprouts + Seasonal Fruits "
             },
             "Lunch": {
                 "Special Rice": "Veg Pulao",
@@ -106,30 +103,29 @@
                 "Daal": "Chole, Gongura Dal",
                 "Vegetable": "",
                 "Extra": "",
-                "Chutney": "Chutney",
                 "Sweet": "Semiya",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice  + Salad + Chutney"
             },
             "Snacks": {
-                "Item": "Uttapam + Milk"
+                "Item": "Uttapam"
             },
             "Dinner": {
-                "RICE": "Sabudana Kichdi",
+                "Rice": "Sabudana Kichdi",
                 "Roti": "Live Roti",
                 "Daal": "Pumpkin Dal",
                 "Vegetable": "Beetroot Porial",
                 "Extra": "",
                 "Chutney": "Palli Podi",
                 "Sweet": "",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice + Milk + Kichidi + Salad"
             }
         },
         "Friday": {
             "Breakfast": {
-                "ITEM 1": "Vegetable Idly",
-                "ITEM 2": "Ragi malt & Daliya",
-                "ACCOMPANIMENTS": "Sambhar + Tomato\nchutney/Coconut\nchutney",
-                "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
+                "Item 1": "Vegetable Idly",
+                "Item 2": "Ragi malt & Daliya",
+                "Accompaniments": "Sambhar + Tomato /Coconut chutney",
+                "Compulsory": "Milk + Sprouts + Almonds + Seasonal Fruits + Daliya"
             },
             "Lunch": {
                 "Special Rice": "Millet rice",
@@ -137,30 +133,29 @@
                 "Daal": "Rajma, Gatte ka Sabji/Kadhi",
                 "Vegetable": "",
                 "Extra": "",
-                "Chutney": "",
                 "Sweet": "",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice + Buttermilk + Kichidi + Peanut Salad"
             },
             "Snacks": {
-                "Item": "Kala Chana Chat + Milk"
+                "Item": "Kala Chana Chat"
             },
             "Dinner": {
-                "RICE": "Mint Pulao",
+                "Rice": "Mint Pulao",
                 "Roti": "Live Roti",
                 "Daal": "Green moong dal",
                 "Vegetable": "Mix Veg Paneer",
                 "Extra": "",
                 "Chutney": "Pudina + Tomato\nchutney",
                 "Sweet": "Flax Seed & Till Laddu",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice + Milk + Kichidi + Salad"
             }
         },
         "Saturday": {
             "Breakfast": {
-                "ITEM 1": "Veg Sewai Upma",
-                "ITEM 2": "Rajgira",
-                "ACCOMPANIMENTS": "Coconut chutney",
-                "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
+                "Item 1": "Veg Sewai Upma",
+                "Item 2": "Rajgira",
+                "Accompaniments": "Coconut chutney \u2013 Sambar",
+                "Compulsory": "Milk + Sprouts  + Almonds + Seasonal Fruits + Daliya"
             },
             "Lunch": {
                 "Special Rice": "Kashmiri Pulao",
@@ -168,30 +163,29 @@
                 "Daal": "Panchrang Dal",
                 "Vegetable": "Beans & Carrot Poriyal",
                 "Extra": "",
-                "Chutney": "Gongura Chutney",
                 "Sweet": "",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice + Buttermilk +  Salad + Papad + Chutney"
             },
             "Snacks": {
-                "Item": "Bhel Puri + Milk"
+                "Item": "Bhel Puri"
             },
             "Dinner": {
-                "RICE": "Tomato Rice",
+                "Rice": "Tomato Rice",
                 "Roti": "Live Roti",
                 "Daal": "Leafy Dal",
                 "Vegetable": "Thurai ka Sabji",
                 "Extra": "",
                 "Chutney": "Chutney",
                 "Sweet": "Gazar ka Halwa",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice + Milk + Kichidi + Salad"
             }
         },
         "Sunday": {
             "Breakfast": {
-                "ITEM 1": "",
-                "ITEM 2": "Dahi Poha, Mint Chutney",
-                "ACCOMPANIMENTS": "Sambar",
-                "Compulsory": "Milk + Sprouts / Masala Sprouts + Almonds + Seasonal Fruits + Daliya"
+                "Item 1": "",
+                "Item 2": "Dahi Poha, Mint Chutney",
+                "Accompaniments": "",
+                "Compulsory": "Milk + Sprouts+ Almonds + Seasonal Fruits + Daliya"
             },
             "Lunch": {
                 "Special Rice": "Curd Rice",
@@ -199,26 +193,25 @@
                 "Daal": "Tuver Dal",
                 "Vegetable": "Pumpkin",
                 "Extra": "Aloo Matar",
-                "Chutney": "Cabbage Chutney",
                 "Sweet": "Fruit Custard",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice  + Salad + Chutney"
             },
             "Snacks": {
-                "Item": "Sweet potato + milk"
+                "Item": "Sweet Potato "
             },
             "Dinner": {
-                "RICE": "Corn & Peas Pulao",
+                "Rice": "Corn & Peas Pulao",
                 "Roti": "Live Roti",
                 "Daal": "Dal Makhni",
                 "Vegetable": "Mutter Paneer",
-                "Extra": "",
+                "Extra": "Papad",
                 "Chutney": "Coconut podi",
                 "Sweet": "",
-                "Compulsory": "Rice + Buttermilk + Kichidi + Salad"
+                "Compulsory": "Rice + Milk + Kichidi + Salad"
             }
         }
     },
-    "lastUpdated": "02/09/2024",
+    "lastUpdated": "17/09/2024",
     "wef": "01/09/2024",
     "additionalInfo": []
 }
